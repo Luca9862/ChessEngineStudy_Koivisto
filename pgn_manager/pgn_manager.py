@@ -170,12 +170,13 @@ root.geometry("380x250")
 notebook = ttk.Notebook(root)
 notebook.pack(pady=10, expand=True)
 
-# Crea il menu "add into csv"
+# menu "add into csv"
 frame_csv = ttk.Frame(notebook, width=400, height=280)
-# Crea il menu "merge pgn"
+
+# menu "merge pgn"
 frame_pgn = ttk.Frame(notebook, width=400, height=280)
-button_cerca_file = ttk.Button(frame_pgn, text="Cerca file", command=lambda: on_button_cerca_file(text_box_cerca_file))
-button_percorso = ttk.Button(frame_pgn, text='Inserisci percorso', command=lambda: on_button_cerca_file(text_box_percorso))
+button_cerca_file = ttk.Button(frame_pgn, text="Cerca file pgn", command=lambda: on_button_cerca_file(text_box_cerca_file))
+button_percorso = ttk.Button(frame_pgn, text='Inserisci pgn di destinazione', command=lambda: on_button_cerca_file(text_box_percorso))
 text_box_cerca_file = tk.Text(frame_pgn, width=50, height=1)
 text_box_percorso = tk.Text(frame_pgn, width=50, height=1)
 text1 = str(text_box_cerca_file.get(1.0, 'end'))
@@ -188,10 +189,10 @@ button_merge.grid(row=2, column=0, padx=10, pady=10)
 text_box_cerca_file.grid(row=0, column=1, padx=0, pady=10, sticky='ew')
 text_box_percorso.grid(row=1, column=1, padx=0, pady=10, sticky='ew')
 
-# Crea il menu "split pgn"
+# menu "split pgn"
 frame_pgn_split = ttk.Frame(notebook, width=400, height=280)
-button_cerca_file_pgn_split = ttk.Button(frame_pgn_split, text='Cerca file', command=lambda: on_button_cerca_file(text_box_cerca_file_pgn_split))
-button_cerca_percorso_pgn_split = ttk.Button(frame_pgn_split, text='Path', command=lambda: on_button_percorso(text_box_percorso_pgn_split))
+button_cerca_file_pgn_split = ttk.Button(frame_pgn_split, text='Cerca file pgn', command=lambda: on_button_cerca_file(text_box_cerca_file_pgn_split))
+button_cerca_percorso_pgn_split = ttk.Button(frame_pgn_split, text='Path di destinazione', command=lambda: on_button_percorso(text_box_percorso_pgn_split))
 text_box_cerca_file_pgn_split = tk.Text(frame_pgn_split, width=50, height=1)
 text_box_percorso_pgn_split = tk.Text(frame_pgn_split, width=50, height=1)
 text1_pgn_split=str(text_box_cerca_file_pgn_split.get(1.0, 'end'))
