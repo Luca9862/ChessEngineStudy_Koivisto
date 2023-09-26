@@ -5,6 +5,11 @@ import csv
 from os.path import exists
 import os
 import hashlib
+import tkinter as tk
+from tkinter import ttk
+from tkinter import filedialog
+from tkinter import simpledialog
+from tkinter import messagebox
 
 #funzione che prende come argomento un csv ed il relativo percorso per crearlo
 def _createCSV(path, *columns):
@@ -91,12 +96,15 @@ def writeMatch(pgn_file, csv_file):
                 writer.writerow([id, event, white, black, whitefideid, blackfideid,
                                 result, whiteElo, blackElo, round, time_control, date, white_clock, black_clock, moves])
                 
+#funzione che prende come argomento un pgn e salva tutte le partite nel pgn di destinazione            
 def merge_pgn(pgn_file, pgn_destination):
     games_to_save = _readPGN(pgn_file)
     with open(pgn_destination, "w") as f:
         for game in games_to_save:
             f.write(str(game))
             f.write('\n\n')
+
+#modificare i percorsi per usare lo script
 
 csv_ex = '/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/pgn_manager/all_games.csv'
 
@@ -110,4 +118,72 @@ for file in file_list:
     writeMatch(pgn_file, csv_ex)
 '''
 
-merge_pgn(path, pgn_destination)
+#merge_pgn(path, pgn_destination)
+
+# Funzione per aggiungere il testo del file scelto alla barra di testo
+def on_button_cerca_file():
+    # Apri la finestra di dialogo di selezione file
+    file = filedialog.askopenfilename()
+
+    # Aggiungi il testo del file alla barra di testo
+    text_box_cerca_file.delete(1.0, "end")
+    text_box_cerca_file.insert(1.0, file)
+
+# Funzione per aggiungere il testo del percorso scelto alla barra di testo
+def on_button_percorso():
+    # Chiedi all'utente di inserire un percorso
+    percorso = filedialog.askdirectory()
+    # Aggiungi il testo del percorso alla barra di testo
+    text_box_percorso.delete(1.0, "end")
+    text_box_percorso.insert(1.0, percorso)
+
+def on_button_merge():
+    # Prendi il testo dei widget Text dall'utente
+    text1 = str(text_box_cerca_file.get(1.0, 'end-1c'))
+    text2 = str(text_box_percorso.get(1.0, 'end-1c'))
+
+    # Verifica se il testo dei widget Text è vuoto
+    if text1 == '' or text2 == '':
+        # Mostra un messaggio di errore
+        messagebox.showerror('Errore', 'I campi non possono essere vuoti.')
+        return
+
+    # Esegui la funzione merge_pgn()
+    merge_pgn(text1, text2)
+
+root = tk.Tk()
+root.title("pgn_manager by Luca Canali")
+root.geometry("350x200")
+
+#notebook
+notebook = ttk.Notebook(root)
+notebook.pack(pady=10, expand=True)
+
+# Crea il menu "add into csv"
+frame_csv = ttk.Frame(notebook, width=400, height=280)
+# Crea il menu "merge pgn"
+frame_pgn = ttk.Frame(notebook, width=400, height=280)
+button_cerca_file = ttk.Button(frame_pgn, text="Cerca file", command=lambda: on_button_cerca_file())
+button_percorso = ttk.Button(frame_pgn, text='Inserisci percorso', command=lambda: on_button_percorso())
+# Crea la barra di testo
+text_box_cerca_file = tk.Text(frame_pgn, width=50, height=1)
+text_box_percorso = tk.Text(frame_pgn, width=50, height=1)
+text1 = str(text_box_cerca_file.get(1.0, 'end'))
+text2 = str(text_box_percorso.get(1.0, 'end'))
+button_merge = ttk.Button(frame_pgn, text='Merge', command=on_button_merge)
+
+# Posiziona i pulsanti
+button_cerca_file.grid(row=0, column=0, padx=10, pady=10)
+button_percorso.grid(row=1, column=0, padx=10, pady=10)
+button_merge.grid(row=2, column=0, padx=10, pady=10)
+text_box_cerca_file.grid(row=0, column=1, padx=0, pady=10, sticky='ew')
+text_box_percorso.grid(row=1, column=1, padx=0, pady=10, sticky='ew')
+
+
+frame_csv.pack(fill='both', expand=True)
+frame_pgn.pack(fill='both', expand=True)
+
+notebook.add(frame_csv, text='csv_creator')
+notebook.add(frame_pgn, text='pgn_merge')
+
+root.mainloop()
