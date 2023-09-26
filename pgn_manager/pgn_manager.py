@@ -99,7 +99,7 @@ def writeMatch(pgn_file, csv_file):
 #funzione che prende come argomento un pgn e salva tutte le partite nel pgn di destinazione            
 def merge_pgn(pgn_file, pgn_destination):
     games_to_save = _readPGN(pgn_file)
-    with open(pgn_destination, "w") as f:
+    with open(pgn_destination, "a") as f:
         for game in games_to_save:
             f.write(str(game))
             f.write('\n\n')
