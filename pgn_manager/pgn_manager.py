@@ -66,7 +66,6 @@ def _isRecorded(game, csv_file):
 #funzione che prende come argomento un pgn e un csv per aggiungere i dati della partita in quest'ultimo
 def writeMatch(pgn_file, csv_file):
     _createCSV(csv_file, 'ID', 'Event', 'White', 'Black', 'WhiteFIDEId', 'BlackFIDEId', 'Result', 'WhiteElo', 'BlackElo', 'Round', 'TimeControl', 'Date', 'WhiteClock', 'BlackClock', 'Moves')
-
     games = _readPGN(pgn_file)
 
     for game in games:
@@ -91,12 +90,24 @@ def writeMatch(pgn_file, csv_file):
                 writer = csv.writer(file)
                 writer.writerow([id, event, white, black, whitefideid, blackfideid,
                                 result, whiteElo, blackElo, round, time_control, date, white_clock, black_clock, moves])
+                
+def merge_pgn(pgn_file, pgn_destination):
+    games_to_save = _readPGN(pgn_file)
+    with open(pgn_destination, "w") as f:
+        for game in games_to_save:
+            f.write(str(game))
+            f.write('\n\n')
 
-csv_ex = '/Users/lucacanali/Desktop/csv_creator/all_games.csv'
+csv_ex = '/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/pgn_manager/all_games.csv'
 
-path = '/Users/lucacanali/Desktop/csv_creator/pgn_games'
+path = '/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/pgn_manager/pgn_games/Carlsen.pgn'
 
+pgn_destination = '/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/pgn_manager/all_pgn.pgn'
+'''
 file_list = os.listdir(path)
 for file in file_list:
     pgn_file = path + '/' + file
     writeMatch(pgn_file, csv_ex)
+'''
+
+merge_pgn(path, pgn_destination)
