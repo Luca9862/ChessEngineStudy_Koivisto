@@ -104,6 +104,14 @@ def merge_pgn(pgn_file, pgn_destination):
             f.write(str(game))
             f.write('\n\n')
 
+def split_pgn(pgn_file, path_destination):
+    games = _readPGN(pgn_file)
+    for game in games:
+        id = _createID(game)
+        with open(os.path.join(path_destination, game.headers.get('White') + 'vs' + game.headers.get('Black') + id + ".pgn"), "w") as f:
+            f.write(str(game))
+
+
 #modificare i percorsi per usare lo script
 
 csv_ex = '/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/pgn_manager/all_games.csv'
@@ -121,39 +129,42 @@ for file in file_list:
 #merge_pgn(path, pgn_destination)
 
 # Funzione per aggiungere il testo del file scelto alla barra di testo
-def on_button_cerca_file():
+def on_button_cerca_file(text_box):
     # Apri la finestra di dialogo di selezione file
     file = filedialog.askopenfilename()
 
     # Aggiungi il testo del file alla barra di testo
-    text_box_cerca_file.delete(1.0, "end")
-    text_box_cerca_file.insert(1.0, file)
+    text_box.delete(1.0, "end")
+    text_box.insert(1.0, file)
 
 # Funzione per aggiungere il testo del percorso scelto alla barra di testo
-def on_button_percorso():
+def on_button_percorso(text_box):
     # Chiedi all'utente di inserire un percorso
     percorso = filedialog.askdirectory()
     # Aggiungi il testo del percorso alla barra di testo
-    text_box_percorso.delete(1.0, "end")
-    text_box_percorso.insert(1.0, percorso)
+    text_box.delete(1.0, "end")
+    text_box.insert(1.0, percorso)
 
 def on_button_merge():
     # Prendi il testo dei widget Text dall'utente
     text1 = str(text_box_cerca_file.get(1.0, 'end-1c'))
     text2 = str(text_box_percorso.get(1.0, 'end-1c'))
-
-    # Verifica se il testo dei widget Text è vuoto
     if text1 == '' or text2 == '':
-        # Mostra un messaggio di errore
         messagebox.showerror('Errore', 'I campi non possono essere vuoti.')
         return
-
-    # Esegui la funzione merge_pgn()
     merge_pgn(text1, text2)
+
+def on_button_split():
+    text1 = str(text_box_cerca_file_pgn_split.get(1.0, 'end-1c'))
+    text2 = str(text_box_percorso_pgn_split.get(1.0, 'end-1c'))
+    if text1 == '' or text2 == '':
+        messagebox.showerror('Errore', 'I campi non possono essere vuoti.')
+        return
+    split_pgn(text1, text2)
 
 root = tk.Tk()
 root.title("pgn_manager by Luca Canali")
-root.geometry("350x200")
+root.geometry("380x250")
 
 #notebook
 notebook = ttk.Notebook(root)
@@ -163,15 +174,13 @@ notebook.pack(pady=10, expand=True)
 frame_csv = ttk.Frame(notebook, width=400, height=280)
 # Crea il menu "merge pgn"
 frame_pgn = ttk.Frame(notebook, width=400, height=280)
-button_cerca_file = ttk.Button(frame_pgn, text="Cerca file", command=lambda: on_button_cerca_file())
-button_percorso = ttk.Button(frame_pgn, text='Inserisci percorso', command=lambda: on_button_percorso())
-# Crea la barra di testo
+button_cerca_file = ttk.Button(frame_pgn, text="Cerca file", command=lambda: on_button_cerca_file(text_box_cerca_file))
+button_percorso = ttk.Button(frame_pgn, text='Inserisci percorso', command=lambda: on_button_cerca_file(text_box_percorso))
 text_box_cerca_file = tk.Text(frame_pgn, width=50, height=1)
 text_box_percorso = tk.Text(frame_pgn, width=50, height=1)
 text1 = str(text_box_cerca_file.get(1.0, 'end'))
 text2 = str(text_box_percorso.get(1.0, 'end'))
 button_merge = ttk.Button(frame_pgn, text='Merge', command=on_button_merge)
-
 # Posiziona i pulsanti
 button_cerca_file.grid(row=0, column=0, padx=10, pady=10)
 button_percorso.grid(row=1, column=0, padx=10, pady=10)
@@ -179,11 +188,28 @@ button_merge.grid(row=2, column=0, padx=10, pady=10)
 text_box_cerca_file.grid(row=0, column=1, padx=0, pady=10, sticky='ew')
 text_box_percorso.grid(row=1, column=1, padx=0, pady=10, sticky='ew')
 
+# Crea il menu "split pgn"
+frame_pgn_split = ttk.Frame(notebook, width=400, height=280)
+button_cerca_file_pgn_split = ttk.Button(frame_pgn_split, text='Cerca file', command=lambda: on_button_cerca_file(text_box_cerca_file_pgn_split))
+button_cerca_percorso_pgn_split = ttk.Button(frame_pgn_split, text='Path', command=lambda: on_button_percorso(text_box_percorso_pgn_split))
+text_box_cerca_file_pgn_split = tk.Text(frame_pgn_split, width=50, height=1)
+text_box_percorso_pgn_split = tk.Text(frame_pgn_split, width=50, height=1)
+text1_pgn_split=str(text_box_cerca_file_pgn_split.get(1.0, 'end'))
+text2_pgn_split=str(text_box_percorso_pgn_split.get(1.0, 'end'))
+button_split = tk.Button(frame_pgn_split, text='Split', command=on_button_split)
+#posiziona i pulsanti
+button_cerca_file_pgn_split.grid(row=0, column=0, padx=10, pady=10)
+button_cerca_percorso_pgn_split.grid(row=1, column=0, padx=10, pady=10)
+text_box_cerca_file_pgn_split.grid(row=0, column=1, padx=0, pady=10, sticky='ew')
+text_box_percorso_pgn_split.grid(row=1, column=1, padx=0, pady=10, sticky='ew')
+button_split.grid(row=2, column=0, padx=10, pady=10)
+
 
 frame_csv.pack(fill='both', expand=True)
 frame_pgn.pack(fill='both', expand=True)
 
 notebook.add(frame_csv, text='csv_creator')
 notebook.add(frame_pgn, text='pgn_merge')
+notebook.add(frame_pgn_split, text='pgn_split')
 
 root.mainloop()
