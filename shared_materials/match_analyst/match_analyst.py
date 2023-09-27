@@ -21,6 +21,22 @@ def _readPGN(pgn_path):
 
     return pgn_games
 
+#DA SISTEMARE
+def calcola_percentuale_vittoria(apertura, partite):
+    vittorie = 0
+    sconfitte = 0
+    for partita in partite:
+        if apertura == partita.headers.get("ECO"):
+            if partita.headers.get("Result") == "1-0":
+                vittorie += 1
+            elif partita.headers.get("Result") == "0-1":
+                sconfitte += 1
+    if vittorie != 0:
+        return (vittorie * 100) / len(partite)
+    else:
+        return 0
+
+
 def main(filename):
     partite = _readPGN(filename)
     aperture = {}
@@ -45,12 +61,17 @@ def main(filename):
         if chiusura not in ["1-0", "0-1", "1/2-1/2"]:
             altre_chiusure += 1
 
+    print("NUMERO DI PARTITE: " + str(len(partite)))
     print("Aperture:")
     aperture_sorted = sorted(aperture.items(), key=lambda x: x[1], reverse=True)
-    for apertura, frequenza in aperture_sorted:
-        frequenza = frequenza / len(partite)
-        tot = aperture.get(apertura, 0)
-        print(f"{apertura}: {frequenza * 100:.2f}%" + " " + str(tot))
+    tot_perce_provv = 0
+    for apertura in aperture_sorted:
+        percentuale_vittoria = calcola_percentuale_vittoria(apertura, partite)
+        #frequenza = frequenza / len(partite)
+        tot = aperture[apertura]
+        percentuale = tot*100/len(partite)
+        tot_perce_provv += percentuale_vittoria
+        print(percentuale + "%" + " " + "Totale utilizzi:  " + str(tot) + " " + "Percentuale vittoria: ") # + f"{percentuale_vittoria:.5f}%"
 
     print("Chiusure:")
     frequenza = frequenza / len(partite)
@@ -58,7 +79,8 @@ def main(filename):
         print(f"{chiusura}: {frequenza * 100:.2f}%")
 
     print("Altre chiusure:", altre_chiusure)
+    print(tot_perce_provv)
 
 #per testare lo script modificare l'argomento della funzione con il percorso del PGN desiderato
 if __name__ == "__main__":
-    main("/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/all_pgn_koivisto_white.pgn")
+    main(r"C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\shared_materials\match_analyst\Kasparov.pgn")
