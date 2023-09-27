@@ -139,6 +139,14 @@ def on_button_split():
         return
     split_pgn(text1, text2)
 
+def on_button_append_csv():
+    text1 = str(text_box_search_file_frame_csv.get(1.0, 'end-1c'))
+    text2 = str(text_box_search_csv.get(1.0, 'end-1c'))
+    if text1 == '' or text2 == '':
+        messagebox.showerror('Error', 'Fields cannot be empty.')
+        return
+    writeMatch(text1, text2)
+
 '''
     --------------------------------------------------------------------------------------------------------GUI--------------------------------------------------------------------------------------------------------
 '''
@@ -150,8 +158,22 @@ root.geometry("380x250")
 notebook = ttk.Notebook(root)
 notebook.pack(pady=10, expand=True)
 
-#menu "add into csv"
+#menu "append csv"
 frame_csv = ttk.Frame(notebook, width=400, height=280)
+button_search_file_csv_frame = ttk.Button(frame_csv, text = 'PGN file', 
+                                          command=lambda: on_button_search_file(text_box_search_file_frame_csv))
+button_search_csv = ttk.Button(frame_csv, text = 'csv', command=lambda: on_button_search_file(text_box_search_csv))
+text_box_search_file_frame_csv = tk.Text(frame_csv, width=50, height=1)
+text_box_search_csv = tk.Text(frame_csv, width=50, height=1)
+text1_frame_csv = str(text_box_search_file_frame_csv)
+text2 = str(text_box_search_csv)
+button_append_csv = ttk.Button(frame_csv, text = 'Append', command=on_button_append_csv)
+#positioning button
+button_search_file_csv_frame.grid(row=0, column=0, padx=10, pady=10)
+button_search_csv.grid(row=1, column=0, padx=10, pady=10)
+button_append_csv.grid(row=2, column=0, padx=10, pady=10)
+text_box_search_file_frame_csv.grid(row=0, column=1, padx=0, pady=10, sticky='ew')
+text_box_search_csv.grid(row=1, column=1, padx=0, pady=10, sticky='ew')
 
 #menu "pgn_merge"
 frame_pgn_merge = ttk.Frame(notebook, width=400, height=280)
@@ -171,8 +193,10 @@ text_box_path.grid(row=1, column=1, padx=0, pady=10, sticky='ew')
 
 #menu "pgn_split"
 frame_pgn_split = ttk.Frame(notebook, width=400, height=280)
-button_search_file_pgn_split = ttk.Button(frame_pgn_split, text='PGN file', command=lambda: on_button_search_file(text_box_search_file_pgn_split))
-button_search_path_pgn_split = ttk.Button(frame_pgn_split, text='Destination path', command=lambda: on_button_path(text_box_path_pgn_split))
+button_search_file_pgn_split = ttk.Button(frame_pgn_split, text='PGN file', 
+                                          command=lambda: on_button_search_file(text_box_search_file_pgn_split))
+button_search_path_pgn_split = ttk.Button(frame_pgn_split, text='Destination path', 
+                                          command=lambda: on_button_path(text_box_path_pgn_split))
 text_box_search_file_pgn_split = tk.Text(frame_pgn_split, width=50, height=1)
 text_box_path_pgn_split = tk.Text(frame_pgn_split, width=50, height=1)
 text1_pgn_split=str(text_box_search_file_pgn_split.get(1.0, 'end'))
