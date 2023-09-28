@@ -144,6 +144,7 @@ def on_button_merge():
         messagebox.showerror('Error', 'Fields cannot be empty.')
         return
     merge_pgn(text1, text2)
+    messagebox.showinfo('Success!', 'Merge completed')
 
 def on_button_split():
     text1 = str(text_box_search_file_pgn_split.get(1.0, 'end-1c'))
@@ -152,6 +153,7 @@ def on_button_split():
         messagebox.showerror('Error', 'Fields cannot be empty.')
         return
     split_pgn(text1, text2)
+    messagebox.showinfo('Success!')
 
 def on_button_append_csv():
     text1 = str(text_box_search_file_frame_csv.get(1.0, 'end-1c'))
@@ -160,6 +162,7 @@ def on_button_append_csv():
         messagebox.showerror('Error', 'Fields cannot be empty.')
         return
     writeMatch(text1, text2)
+    messagebox.showinfo('Success!')
 
 def on_button_delete_duplicate():
     text1 = str(text_box_search_file_pgn_duplicate.get(1.0, 'end-1c'))
