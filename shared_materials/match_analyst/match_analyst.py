@@ -22,7 +22,7 @@ def _readPGN(pgn_path):
     return pgn_games
 
 #DA SISTEMARE
-def calcola_percentuale_vittoria(apertura, partite):
+def calcola_percentuale_vittoria(apertura, partite, aperture_tot):
     vittorie = 0
     sconfitte = 0
     for partita in partite:
@@ -32,55 +32,47 @@ def calcola_percentuale_vittoria(apertura, partite):
             elif partita.headers.get("Result") == "0-1":
                 sconfitte += 1
     if vittorie != 0:
-        return (vittorie * 100) / len(partite)
+        return (vittorie * 100) / aperture_tot
     else:
         return 0
 
 
 def main(filename):
     partite = _readPGN(filename)
-    aperture = {}
-    chiusure = {}
-    altre_chiusure = 0
-    mosse = {}
+    ecos = {}
+    vittorie_per_apertura = {}  # Dizionario per mantenere il conteggio delle vittorie per apertura
+    nome_aperture = {}
 
     for partita in partite:
-        apertura = partita.headers.get("ECO")
-        chiusura = partita.headers.get("Result")
-        mosse = partita.mainline()
+        opening = partita.headers.get("Opening")
+        eco = partita.headers.get("ECO")
+        risultato = partita.headers.get("Result")
 
-        if apertura not in aperture:
-            aperture[apertura] = 0
-        aperture[apertura] += 1
+        if eco not in ecos:
+            ecos[eco] = 0
 
-        if chiusura not in chiusure:
-            chiusure[chiusura] = 0
-        else:
-            chiusure[chiusura] += 1
+        ecos[eco] += 1
 
-        if chiusura not in ["1-0", "0-1", "1/2-1/2"]:
-            altre_chiusure += 1
+        if risultato == "1-0":
+            if eco not in vittorie_per_apertura:
+                vittorie_per_apertura[eco] = 0
+            vittorie_per_apertura[eco] += 1
 
-    print("NUMERO DI PARTITE: " + str(len(partite)))
+        if eco not in nome_aperture:
+            nome_aperture[eco] = opening
+
+    aperture_sorted = sorted(ecos.items(), key=lambda x: x[1], reverse=True)
+
+    print("NUMERO DI PARTITE:", len(partite))
+    print("NUMERO TOTALE DI APERTURE:", len(ecos))
     print("Aperture:")
-    aperture_sorted = sorted(aperture.items(), key=lambda x: x[1], reverse=True)
-    tot_perce_provv = 0
-    for apertura in aperture_sorted:
-        percentuale_vittoria = calcola_percentuale_vittoria(apertura, partite)
-        #frequenza = frequenza / len(partite)
-        tot = aperture[apertura]
-        percentuale = tot*100/len(partite)
-        tot_perce_provv += percentuale_vittoria
-        print(percentuale + "%" + " " + "Totale utilizzi:  " + str(tot) + " " + "Percentuale vittoria: ") # + f"{percentuale_vittoria:.5f}%"
+    for eco, frequenza in aperture_sorted:
+        percentuale_utilizzo = (frequenza / len(partite)) * 100
+        percentuale_vittoria = (vittorie_per_apertura.get(eco, 0) / frequenza) * 100
+        nome = nome_aperture.get(eco, "Sconosciuta")
+        print(f"({eco}) {nome}: {percentuale_utilizzo:.2f}% (Percentuale Vittoria: {percentuale_vittoria:.2f}%)" + " Numero di utlizzi: " + str(frequenza))
 
-    print("Chiusure:")
-    frequenza = frequenza / len(partite)
-    for chiusura, frequenza in chiusure.items():
-        print(f"{chiusura}: {frequenza * 100:.2f}%")
-
-    print("Altre chiusure:", altre_chiusure)
-    print(tot_perce_provv)
-
-#per testare lo script modificare l'argomento della funzione con il percorso del PGN desiderato
 if __name__ == "__main__":
-    main(r"C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\shared_materials\match_analyst\Kasparov.pgn")
+    main("/Users/lucacanali/Documents/GitHub/tesi_marsichina_eros_745299/Dataset/mioEngine vs luca/Berserk vs Koivisto/Berserk-11_vs_Koivisto-9.pgn")
+
+
