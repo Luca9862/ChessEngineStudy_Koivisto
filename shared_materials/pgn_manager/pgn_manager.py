@@ -112,17 +112,20 @@ def split_pgn(pgn_file, path_destination):
         with open(os.path.join(path_destination, game.headers.get('White') + 'vs' + game.headers.get('Black') + id + ".pgn"), "w") as f:
             f.write(str(game))
 
-def delete_duplicate(pgn_file):
+#function that delete duplicates match in a PGN file
+def delete_duplicate(pgn_file, destination_path):
     partite = _readPGN(pgn_file)
-    PGN_dict = {}
-
-    for i in range(len(partite)):
-        mosse = partite[i].moves
-        if mosse not in PGN_dict:
-            PGN_dict[mosse] = i
+    d = {}
+    for partita in partite:
+        if partita not in d:
+            d[partita] = True
         else:
-            partite.pop(i)
-
+            partite.remove(partita)
+    file_path = os.path.join(destination_path, "no_duplicated.pgn")
+    with open(file_path,"w") as f:
+        for partita in partite:
+            f.write(str(partita))
+    
 #functions for managing the gui buttons
 def on_button_search_file(text_box):
     file = filedialog.askopenfilename()
@@ -160,10 +163,11 @@ def on_button_append_csv():
 
 def on_button_delete_duplicate():
     text1 = str(text_box_search_file_pgn_duplicate.get(1.0, 'end-1c'))
+    text2 = str(text_box_path_pgn_duplicate.get(1.0, 'end-1c'))
     if text1 == '':
         messagebox.showerror('Error', 'Fields cannot be empty.')
         return
-    delete_duplicate(text1)
+    delete_duplicate(text1, text2)
 
 '''
     --------------------------------------------------------------------------------------------------------GUI--------------------------------------------------------------------------------------------------------
@@ -229,14 +233,19 @@ text_box_path_pgn_split.grid(row=1, column=1, padx=0, pady=10, sticky='ew')
 
 #menu "pgn_duplicate"
 frame_pgn_duplicate = ttk.Frame(notebook, width=400, height=280)
-button_search_file_pgn_duplicate = ttk.Button(frame_pgn_duplicate, text='PGN file', command = lambda: on_button_search_file)
+button_search_file_pgn_duplicate = ttk.Button(frame_pgn_duplicate, text='PGN file', command = lambda: on_button_search_file(text_box_search_file_pgn_duplicate))
+button_search_path_pgn_duplicate = ttk.Button(frame_pgn_duplicate, text='Destination path', command=lambda: on_button_path(text_box_path_pgn_duplicate))
 text_box_search_file_pgn_duplicate = tk.Text(frame_pgn_duplicate, width=50, height=1)
+text_box_path_pgn_duplicate = tk.Text(frame_pgn_duplicate, width=50, height=1)
 text1_pgn_duplicate = str(text_box_search_file_pgn_duplicate.get(1.0, 'end'))
+text2_pgn_duplicate = str(text_box_path_pgn_duplicate.get(1.0, 'end'))
 button_delete_duplicate = ttk.Button(frame_pgn_duplicate, text = 'Delete duplicate', command = on_button_delete_duplicate)
 #positioning button
-button_search_file_pgn_duplicate.grid(row=0, column=0, padx=10, pady=10) 
+button_search_file_pgn_duplicate.grid(row=0, column=0, padx=10, pady=10)
+button_search_path_pgn_duplicate.grid(row=1, column=0, padx=10, pady=10) 
 button_delete_duplicate.grid(row=2, column=0, padx=10, pady=10)
-text_box_search_file_pgn_duplicate.grid(row=0, column=1, padx=10, pady=10)
+text_box_search_file_pgn_duplicate.grid(row=0, column=1, padx=10, pady=10, sticky='ew')
+text_box_path_pgn_duplicate.grid(row=1, column=1, padx=10, pady=10, sticky='ew')
 
 frame_csv.pack(fill='both', expand=True)
 frame_pgn_merge.pack(fill='both', expand=True)
