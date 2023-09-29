@@ -73,6 +73,6 @@ def main(filename):
         print(f"({eco}) {nome}: {percentuale_utilizzo:.2f}% (Percentuale Vittoria: {percentuale_vittoria:.2f}%)" + " Numero di utlizzi: " + str(frequenza))
 
 if __name__ == "__main__":
-    main("/Users/lucacanali/Documents/GitHub/tesi_marsichina_eros_745299/Dataset/mioEngine vs luca/Berserk vs Koivisto/Berserk-11_vs_Koivisto-9.pgn")
+    main(r"C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\all_pgn_koivisto_white.pgn")
 
 
