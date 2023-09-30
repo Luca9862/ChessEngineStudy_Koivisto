@@ -3,8 +3,9 @@
 ## Repository structure:
 - dataset
 - engine
-- tools
 - shared_materials
+- tools
+
 
 ### Dataset
 - The dataset folder contains all the available research data: PGN files and CSV files.
