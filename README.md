@@ -7,4 +7,4 @@
 - shared_materials
 
 ### Dataset
-The dataset folder contains all the available research data: PGN files and CSV files.
+- The dataset folder contains all the available research data: PGN files and CSV files.
