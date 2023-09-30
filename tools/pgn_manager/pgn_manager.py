@@ -8,23 +8,41 @@ import hashlib
 import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog
-from tkinter import simpledialog
 from tkinter import messagebox
+from tkinter import Text
 
-#function that takes as argument a csv and its path to create it
 def _createCSV(path, *columns):
+    """
+    The function creates a CSV file in the desired path and with the desired column names.
+
+    Args:
+        a: PGN path
+        b: Names of column
+
+    Returns:
+        csv file
+
+    """
     csv_exists = os.path.exists(path)
     if not csv_exists:
         with open(path, 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow(columns)
 
-#function that reads a pgn and returns a chess.pgn Game object that represents the game
 def _readPGN(pgn_path):
+    """
+    The function creates a list that contains all the games in the PGN file.
+
+    Args:
+        a: PGN path
+
+    Returns:
+        A list that contains chess.pgn.game objects.
+
+    """
     pgn_file = open(pgn_path)
     pgn_content = pgn_file.read()
     pgn_file.close()
-
     pgn_games = []
     pgn = io.StringIO(pgn_content)
     while True:
@@ -36,6 +54,16 @@ def _readPGN(pgn_path):
     return pgn_games
 
 def _createID(game):
+    """
+    A function that creates a unique ID for a chess game.
+
+    Args:
+        a: chess.pgn.game
+
+    Returns:
+        ID created with the SHA-256 function
+
+    """
     event = game.headers.get('Event') or ''
     white = game.headers.get('White') or ''
     black = game.headers.get('Black') or ''
@@ -59,6 +87,17 @@ def _createID(game):
     return hashed_id
 
 def _isRecorded(game, csv_file):
+    """
+    A function that tells if a specific game exists in a CSV file.
+
+    Args:
+        a: chess.pgn.game
+        b: csv file
+
+    Returns:
+        boolean
+
+    """
     id = str(_createID(game))
     with open(csv_file,'r') as csv_object:
         reader = csv.reader(csv_object)
@@ -68,11 +107,20 @@ def _isRecorded(game, csv_file):
                 return True
         return False
 
-#function that takes as argument a pgn and csv to add the data of the game in the latter
-def writeMatch(pgn_file, csv_file):
+def writeMatchesIntoCsv(pgn_file, csv_file):
+    """
+    A function that writes the games from a PGN file to a CSV file.
+
+    Args:
+        a: PGN file
+        b: CSV file
+
+    Returns:
+        csv file
+
+    """
     _createCSV(csv_file, 'ID', 'Event', 'White', 'Black', 'WhiteFIDEId', 'BlackFIDEId', 'Result', 'WhiteElo', 'BlackElo', 'Round', 'TimeControl', 'Date', 'WhiteClock', 'BlackClock', 'Moves')
     games = _readPGN(pgn_file)
-
     for game in games:
         id = _createID(game)
         event = game.headers.get('Event')
@@ -98,14 +146,35 @@ def writeMatch(pgn_file, csv_file):
                 
 #function that takes a pgn argument and saves all matches in the target pgn            
 def merge_pgn(pgn_file, pgn_destination):
+    """
+    The function that merges two PGN files in the second PGN/argument
+
+    Args:
+        a: PGN file
+        b: PGN file
+
+    Returns:
+        pgn_destination
+
+    """
     games_to_save = _readPGN(pgn_file)
     with open(pgn_destination, "a") as f:
         for game in games_to_save:
             f.write(str(game))
             f.write('\n\n')
 
-#function that takes a pgn that contains multiple matches to create different pgn of the read matches
 def split_pgn(pgn_file, path_destination):
+    """
+    The function splits the games in the PGN file and creates a PGN for each game in the desired path
+
+    Args:
+        a: PGN file
+        b: path
+
+    Returns:
+        pgn
+
+    """
     games = _readPGN(pgn_file)
     for game in games:
         id = _createID(game)
@@ -114,6 +183,18 @@ def split_pgn(pgn_file, path_destination):
 
 #function that delete duplicates match in a PGN file
 def delete_duplicate(pgn_file, destination_path):
+    #TEST PHASE! DON'T USE THIS FUNCTION!
+    """
+    The function removes duplicate games from a PGN file and creates new PGN where it save the games without duplicates
+
+    Args:
+        a: PGN file
+        b: path
+
+    Returns:
+        pgn
+
+    """
     partite = _readPGN(pgn_file)
     d = {}
     for partita in partite:
@@ -125,6 +206,10 @@ def delete_duplicate(pgn_file, destination_path):
     with open(file_path,"w") as f:
         for partita in partite:
             f.write(str(partita))
+
+'''
+    The following functions manage the buttons of the graphical user interface.
+'''
     
 #functions for managing the gui buttons
 def on_button_search_file(text_box):
@@ -161,7 +246,7 @@ def on_button_append_csv():
     if text1 == '' or text2 == '':
         messagebox.showerror('Error', 'Fields cannot be empty.')
         return
-    writeMatch(text1, text2)
+    writeMatchesIntoCsv(text1, text2)
     messagebox.showinfo('Success!')
 
 def on_button_delete_duplicate():
@@ -193,12 +278,15 @@ text_box_search_csv = tk.Text(frame_csv, width=50, height=1)
 text1_frame_csv = str(text_box_search_file_frame_csv)
 text2 = str(text_box_search_csv)
 button_append_csv = ttk.Button(frame_csv, text = 'Append', command=on_button_append_csv)
+text_append_csv = Text(root, height = 5, width = 52)
 #positioning button
 button_search_file_csv_frame.grid(row=0, column=0, padx=10, pady=10)
 button_search_csv.grid(row=1, column=0, padx=10, pady=10)
 button_append_csv.grid(row=2, column=0, padx=10, pady=10)
 text_box_search_file_frame_csv.grid(row=0, column=1, padx=0, pady=10, sticky='ew')
 text_box_search_csv.grid(row=1, column=1, padx=0, pady=10, sticky='ew')
+text_append_csv.insert(tk.END, 'Load the PGN file and add the path to a CSV file. The script will write all the games in the file to the CSV. Each game will have a unique ID.')
+text_append_csv.state = "normal"
 
 #menu "pgn_merge"
 frame_pgn_merge = ttk.Frame(notebook, width=400, height=280)
