@@ -17,4 +17,6 @@
   </figcaption>
 </figure>
 
-
+###Engine
+- The research within this repository concerns the study, analysis, improvement, and comparison with other chess engines by Koivisto.
+Official site: https://koivisto-chess.com
