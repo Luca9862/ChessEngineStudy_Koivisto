@@ -32,14 +32,14 @@
 - create_csv allows you to write matches from a PGN file to a CSV dataset. In addition, appropriate checks are performed to avoid writing a duplicate match thanks to the SHA-256 algorithm, which allowed me to create unique keys for each match.
 - INPUT ONE: pgn path (example: C:\users\u1\documents\matches.pgn)
 - INPUT TWO: csv path where matches will be saved (example: C:\users\u1\desktop\dataset.csv) If csv don't exists the script creates it
-<img src="./images/screen_pgnmanager1.png" alt="screen_gui" width = "320" height = "280">
+<img src="./images/screen_pgnmanager1.png" alt="screen_gui" width = "480" height = "231">
 - merge_pgn allows you to merge two PGN files. The merge will be performed in the second input file (destination pgn). All matches from the first file will be written to the second file.
 - INPUT ONE: pgn file (example: C:\users\u1\documents\matches.pgn)
 - INPUT TWO: pgn_file where the first file games will be saved (example: C:\users\u1\documents\matches.pgn)
-<img src="./images/screen_pgnmanager2.png" alt="screen_gui">
+<img src="./images/screen_pgnmanager2.png" alt="screen_gui" width = "480" height = "231">
 - split_pgn allows you to split multiple games from a PGN file. The output PGNs will be saved in a folder specified by the user.
 - INPUT ONE: pgn file (example: C:\users\u1\documents\matches.pgn)
 - INPUT TWO: folder where the games will be saved (example: C:\users\u1\documents\folder_matches)
-<img src="./images/screen_pgnmanager3.png" alt="screen_gui">
+<img src="./images/screen_pgnmanager3.png" alt="screen_gui" width = "480" height = "231">
 
 
