@@ -30,4 +30,6 @@
 ### pgn_manager
 - pgn_manager is a script implemented for the management of PGN files (merge, split, CSV creation, duplicate removal). The script has a very simple graphical interface consisting of 4 menus.
 This functionality allows you to write matches from a PGN file to a CSV dataset. In addition, appropriate checks are performed to avoid writing a duplicate match thanks to the SHA-256 algorithm, which allowed me to create unique keys for each match.
+- INPUT ONE: pgn path (example: C:\users\u1\documents\matches.pgn)
+- INPUT TWO: csv path where matches will be saved (example: C:\users\u1\documents\matches.pgn) If csv don't exists the script creates it
 <img src="./images/screen_pgnmanager1.png" alt="screen_gui">
