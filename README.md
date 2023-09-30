@@ -13,7 +13,7 @@
 <figure>
   <img src="./images/table_ex.png" alt="Alt testo" width="200" height="100">
   <figcaption>
-    example dataset from Banksia software
+    - Example dataset from Banksia software
   </figcaption>
 </figure>
 
