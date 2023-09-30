@@ -11,9 +11,9 @@
 - The dataset folder contains all the available research data: PGN files, CSV files, graphs and everything related to data and analysis
 
 <figure>
-  <img src="./images/table_ex.png" alt="Alt testo" width="200" height="100">
+  <img src="./images/table_ex.png" alt="example dataset">
   <figcaption>
-    - Example dataset from Banksia software
+    Example dataset from Banksia software
   </figcaption>
 </figure>
 
