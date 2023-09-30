@@ -10,4 +10,4 @@
 ### Dataset
 - The dataset folder contains all the available research data: PGN files and CSV files.
 - 
-![Alt testo](./images/table_ex.png
+- ![Alt testo](./images/table_ex.png
