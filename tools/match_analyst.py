@@ -73,6 +73,6 @@ def main(filename):
         print(f"({eco}) {nome}: {percentuale_utilizzo:.2f}% (Percentuale Vittoria: {percentuale_vittoria:.2f}%)" + " Numero di utlizzi: " + str(frequenza))
 
 if __name__ == "__main__":
-    main(r"C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\all_pgn_koivisto_white.pgn")
+    main(r"C:\Users\canal\Downloads\twic1507g\twic1507.pgn")
 
 
