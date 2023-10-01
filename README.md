@@ -48,7 +48,7 @@
 - INPUT ONE: pgn_file
 - INPUT TWO: destination path (where new PGN file will be saved)
 - At the moment, the script does not have a graphical interface, but it is executed through the terminal. To analyze a pgn file on your computer, change the file path in the source code:
-<img src="./images/screen_del_dupl.png" alt="screen_gui" width = "480" height = "231">
+<img src="./images/screen_del_dupl.png" alt="screen_gui" width = "280" height = "44">
 - Output example:
 <img src="./images/screen_match_analyst_output.png" alt="screen_gui" width = "480" height = "231">
 
