@@ -23,6 +23,7 @@
 - Resource code: https://github.com/Luecx/Koivisto
 
 ### Shared materials
+- Folder containing the material shared with other research members
 
 ### Tools
 - The tools folder contains all the scripts implemented for the research. In the following, they will be illustrated one by one.
