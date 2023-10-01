@@ -86,10 +86,13 @@ def _createID(game):
 
     return hashed_id
 
+
+'''
 def _isRecorded(game, csv_file):
     """
     A function that tells if a specific game exists in a CSV file.
-
+    Used into writeMatchesIntoCsv (rwo 150)
+    The function has been put on hold because it increases the complexity of the algorithm too much and it caused file reading errors.
     Args:
         a: chess.pgn.game
         b: csv file
@@ -101,11 +104,14 @@ def _isRecorded(game, csv_file):
     id = str(_createID(game))
     with open(csv_file,'r') as csv_object:
         reader = csv.reader(csv_object)
+        if not reader:
+            return False
         next(reader)
         for row in reader:
             if(row[0] == id):
                 return True
         return False
+'''
 
 def writeMatchesIntoCsv(pgn_file, csv_file):
     """
@@ -119,7 +125,7 @@ def writeMatchesIntoCsv(pgn_file, csv_file):
         csv file
 
     """
-    _createCSV(csv_file, 'ID', 'Event', 'White', 'Black', 'WhiteFIDEId', 'BlackFIDEId', 'Result', 'WhiteElo', 'BlackElo', 'Round', 'TimeControl', 'Date', 'WhiteClock', 'BlackClock', 'Moves')
+    _createCSV(csv_file, 'ID', 'Event', 'White', 'Black', 'WhiteFIDEId', 'BlackFIDEId', 'Result', 'WhiteElo', 'BlackElo', 'Round', 'TimeControl', 'Date', 'WhiteClock', 'BlackClock', 'PlyCount' ,'Time' , 'Termination' ,'Moves')
     games = _readPGN(pgn_file)
     for game in games:
         id = _createID(game)
@@ -136,13 +142,17 @@ def writeMatchesIntoCsv(pgn_file, csv_file):
         date = game.headers.get('Date')
         white_clock = game.headers.get('WhiteClock')
         black_clock = game.headers.get('BlackClock')
+        plycount = game.headers.get('PlyCount')
+        time = game.headers.get('Time')
+        termination = game.headers.get('Termination')
+
         moves = [str(move) for move in game.mainline_moves()]
 
-        if not (_isRecorded(game, csv_file)):
-            with open(csv_file, 'a', newline='') as file:
-                writer = csv.writer(file)
-                writer.writerow([id, event, white, black, whitefideid, blackfideid,
-                                result, whiteElo, blackElo, round, time_control, date, white_clock, black_clock, moves])
+        #if not (_isRecorded(game, csv_file)):
+        with open(csv_file, 'a', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow([id, event, white, black, whitefideid, blackfideid,
+                                result, whiteElo, blackElo, round, time_control, date, white_clock, black_clock, plycount, time, termination, moves])
                 
 def merge_pgn(pgn_file, pgn_destination):
     """
