@@ -44,4 +44,13 @@
 - INPUT TWO: folder where the games will be saved (example: C:\users\u1\documents\folder_matches)
 <img src="./images/screen_pgnmanager3.png" alt="screen_gui" width = "480" height = "231">
 
+- delete_duplicate allows you to delete duplicate matches into PGN file that contain duplicate games.
+- INPUT ONE: pgn_file
+- INPUT TWO: destination path (where new PGN file will be saved)
+- At the moment, the script does not have a graphical interface, but it is executed through the terminal. To analyze a pgn file on your computer, change the file path in the source code:
+<img src="./images/screen_del_dupl.pgn" alt="screen_gui" width = "480" height = "231">
+- Output example:
+<img src="./images/screen_match_analyst_output.pgn" alt="screen_gui" width = "480" height = "231">
+
+
 
