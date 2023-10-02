@@ -3,13 +3,13 @@ import chess.engine
 import chess.pgn
 import os
 
-for num in range(1, 2):
+for num in range(1, 20):
     folder = "pgn/"
     #n = 1
     path = os.path.join(f"all.pgn")
 
-    engine1 = chess.engine.SimpleEngine.popen_uci(r"C:\Users\canal\Documents\Engines\Koivisto_9.0-windows-avx2-pgo-pext.exe")
-    engine2 = chess.engine.SimpleEngine.popen_uci(r"C:\Users\canal\Documents\Engines\Berserk-11.1_Windows_x86-64-avx2.exe")
+    engine1 = chess.engine.SimpleEngine.popen_uci(r"/Users/lucacanali/Documents/Chess_engines/Berserk-11.1_Mac_Apple_Silicon")
+    engine2 = chess.engine.SimpleEngine.popen_uci(r"/Users/lucacanali/Documents/Chess_engines/Fire-9_Mac_Apple_Silicon/Fire-9_Mac_Apple_Silicon")
 
     game = chess.pgn.Game()
     game.headers["Event"] = "*"
@@ -26,7 +26,7 @@ for num in range(1, 2):
     pareggi = 0
     #ho solo aggiunto la prima mossa fuori dal while, così da avere 
     board = chess.Board()
-    result = engine1.play(board, chess.engine.Limit(time=0.1))
+    result = engine1.play(board, chess.engine.Limit(time=1))
 
     node = game.add_variation(chess.Move.from_uci(str(result.move)))
     board.push(result.move)
@@ -35,9 +35,9 @@ for num in range(1, 2):
     while not board.is_game_over():
         n = n+1
         if board.turn == chess.WHITE:
-            result = engine1.play(board, chess.engine.Limit(time=0.1))
+            result = engine1.play(board, chess.engine.Limit(time=1))
         else:
-            result = engine2.play(board, chess.engine.Limit(time=0.1))
+            result = engine2.play(board, chess.engine.Limit(time=1))
         board.push(result.move)
         #ho aggiunto la riga 35
         node = node.add_variation(chess.Move.from_uci(str(result.move)))
