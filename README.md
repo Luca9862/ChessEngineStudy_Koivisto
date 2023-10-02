@@ -33,6 +33,10 @@
 - create_csv allows you to write matches from a PGN file to a CSV dataset. In addition, appropriate checks are performed to avoid writing a duplicate match thanks to the SHA-256 algorithm, which allowed me to create unique keys for each match.
 - INPUT ONE: pgn path (example: C:\users\u1\documents\matches.pgn)
 - INPUT TWO: csv path where matches will be saved (example: C:\users\u1\desktop\dataset.csv) If csv don't exists the script creates it
+- As a second parameter, you can either input an existing CSV file directly:
+<img src="./images/screen_select_csv_ex.png" alt="screen_gui" width = "480" height = "231">
+or you can specify the path to a CSV file that does not exist. The script will then create the file and add the column names:
+<img src="" alt="screen_gui" width = "480" height = "231">
 <img src="./images/screen_pgnmanager1.png" alt="screen_gui" width = "480" height = "231">
 
 - merge_pgn allows you to merge two PGN files. The merge will be performed in the second input file (destination pgn). All matches from the first file will be written to the second file.
