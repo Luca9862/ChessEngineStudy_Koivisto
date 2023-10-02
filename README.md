@@ -59,6 +59,7 @@ or you can specify the path to a CSV file that does not exist. The script will t
 <img src="./images/screen_del_dupl.png" alt="screen_gui" width = "280" height = "44">
 - Output example:
 <img src="./images/screen_match_analyst_output.png" alt="screen_gui">
+<img src="./images/screen_graph_bar_ex.png" alt="screen_gui" width = "500" height = "267">
 
 
 
