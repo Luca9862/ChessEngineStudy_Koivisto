@@ -28,13 +28,12 @@
 ### Tools
 - The tools folder contains all the scripts implemented for the research. In the following, they will be illustrated one by one.
 
-### pgn_manager
-- pgn_manager is a script implemented for the management of PGN files (merge, split, CSV creation, duplicate removal). The script has a very simple graphical interface consisting of 4 menus.
+### pgn_manager : is a script implemented for the management of PGN files (merge, split, CSV creation, duplicate removal). The script has a very simple graphical interface consisting of 4 menus.
 - create_csv allows you to write matches from a PGN file to a CSV dataset. In addition, appropriate checks are performed to avoid writing a duplicate match thanks to the SHA-256 algorithm, which allowed me to create unique keys for each match.
 - INPUT ONE: pgn path (example: C:\users\u1\documents\matches.pgn)
 - INPUT TWO: csv path where matches will be saved (example: C:\users\u1\desktop\dataset.csv) If csv don't exists the script creates it
 - As a second parameter, you can either input an existing CSV file directly:
-<img src="./images/screen_select_csv_ex.png" alt="screen_gui" width = "480" height = "231">
+<img src="./images/screen_select_csv_ex.png" alt="screen_gui" width = "500" height = "170">
 or you can specify the path to a CSV file that does not exist. The script will then create the file and add the column names:
 <img src="" alt="screen_gui" width = "480" height = "231">
 <img src="./images/screen_pgnmanager1.png" alt="screen_gui" width = "480" height = "231">
