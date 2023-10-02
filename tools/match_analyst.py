@@ -1,6 +1,8 @@
 from chess import pgn
 import io
 import chess
+import matplotlib.pyplot as plt
+import numpy as np
 
 #al momento il codice è ottimizzato solo per le aperture.
 #TODO: analisi chiusure, analisi mosse, analisi approcci
@@ -62,6 +64,8 @@ def main(filename):
             nome_aperture[eco] = opening
 
     aperture_sorted = sorted(ecos.items(), key=lambda x: x[1], reverse=True)
+    x_data_usage = []
+    y_data_usage = []
 
     print("NUMERO DI PARTITE:", len(partite))
     print("NUMERO TOTALE DI APERTURE:", len(ecos))
@@ -70,9 +74,21 @@ def main(filename):
         percentuale_utilizzo = (frequenza / len(partite)) * 100
         percentuale_vittoria = (vittorie_per_apertura.get(eco, 0) / frequenza) * 100
         nome = nome_aperture.get(eco, "Sconosciuta")
+        x_data_usage.append(str(eco) + '\n' + str(nome))
+        y_data_usage.append(percentuale_utilizzo)
         print(f"({eco}) {nome}: {percentuale_utilizzo:.2f}% (Percentuale Vittoria: {percentuale_vittoria:.2f}%)" + " Numero di utlizzi: " + str(frequenza))
 
+    plt.bar(x_data_usage, y_data_usage, width=0.8, color='green')
+    plt.xticks(x_data_usage, size=6)
+    #plt.yticks(np.arange(0, 100, 10), size=4)
+    plt.xlabel('Openings')
+    plt.ylabel('Percentage of use')
+    plt.title('')
+
+    plt.show()
+
+
 if __name__ == "__main__":
-    main(r"C:\Users\canal\Downloads\twic1507g\twic1507.pgn")
+    main(r"/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/all_pgn_koivisto_white.pgn")
 
 
