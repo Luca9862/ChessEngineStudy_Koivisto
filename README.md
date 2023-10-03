@@ -1,5 +1,10 @@
 # tirocinio_lucacanali
 
+## Linked repositories:
+- https://github.com/AtreusArtic/tesi_739088
+- https://github.com/Marsiius/tesi_marsichina_eros_745299
+- https://github.com/marikascalise/ThesisAIchess
+
 ## Repository structure:
 - dataset
 - engine
