@@ -91,6 +91,7 @@ def _createID(game):
 '''
 def _isRecorded(game, csv_file):
     """
+    SUSPENDED FUNCTION ------------> DON'T USE!
     A function that tells if a specific game exists in a CSV file.
     Used into writeMatchesIntoCsv (rwo 150)
     The function has been put on hold because it increases the complexity of the algorithm too much and it caused file reading errors.
