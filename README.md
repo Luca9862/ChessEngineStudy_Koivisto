@@ -43,9 +43,11 @@ or you can specify the path to a CSV file that does not exist. The script will t
 <img src="./images/ex_csv_not_exist.png" alt="screen_gui" width = "500" height = "57">
 <img src="./images/screen_pgnmanager1.png" alt="screen_gui" width = "480" height = "231">
 
-- merge_pgn allows you to merge two PGN files. The merge will be performed in the second input file (destination pgn). All matches from the first file will be written to the second file.
+- merge_pgn allows you to merge PGN files.
 - INPUT ONE: pgn file (example: C:\users\u1\documents\matches.pgn)
-- INPUT TWO: pgn_file where the first file games will be saved (example: C:\users\u1\documents\matches.pgn)
+- INPUT TWO: path that contains pgn files (example: C:\users\u1\documents\folder_test)
+- INPUT THREE: pgn_file where the first file games will be saved (example: C:\users\u1\documents\matches.pgn)
+It is possible to specify a PGN file, a directory containing PGN files, or both. In the latter case, both the PGN file (first input) and the PGN files in the directory (second input) will be merged with the destination PGN (third input).
 <img src="./images/screen_pgnmanager2.png" alt="screen_gui" width = "480" height = "231">
 
 - split_pgn allows you to split multiple games from a PGN file. The output PGNs will be saved in a folder specified by the user.
