@@ -361,7 +361,7 @@ button_search_path_pgn_duplicate = ttk.Button(frame_pgn_duplicate, text='Destina
                                               command=lambda: on_button_path(text_box_path_pgn_duplicate))
 text_box_search_file_pgn_duplicate = tk.Text(frame_pgn_duplicate, width=50, height=1)
 text_box_path_pgn_duplicate = tk.Text(frame_pgn_duplicate, width=50, height=1)
-button_delete_duplicate = ttk.Button(frame_pgn_duplicate, text = 'Delete duplicate', command = messagebox.showerror('ERROR','Function not ready') ) #on_button_delete_duplicate
+button_delete_duplicate = ttk.Button(frame_pgn_duplicate, text = 'Delete duplicate', command = lambda:messagebox.showerror('ERROR','Function not ready') ) #on_button_delete_duplicate
 #positioning button
 button_search_file_pgn_duplicate.grid(row=0, column=0, padx=10, pady=10)
 button_search_path_pgn_duplicate.grid(row=1, column=0, padx=10, pady=10) 
