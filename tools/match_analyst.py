@@ -3,25 +3,10 @@ import io
 import chess
 import matplotlib.pyplot as plt
 import numpy as np
+from pgn_manager import _readPGN
 
 #al momento il codice è ottimizzato solo per le aperture.
 #TODO: analisi chiusure, analisi mosse, analisi approcci
-
-#funzione presa da pgn_manager. Da sistemare la gestione dei moduli per importare la funzione
-def _readPGN(pgn_path):
-    pgn_file = open(pgn_path)
-    pgn_content = pgn_file.read()
-    pgn_file.close()
-
-    pgn_games = []
-    pgn = io.StringIO(pgn_content)
-    while True:
-        game = chess.pgn.read_game(pgn)
-        if game is None:
-            break
-        pgn_games.append(game)
-
-    return pgn_games
 
 #DA CONTROLLARE
 def calcola_percentuale_vittoria(apertura, partite, aperture_tot):
@@ -89,6 +74,6 @@ def main(filename):
 
 
 if __name__ == "__main__":
-    main(r"/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/all_pgn_koivisto_white.pgn")
+    main(r"C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\all_pgn_koivisto_white.pgn")
 
 

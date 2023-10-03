@@ -10,6 +10,7 @@ from tkinter import ttk
 from tkinter import filedialog
 from tkinter import messagebox
 from tkinter import Text
+import glob
 
 def _createCSV(path, *columns):
     """
@@ -242,13 +243,25 @@ def on_button_path(text_box):
 
 def on_button_merge():
     text1 = str(text_box_search_file.get(1.0, 'end-1c'))
-    text2 = str(text_box_path.get(1.0, 'end-1c'))
-    if text1 == '' or text2 == '':
+    text2 = str(text_box_path_pgns.get(1.0, 'end-1c'))
+    text3 = str(text_box_pgn_destination.get(1.0, 'end-1c'))
+    if text3 == '':
         messagebox.showerror('Error', 'Fields cannot be empty.')
         return
-    merge_pgn(text1, text2)
-    messagebox.showinfo('Success!', 'Merge completed')
-
+    if text1 == '' and text2 == '':
+        messagebox.showerror('Error', 'Fields cannot be empty.')
+        return
+    if text1 != '':
+        merge_pgn(text1, text3)
+        messagebox.showinfo('Success!', 'merge from PGN completed')
+    if text2 != '':
+        files = glob.glob(os.path.join(text2, "*.pgn"))
+        for pgn in files:
+            with open(pgn, "r") as f:
+                merge_pgn(pgn, text3) #problems
+        messagebox.showinfo('Success!', 'merge from folder completed')
+        return 
+    
 def on_button_split():
     text1 = str(text_box_search_file_pgn_split.get(1.0, 'end-1c'))
     text2 = str(text_box_path_pgn_split.get(1.0, 'end-1c'))
@@ -256,7 +269,7 @@ def on_button_split():
         messagebox.showerror('Error', 'Fields cannot be empty.')
         return
     split_pgn(text1, text2)
-    messagebox.showinfo('Success!')
+    messagebox.showinfo('Success!', 'split completed')
 
 def on_button_append_csv():
     text1 = str(text_box_search_file_frame_csv.get(1.0, 'end-1c'))
@@ -308,18 +321,24 @@ frame_pgn_merge = ttk.Frame(notebook, width=400, height=280)
 button_search_file_pgn_merge = ttk.Button(frame_pgn_merge, text='PGN file', 
                                           command=lambda: on_button_search_file(text_box_search_file))
 button_path_pgn_merge = ttk.Button(frame_pgn_merge, text='Destination PGN', 
-                                   command=lambda: on_button_search_file(text_box_path))
+                                   command=lambda: on_button_search_file(text_box_pgn_destination))
+button_path_pgns = ttk.Button(frame_pgn_merge, text='PATH',
+                              command=lambda: on_button_path(text_box_path_pgns))
 text_box_search_file = tk.Text(frame_pgn_merge, width=50, height=1)
-text_box_path = tk.Text(frame_pgn_merge, width=50, height=1)
+text_box_pgn_destination = tk.Text(frame_pgn_merge, width=50, height=1)
+text_box_path_pgns = tk.Text(frame_pgn_merge, width=50, height=1)
 text1_pgn_merge = str(text_box_search_file.get(1.0, 'end'))
-text2_pgn_merge = str(text_box_path.get(1.0, 'end'))
+text2_pgn_merge = str(text_box_pgn_destination.get(1.0, 'end'))
 button_merge = ttk.Button(frame_pgn_merge, text='Merge', command=on_button_merge)
 #positioning buttons
+button_path_pgn_merge.pack
 button_search_file_pgn_merge.grid(row=0, column=0, padx=10, pady=10)
-button_path_pgn_merge.grid(row=1, column=0, padx=10, pady=10)
-button_merge.grid(row=2, column=0, padx=10, pady=10)
+button_path_pgn_merge.grid(row=2, column=0, padx=10, pady=10)
+button_path_pgns.grid(row=1, column=0, padx=10, pady=10)
+button_merge.grid(row=3, column=0, padx=10, pady=10)
 text_box_search_file.grid(row=0, column=1, padx=0, pady=10, sticky='ew')
-text_box_path.grid(row=1, column=1, padx=0, pady=10, sticky='ew')
+text_box_path_pgns.grid(row=1, column=1, padx=10, pady=10)
+text_box_pgn_destination.grid(row=2, column=1, padx=0, pady=10, sticky='ew')
 
 #menu "pgn_split"
 frame_pgn_split = ttk.Frame(notebook, width=400, height=280)
