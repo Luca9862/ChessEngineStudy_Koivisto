@@ -40,7 +40,7 @@
 or you can specify the path to a CSV file that does not exist. The script will then create the file and add the column names. For example, if you want to save the games in PGN format to a CSV file on the desktop that does not exist, you can simply specify the path to the desktop, the name of the desired PGN file, and the CSV extension:
 <img src="./images/ex_csv_not_exist.png" alt="screen_gui" width = "500" height = "57">
 <img src="./images/screen_pgnmanager1.png" alt="screen_gui" width = "480" height = "231">
-
+---------------------------------------------------------------------------------------------------------------------------------------
 - merge_pgn allows you to merge PGN files.
 - INPUT ONE: pgn file (example: C:\users\u1\documents\matches.pgn)
 - INPUT TWO: path that contains pgn files (example: C:\users\u1\documents\folder_test)
