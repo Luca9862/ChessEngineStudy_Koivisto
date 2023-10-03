@@ -242,9 +242,9 @@ def on_button_path(text_box):
     text_box.insert(1.0, percorso)
 
 def on_button_merge():
-    text1 = str(text_box_search_file.get(1.0, 'end-1c'))
-    text2 = str(text_box_path_pgns.get(1.0, 'end-1c'))
-    text3 = str(text_box_pgn_destination.get(1.0, 'end-1c'))
+    text1 = str(text_box_search_file_fmerge.get(1.0, 'end-1c'))
+    text2 = str(text_box_path_pgns_fmerge.get(1.0, 'end-1c'))
+    text3 = str(text_box_pgn_destination_fmerge.get(1.0, 'end-1c'))
     if text3 == '':
         messagebox.showerror('Error', 'Fields cannot be empty.')
         return
@@ -306,8 +306,6 @@ button_search_file_csv_frame = ttk.Button(frame_csv, text = 'PGN file',
 button_search_csv = ttk.Button(frame_csv, text = 'csv', command=lambda: on_button_search_file(text_box_search_csv))
 text_box_search_file_frame_csv = tk.Text(frame_csv, width=50, height=1)
 text_box_search_csv = tk.Text(frame_csv, width=50, height=1)
-text1_frame_csv = str(text_box_search_file_frame_csv)
-text2 = str(text_box_search_csv)
 button_append_csv = ttk.Button(frame_csv, text = 'Append', command=on_button_append_csv)
 #positioning button
 button_search_file_csv_frame.grid(row=0, column=0, padx=10, pady=10)
@@ -319,26 +317,24 @@ text_box_search_csv.grid(row=1, column=1, padx=0, pady=10, sticky='ew')
 #menu "pgn_merge"
 frame_pgn_merge = ttk.Frame(notebook, width=400, height=280)
 button_search_file_pgn_merge = ttk.Button(frame_pgn_merge, text='PGN file', 
-                                          command=lambda: on_button_search_file(text_box_search_file))
-button_path_pgn_merge = ttk.Button(frame_pgn_merge, text='Destination PGN', 
-                                   command=lambda: on_button_search_file(text_box_pgn_destination))
-button_path_pgns = ttk.Button(frame_pgn_merge, text='PATH',
-                              command=lambda: on_button_path(text_box_path_pgns))
-text_box_search_file = tk.Text(frame_pgn_merge, width=50, height=1)
-text_box_pgn_destination = tk.Text(frame_pgn_merge, width=50, height=1)
-text_box_path_pgns = tk.Text(frame_pgn_merge, width=50, height=1)
-text1_pgn_merge = str(text_box_search_file.get(1.0, 'end'))
-text2_pgn_merge = str(text_box_pgn_destination.get(1.0, 'end'))
+                                          command=lambda: on_button_search_file(text_box_search_file_fmerge))
+button_search_path_pgns = ttk.Button(frame_pgn_merge, text='PATH',
+                              command=lambda: on_button_path(text_box_path_pgns_fmerge))
+button_destination_pgn_merge = ttk.Button(frame_pgn_merge, text='Destination PGN', 
+                                   command=lambda: on_button_search_file(text_box_pgn_destination_fmerge))
+text_box_search_file_fmerge = tk.Text(frame_pgn_merge, width=50, height=1)
+text_box_pgn_destination_fmerge = tk.Text(frame_pgn_merge, width=50, height=1)
+text_box_path_pgns_fmerge = tk.Text(frame_pgn_merge, width=50, height=1)
 button_merge = ttk.Button(frame_pgn_merge, text='Merge', command=on_button_merge)
 #positioning buttons
-button_path_pgn_merge.pack
+button_destination_pgn_merge.pack
 button_search_file_pgn_merge.grid(row=0, column=0, padx=10, pady=10)
-button_path_pgn_merge.grid(row=2, column=0, padx=10, pady=10)
-button_path_pgns.grid(row=1, column=0, padx=10, pady=10)
+button_destination_pgn_merge.grid(row=2, column=0, padx=10, pady=10)
+button_search_path_pgns.grid(row=1, column=0, padx=10, pady=10)
 button_merge.grid(row=3, column=0, padx=10, pady=10)
-text_box_search_file.grid(row=0, column=1, padx=0, pady=10, sticky='ew')
-text_box_path_pgns.grid(row=1, column=1, padx=10, pady=10)
-text_box_pgn_destination.grid(row=2, column=1, padx=0, pady=10, sticky='ew')
+text_box_search_file_fmerge.grid(row=0, column=1, padx=0, pady=10, sticky='ew')
+text_box_path_pgns_fmerge.grid(row=1, column=1, padx=10, pady=10)
+text_box_pgn_destination_fmerge.grid(row=2, column=1, padx=0, pady=10, sticky='ew')
 
 #menu "pgn_split"
 frame_pgn_split = ttk.Frame(notebook, width=400, height=280)
@@ -348,8 +344,6 @@ button_search_path_pgn_split = ttk.Button(frame_pgn_split, text='Destination pat
                                           command=lambda: on_button_path(text_box_path_pgn_split))
 text_box_search_file_pgn_split = tk.Text(frame_pgn_split, width=50, height=1)
 text_box_path_pgn_split = tk.Text(frame_pgn_split, width=50, height=1)
-text1_pgn_split=str(text_box_search_file_pgn_split.get(1.0, 'end'))
-text2_pgn_split=str(text_box_path_pgn_split.get(1.0, 'end'))
 button_split = ttk.Button(frame_pgn_split, text='Split', command=on_button_split)
 #positioning buttons
 button_search_file_pgn_split.grid(row=0, column=0, padx=10, pady=10)
@@ -366,8 +360,6 @@ button_search_path_pgn_duplicate = ttk.Button(frame_pgn_duplicate, text='Destina
                                               command=lambda: on_button_path(text_box_path_pgn_duplicate))
 text_box_search_file_pgn_duplicate = tk.Text(frame_pgn_duplicate, width=50, height=1)
 text_box_path_pgn_duplicate = tk.Text(frame_pgn_duplicate, width=50, height=1)
-text1_pgn_duplicate = str(text_box_search_file_pgn_duplicate.get(1.0, 'end'))
-text2_pgn_duplicate = str(text_box_path_pgn_duplicate.get(1.0, 'end'))
 button_delete_duplicate = ttk.Button(frame_pgn_duplicate, text = 'Delete duplicate', command = on_button_delete_duplicate ) #on_button_delete_duplicate
 #positioning button
 button_search_file_pgn_duplicate.grid(row=0, column=0, padx=10, pady=10)
