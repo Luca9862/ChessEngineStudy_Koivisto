@@ -56,6 +56,7 @@ It is possible to specify a PGN file, a directory containing PGN files, or both.
 - delete_duplicate allows you to delete duplicate matches into PGN file that contain duplicate games.
 - INPUT ONE: pgn_file
 - INPUT TWO: destination path (where new PGN file will be saved)
+
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 ### match_analyst
