@@ -59,6 +59,12 @@ It is possible to specify a PGN file, a directory containing PGN files, or both.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
+- delete_duplicate allows you to delete duplicate matches into PGN file that contain duplicate games.
+- INPUT ONE: pgn_file
+- INPUT TWO: destination path (where new PGN file will be saved)
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
 ### match_analyst
 - PHASE TEST! Please use this code with caution
 - match_analyst is a Python script that can analyze multiple games simultaneously to return information about openings (number of uses/wins, usage/win percentage)
