@@ -40,19 +40,25 @@
 or you can specify the path to a CSV file that does not exist. The script will then create the file and add the column names. For example, if you want to save the games in PGN format to a CSV file on the desktop that does not exist, you can simply specify the path to the desktop, the name of the desired PGN file, and the CSV extension:
 <img src="./images/ex_csv_not_exist.png" alt="screen_gui" width = "500" height = "57">
 <img src="./images/screen_pgnmanager1.png" alt="screen_gui" width = "480" height = "231">
+
 ---------------------------------------------------------------------------------------------------------------------------------------
-- merge_pgn allows you to merge PGN files.
+
+-  merge_pgn allows you to merge PGN files.
 - INPUT ONE: pgn file (example: C:\users\u1\documents\matches.pgn)
 - INPUT TWO: path that contains pgn files (example: C:\users\u1\documents\folder_test)
 - INPUT THREE: pgn_file where the first file games will be saved (example: C:\users\u1\documents\matches.pgn)
 It is possible to specify a PGN file, a directory containing PGN files, or both. In the latter case, both the PGN file (first input) and the PGN files in the directory (second input) will be merged with the destination PGN (third input).
 <img src="./images/screen_pgnmanager2.png" alt="screen_gui" width = "480" height = "231">
+
 ---------------------------------------------------------------------------------------------------------------------------------------
+
 - split_pgn allows you to split multiple games from a PGN file. The output PGNs will be saved in a folder specified by the user.
 - INPUT ONE: pgn file (example: C:\users\u1\documents\matches.pgn)
 - INPUT TWO: folder where the games will be saved (example: C:\users\u1\documents\folder_matches)
 <img src="./images/screen_pgnmanager3.png" alt="screen_gui" width = "480" height = "231">
+
 ---------------------------------------------------------------------------------------------------------------------------------------
+
 - delete_duplicate allows you to delete duplicate matches into PGN file that contain duplicate games.
 - INPUT ONE: pgn_file
 - INPUT TWO: destination path (where new PGN file will be saved)
