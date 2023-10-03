@@ -294,7 +294,7 @@ def on_button_delete_duplicate():
 '''
 root = tk.Tk()
 root.title("pgn_manager")
-root.geometry("520x250")
+root.geometry("580x280")
 
 #notebook
 notebook = ttk.Notebook(root)
