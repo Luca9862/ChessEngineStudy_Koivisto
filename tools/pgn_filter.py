@@ -2,7 +2,7 @@ import chess
 import io
 from pgn_manager import _readPGN
 
-##########! DANGEROUS ZONE !##########
+##########! DANGEROUS AREA !##########
 #! This script needs testing
 #TODO: GUI, filter_time, filter match score better
 #1--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
