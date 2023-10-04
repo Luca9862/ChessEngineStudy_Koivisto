@@ -64,12 +64,9 @@ def main(filename):
 
     '''----------GRAPH----------'''
     df = pd.DataFrame({'Openings': x_data_usage, 'Percentage of use': y_data_usage})
-
-    # Seleziona i primi 10 valori del DataFrame
     df_truncated = df.head(50)
     plt.bar(df_truncated['Openings'], df_truncated['Percentage of use'], width=0.8, color='green')
     plt.xticks(df_truncated['Openings'], size=4)
-    #plt.yticks(np.arange(0, 100, 10), size=4)
     plt.xlabel('Openings')
     plt.ylabel('Percentage of use')
     plt.title('')
@@ -78,6 +75,6 @@ def main(filename):
 
 
 if __name__ == "__main__":
-    main(r"C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\all_pgn_koivisto_white.pgn")
+    main(r"C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\koivisto_vs_rubi\koivisto_rubi_noavx2.pgn")
 
 
