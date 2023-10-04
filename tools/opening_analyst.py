@@ -3,7 +3,10 @@ import io
 import chess
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 from pgn_manager import _readPGN
+
+'----------BETA----------'
 
 def calculate_win_percentage(opening, matches, tot_opening):
     wins = 0
@@ -60,8 +63,12 @@ def main(filename):
         print(f"({eco}) {name}: {percentage_of_use:.2f}% (Percentage of win: {percentage_of_wins:.2f}%)" + " Number of use: " + str(frequence))
 
     '''----------GRAPH----------'''
-    plt.bar(x_data_usage, y_data_usage, width=0.8, color='green')
-    plt.xticks(x_data_usage, size=6)
+    df = pd.DataFrame({'Openings': x_data_usage, 'Percentage of use': y_data_usage})
+
+    # Seleziona i primi 10 valori del DataFrame
+    df_truncated = df.head(50)
+    plt.bar(df_truncated['Openings'], df_truncated['Percentage of use'], width=0.8, color='green')
+    plt.xticks(df_truncated['Openings'], size=4)
     #plt.yticks(np.arange(0, 100, 10), size=4)
     plt.xlabel('Openings')
     plt.ylabel('Percentage of use')
