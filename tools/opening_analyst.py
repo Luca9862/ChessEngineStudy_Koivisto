@@ -75,6 +75,6 @@ def main(filename):
 
 
 if __name__ == "__main__":
-    main(r"C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\all_pgn_koivisto_white.pgn")
+    main(r"C:\Users\canal\Documents\GitHub\tesi_marsichina_eros_745299\prova.pgn")
 
 
