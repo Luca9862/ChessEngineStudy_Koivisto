@@ -26,7 +26,7 @@ def calculate_win_percentage(opening, matches, tot_opening):
 def main(filename):
     games = _readPGN(filename)
     ecos = {}
-    wins_for_opening = {}  # Dizionario per mantenere il conteggio delle vittorie per apertura
+    wins_for_opening = {}
     opening_name = {}
 
     for game in games:
@@ -64,17 +64,16 @@ def main(filename):
 
     '''----------GRAPH----------'''
     df = pd.DataFrame({'Openings': x_data_usage, 'Percentage of use': y_data_usage})
-    df_truncated = df.head(50)
+    df_truncated = df.head(20)
     plt.bar(df_truncated['Openings'], df_truncated['Percentage of use'], width=0.8, color='green')
-    plt.xticks(df_truncated['Openings'], size=4)
+    plt.xticks(df_truncated['Openings'], size=8)
     plt.xlabel('Openings')
     plt.ylabel('Percentage of use')
     plt.title('')
 
     plt.show()
 
-
 if __name__ == "__main__":
-    main(r"C:\Users\canal\Documents\GitHub\tesi_marsichina_eros_745299\prova.pgn")
+    main(r"C:\Users\canal\Desktop\koiv_berserk_500_marsioscript.pgn")
 
 
