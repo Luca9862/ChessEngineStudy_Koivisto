@@ -140,19 +140,3 @@ def filter_time(pgn, time):
 '''
 
 #print(filter_player_draws(r'C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\Koivisto_9_0_64-bit.bare.[3174].pgn (1)\Koivisto_9_0_64-bit.bare.[3174].pgn', 'Koivisto'))
-
-root = tk.Tk()
-root.title("pgn_manager")
-root.geometry("580x280")
-
-button_text_box_pgn = ttk.Button(root, text='PGN', command=lambda: on_button_search_file)
-button_text_box_destination = ttk.Button(root, text='Path', command=lambda: on_button_search_path)
-text_box_path = tk.Text(root, width=50, height=1)
-text_box_destination = tk.Text(root, width=50, height=1)
-
-button_text_box_pgn.grid(row=0, column=0, padx=10, pady=10)
-button_text_box_destination.grid(row=1, column=0, padx=10, pady=10)
-text_box_path.grid(row=0, column=1,padx=10, pady=10, sticky='ew')
-text_box_destination.grid(row=1, column=1, padx=10, pady=10, sticky='ew')
-
-root.mainloop()
