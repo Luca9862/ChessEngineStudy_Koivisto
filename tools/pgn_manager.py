@@ -237,7 +237,7 @@ def on_button_search_file(text_box):
     text_box.delete(1.0, "end")
     text_box.insert(1.0, file)
 
-def on_button_path(text_box):
+def on_button_search_path(text_box):
     percorso = filedialog.askdirectory()
     text_box.delete(1.0, "end")
     text_box.insert(1.0, percorso)
@@ -320,7 +320,7 @@ frame_pgn_merge = ttk.Frame(notebook, width=400, height=280)
 button_search_file_pgn_merge = ttk.Button(frame_pgn_merge, text='PGN file', 
                                           command=lambda: on_button_search_file(text_box_search_file_fmerge))
 button_search_path_pgns = ttk.Button(frame_pgn_merge, text='PATH',
-                              command=lambda: on_button_path(text_box_path_pgns_fmerge))
+                              command=lambda: on_button_search_path(text_box_path_pgns_fmerge))
 button_destination_pgn_merge = ttk.Button(frame_pgn_merge, text='Destination PGN', 
                                    command=lambda: on_button_search_file(text_box_pgn_destination_fmerge))
 text_box_search_file_fmerge = tk.Text(frame_pgn_merge, width=50, height=1)
@@ -342,7 +342,7 @@ frame_pgn_split = ttk.Frame(notebook, width=400, height=280)
 button_search_file_pgn_split = ttk.Button(frame_pgn_split, text='PGN file', 
                                           command=lambda: on_button_search_file(text_box_search_file_pgn_split))
 button_search_path_pgn_split = ttk.Button(frame_pgn_split, text='Destination path', 
-                                          command=lambda: on_button_path(text_box_path_pgn_split))
+                                          command=lambda: on_button_search_path(text_box_path_pgn_split))
 text_box_search_file_pgn_split = tk.Text(frame_pgn_split, width=50, height=1)
 text_box_path_pgn_split = tk.Text(frame_pgn_split, width=50, height=1)
 button_split = ttk.Button(frame_pgn_split, text='Split', command=on_button_split)
@@ -358,7 +358,7 @@ frame_pgn_duplicate = ttk.Frame(notebook, width=400, height=280)
 button_search_file_pgn_duplicate = ttk.Button(frame_pgn_duplicate, text='PGN file', 
                                               command = lambda: on_button_search_file(text_box_search_file_pgn_duplicate))
 button_search_path_pgn_duplicate = ttk.Button(frame_pgn_duplicate, text='Destination path', 
-                                              command=lambda: on_button_path(text_box_path_pgn_duplicate))
+                                              command=lambda: on_button_search_path(text_box_path_pgn_duplicate))
 text_box_search_file_pgn_duplicate = tk.Text(frame_pgn_duplicate, width=50, height=1)
 text_box_path_pgn_duplicate = tk.Text(frame_pgn_duplicate, width=50, height=1)
 button_delete_duplicate = ttk.Button(frame_pgn_duplicate, text = 'Delete duplicate', command = lambda:messagebox.showerror('ERROR','Function not ready') ) #on_button_delete_duplicate
