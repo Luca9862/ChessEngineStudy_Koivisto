@@ -171,8 +171,6 @@ button_filter_white = ttk.Button(frame_filter_player, text='FILTER WHITE PLAYER'
 button_filter_black = ttk.Button(frame_filter_player, text='FILTER BLACK PLAYER',
                                  command=lambda:messagebox.showinfo('TO IMPLEMENT!'))
 text_box_player_name_fplayer = tk.Text(frame_filter_player, width=50, height=1)
-text_box_player_name_fplayer.config(bg='white', fg='#00000000')
-text_box_player_name_fplayer.insert('Testo trasparente')
 text_box_pgn_filter_player = tk.Text(frame_filter_player, width=50, height=1)
 text_box_destination_filter_player = tk.Text(frame_filter_player, width=50, height=1)
 # positioning button
