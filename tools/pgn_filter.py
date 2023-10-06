@@ -11,6 +11,14 @@ from tkinter import messagebox
 #! This script needs testing
 #TODO: GUI, filter_time, filter match score better
 #1--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+def filter_player(pgn, player):
+    games = _readPGN(pgn)
+    games_filtered = []
+    for game in games:
+        if player in game.headers.get('White') or player in game.headers.get('Black'):
+            games_filtered.append(game)
+    return games_filtered
+
 def filter_white(pgn, player):
     games = _readPGN(pgn)
     games_filtered = []
@@ -152,18 +160,28 @@ notebook.pack(pady=10, expand=True)
 
 #menu "filter_player"
 frame_filter_player = ttk.Frame(notebook, width=400, height=280)
-button_pgn_filter_player = ttk.Button(frame_filter_player, text='PGN', 
+button_pgn_filter_player = ttk.Button(frame_filter_player, text='pgn', 
                                          command=lambda: on_button_search_file(text_box_pgn_filter_player))
 button_destination_filter_player = ttk.Button(frame_filter_player, text='Path', 
                                                  command=lambda: on_button_search_path(text_box_destination_filter_player))
-button_filter_player = ttk.Button(frame_filter_player, text='Filter',
+button_filter_player = ttk.Button(frame_filter_player, text='FILTER',
                                   command=lambda:messagebox.showinfo('TO IMPLEMENT!'))
+button_filter_white = ttk.Button(frame_filter_player, text='FILTER WHITE PLAYER',
+                                 command=lambda:messagebox.showinfo('TO IMPLEMENT!'))
+button_filter_black = ttk.Button(frame_filter_player, text='FILTER BLACK PLAYER',
+                                 command=lambda:messagebox.showinfo('TO IMPLEMENT!'))
+text_box_player_name_fplayer = tk.Text(frame_filter_player, width=50, height=1)
+text_box_player_name_fplayer.config(bg='white', fg='#00000000')
+text_box_player_name_fplayer.insert('Testo trasparente')
 text_box_pgn_filter_player = tk.Text(frame_filter_player, width=50, height=1)
 text_box_destination_filter_player = tk.Text(frame_filter_player, width=50, height=1)
 # positioning button
 button_pgn_filter_player.grid(row=0, column=0, padx=10, pady=10)
 button_destination_filter_player.grid(row=1, column=0, padx=10, pady=10)
-button_filter_player.grid(row=2, column=0, padx=10, pady=10)
+button_filter_player.grid(row=3, column=0, padx=10, pady=10)
+button_filter_white.grid(row=3, column=1, padx=10, pady=10)
+button_filter_black.grid(row=3, column=2, padx=10, pady=10)
+text_box_player_name_fplayer.grid(row=2, column=1, padx=10, pady=10, sticky='ew')
 text_box_pgn_filter_player.grid(row=0, column=1,padx=10, pady=10, sticky='ew')
 text_box_destination_filter_player.grid(row=1, column=1, padx=10, pady=10, sticky='ew')
 
@@ -174,11 +192,11 @@ button_pgn_filter_pwin = ttk.Button(frame_filter_player_win, text='PGN',
 text_box_pgn_filter_pwin = tk.Text(frame_filter_player_win, width=50, height=1)
 button_destination_pwin = ttk.Button(frame_filter_player_win, text='path',
                                     command=lambda: on_button_search_file)
-button_filter_pwin = ttk.Button(frame_filter_player_win, text='Filter player',
+button_filter_pwin = ttk.Button(frame_filter_player_win, text='FILTER PLAYER',
                                 command=lambda: messagebox.showinfo('TO IMPLEMENT!'))
-button_filter_wwin = ttk.Button(frame_filter_player_win, text='Filter win player white',
+button_filter_wwin = ttk.Button(frame_filter_player_win, text='FILTER WIN PLAYER WHITE',
                                 command=lambda: messagebox.showinfo('TO IMPLEMENT!'))
-button_filter_bwin = ttk.Button(frame_filter_player_win, text='Filter win player black',
+button_filter_bwin = ttk.Button(frame_filter_player_win, text='FILTER WIN PLAYER BLACK',
                                 command=lambda: messagebox.showinfo('TO IMPLEMENT!'))
 # positioning button
 button_pgn_filter_pwin.grid(row=0, column=0, padx=10, pady=10)
