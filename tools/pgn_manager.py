@@ -369,20 +369,6 @@ button_delete_duplicate.grid(row=2, column=0, padx=10, pady=10)
 text_box_search_file_pgn_duplicate.grid(row=0, column=1, padx=10, pady=10, sticky='ew')
 text_box_path_pgn_duplicate.grid(row=1, column=1, padx=10, pady=10, sticky='ew')
 
-#menu "pgn_filter"
-frame_pgn_filter = ttk.Frame(notebook, width=400, height=280)
-button_text_box_pgn_ffilter = ttk.Button(frame_pgn_filter, text='PGN', 
-                                         command=lambda: on_button_search_file(text_box_pgn_ffilter))
-button_text_box_destination_ffilter = ttk.Button(frame_pgn_filter, text='Path', 
-                                                 command=lambda: on_button_search_path(text_box_destination_ffilter))
-text_box_pgn_ffilter = tk.Text(frame_pgn_filter, width=50, height=1)
-text_box_destination_ffilter = tk.Text(frame_pgn_filter, width=50, height=1)
-# positioning button
-button_text_box_pgn_ffilter.grid(row=0, column=0, padx=10, pady=10)
-button_text_box_destination_ffilter.grid(row=1, column=0, padx=10, pady=10)
-text_box_pgn_ffilter.grid(row=0, column=1,padx=10, pady=10, sticky='ew')
-text_box_destination_ffilter.grid(row=1, column=1, padx=10, pady=10, sticky='ew')
-
 frame_csv.pack(fill='both', expand=True)
 frame_pgn_merge.pack(fill='both', expand=True)
 
