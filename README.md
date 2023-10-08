@@ -8,7 +8,6 @@
 ## Repository structure:
 - dataset
 - engine
-- shared_materials
 - tools
 
 ### Dataset
