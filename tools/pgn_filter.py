@@ -10,6 +10,7 @@ from tkinter import messagebox
 
 ##########! DANGEROUS AREA !##########
 #! This script needs testing
+#! DON'T USE!
 #TODO: GUI, filter_time, filter match score better
 #1--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 def filter_player(pgn, player):
@@ -151,8 +152,6 @@ def filter_time(pgn, time): #time is a parameter not standard in PGN file. Added
         if time == game.headers.get('Time'):
             games_filtered.append(game)
     return games_filtered
-
-#print(filter_player_draws(r'C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\Koivisto_9_0_64-bit.bare.[3174].pgn (1)\Koivisto_9_0_64-bit.bare.[3174].pgn', 'Koivisto'))
 
 # ---------- GUI ---------- #
 root_filter = tk.Tk()
