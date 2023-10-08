@@ -13,6 +13,17 @@ from tkinter import Text
 import glob
 
 def _createCSV(path, *columns):
+    """
+    The function creates a CSV file in the desired path and with the desired column names.
+
+    Args:
+        a: PGN path
+        b: Names of column
+
+    Returns:
+        csv file
+
+    """
     csv_exists = os.path.exists(path)
     if not csv_exists:
         with open(path, 'w', newline='') as file:
@@ -20,6 +31,16 @@ def _createCSV(path, *columns):
             writer.writerow(columns)
 
 def _readPGN(pgn_path):
+    """
+    The function creates a list that contains all the games in the PGN file.
+
+    Args:
+        a: PGN path
+
+    Returns:
+        A list that contains chess.pgn.game objects.
+
+    """
     pgn_file = open(pgn_path)
     pgn_content = pgn_file.read()
     pgn_file.close()
@@ -34,6 +55,16 @@ def _readPGN(pgn_path):
     return pgn_games
 
 def _createID(game):
+    """
+    A function that creates a unique ID for a chess game.
+
+    Args:
+        a: chess.pgn.game
+
+    Returns:
+        ID created with the SHA-256 function
+
+    """
     event = game.headers.get('Event') or ''
     white = game.headers.get('White') or ''
     black = game.headers.get('Black') or ''
@@ -57,7 +88,7 @@ def _createID(game):
     return hashed_id
 
 
-
+'''
 def _isRecorded(game, csv_file):
     """
     SUSPENDED FUNCTION ------------> DON'T USE!
@@ -82,10 +113,20 @@ def _isRecorded(game, csv_file):
             if(row[0] == id):
                 return True
         return False
-
+'''
 
 def writeMatchesIntoCsv(pgn_file, csv_file):
+    """
+    A function that writes the games from a PGN file to a CSV file.
 
+    Args:
+        a: PGN file
+        b: CSV file
+
+    Returns:
+        csv file
+
+    """
     _createCSV(csv_file, 'ID', 'Event', 'White', 'Black', 'WhiteFIDEId', 'BlackFIDEId', 'Result', 'WhiteElo', 'BlackElo', 'Round', 'TimeControl', 'Date', 'WhiteClock', 'BlackClock', 'PlyCount' ,'Time' , 'Termination' ,'Moves')
     games = _readPGN(pgn_file)
     for game in games:
@@ -116,6 +157,17 @@ def writeMatchesIntoCsv(pgn_file, csv_file):
                                 result, whiteElo, blackElo, round, time_control, date, white_clock, black_clock, plycount, time, termination, moves])
                 
 def merge_pgn(pgn_file, pgn_destination):
+    """
+    The function that merges two PGN files in the second PGN/argument
+
+    Args:
+        a: PGN file
+        b: PGN file
+
+    Returns:
+        pgn_destination
+
+    """
     games_to_save = _readPGN(pgn_file)
     with open(pgn_destination, "a") as f:
         for game in games_to_save:
@@ -123,6 +175,17 @@ def merge_pgn(pgn_file, pgn_destination):
             f.write('\n\n')
 
 def split_pgn(pgn_file, path_destination):
+    """
+    The function splits the games in the PGN file and creates a PGN for each game in the desired path
+
+    Args:
+        a: PGN file
+        b: path
+
+    Returns:
+        pgn
+
+    """
     games = _readPGN(pgn_file)
     for game in games:
         id = _createID(game)
@@ -130,6 +193,20 @@ def split_pgn(pgn_file, path_destination):
             f.write(str(game))
 
 def delete_duplicate(pgn_file, destination_path):
+
+    #TEST PHASE! DON'T USE THIS FUNCTION!
+
+    """
+    The function removes duplicate games from a PGN file and creates new PGN where it save the games without duplicates
+
+    Args:
+        a: PGN file
+        b: path
+
+    Returns:
+        pgn
+
+    """
     matches = _readPGN(pgn_file)
     matches_nodp = []
     print(matches)
@@ -150,6 +227,11 @@ def delete_duplicate(pgn_file, destination_path):
             f.write('\n\n')
     
 
+'''
+    The following functions manage the buttons of the graphical user interface.
+'''
+    
+#functions for managing the gui buttons
 def on_button_search_file(text_box):
     file = filedialog.askopenfilename()
     text_box.delete(1.0, "end")
@@ -207,7 +289,9 @@ def on_button_delete_duplicate():
         return
     delete_duplicate(text1, text2)
 
-
+'''
+    --------------------------------------------------------------------------------------------------------GUI--------------------------------------------------------------------------------------------------------
+'''
 root = tk.Tk()
 root.title("pgn_manager")
 root.geometry("580x280")
