@@ -1,6 +1,7 @@
 '''
 TIROCINIO 2023 - CORSO DI LAUREA DI INFORMATICA TRIENNALE
 pgn_manager è un'applicazione che permette la gestione e la manipolazione dei file PGN - Luca Canali 744802
+
 '''
 
 import chess
