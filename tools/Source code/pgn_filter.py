@@ -1,11 +1,11 @@
 import chess
 import io
-from pgn_manager import _readPGN
+from pgn_manager.pgn_manager import _readPGN
 import tkinter as tk
 from tkinter import ttk
 from tkinter.ttk import *
-from pgn_manager import on_button_search_file
-from pgn_manager import on_button_search_path
+from pgn_manager.pgn_manager import on_button_search_file
+from pgn_manager.pgn_manager import on_button_search_path
 from tkinter import messagebox
 
 ##########! DANGEROUS AREA !##########
@@ -196,10 +196,13 @@ text_box_destination_filter_player.grid(row=1, column=1, padx=10, pady=10, stick
 # menu 'filter_player_win'
 frame_filter_player_win = ttk.Frame(notebook, width=400, height=280)
 button_pgn_filter_pwin = ttk.Button(frame_filter_player_win, text='PGN',
-                                    command=lambda: on_button_search_file)
+                                    command=lambda: on_button_search_file(text_box_pgn_filter_pwin))
 text_box_pgn_filter_pwin = tk.Text(frame_filter_player_win, width=50, height=1)
 button_destination_pwin = ttk.Button(frame_filter_player_win, text='path',
-                                    command=lambda: on_button_search_file)
+                                    command=lambda: on_button_search_path(text_box_pgn_filter_pwin_path))
+text_box_pgn_filter_pwin_path = tk.Text(frame_filter_player_win, width=50, height=1)
+button_player_name_pwin = ttk.Button(frame_filter_player_win, text='player_name')
+text_box_player_name_pwin = tk.Text(frame_filter_player_win, width=50, height=1)
 button_filter_pwin = ttk.Button(frame_filter_player_win, text='FILTER PLAYER', style= 'W.TButton',
                                 command=lambda: messagebox.showinfo('TO IMPLEMENT!'))
 button_filter_wwin = ttk.Button(frame_filter_player_win, text='FILTER WIN PLAYER WHITE', style= 'W.TButton',
@@ -210,10 +213,12 @@ button_filter_bwin = ttk.Button(frame_filter_player_win, text='FILTER WIN PLAYER
 button_pgn_filter_pwin.grid(row=0, column=0, padx=10, pady=10)
 text_box_pgn_filter_pwin.grid(row=0, column=1, padx=10, pady=10, sticky='ew')
 button_destination_pwin.grid(row=1, column=0, padx=10, pady=10)
-button_filter_pwin.grid(row=2 , column=0, padx=10, pady=10)
-button_filter_wwin.grid(row=2, column=1, padx=10, pady=10)
-button_filter_bwin.grid(row=2, column=2, padx=10, pady=10)
-#add textbox for any button
+text_box_pgn_filter_pwin_path.grid(row=1, column=1, padx=10, pady=10, sticky='ew')
+button_player_name_pwin.grid(row=2, column=0, padx=10, pady=10)
+text_box_player_name_pwin.grid(row=2, column=1, padx=10, pady=10, sticky='ew')
+button_filter_pwin.grid(row=3 , column=0, padx=10, pady=10)
+button_filter_wwin.grid(row=3, column=1, padx=10, pady=10)
+button_filter_bwin.grid(row=3, column=2, padx=10, pady=10)
 
 #menu 'filter_player_lose'
 frame_filter_player_lose = ttk.Frame(notebook, width=400, height=280)
