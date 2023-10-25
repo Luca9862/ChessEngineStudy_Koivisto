@@ -13,9 +13,7 @@ from tkinter import ttk
 from tkinter import filedialog
 from tkinter import messagebox
 import glob
-from pgn_manager import merge_pgn
-from pgn_manager import split_pgn
-from pgn_manager import writeMatchesIntoCsv
+from pgn_manager import merge_pgn, split_pgn, writeMatchesIntoCsv
     
 #functions for managing the gui buttons
 def on_button_search_file(text_box):
