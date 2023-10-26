@@ -1,5 +1,12 @@
-import chess
-import io
+'''
+TIROCINIO 2023 - CORSO DI LAUREA DI INFORMATICA TRIENNALE
+Luca Canali 744802
+This code is a simple implementation of a graphical interface based on the pgn_manager library, created by me.
+You can run the program from the graphical interface (Windows and Mac) or you can directly run this file.
+Remember to run the command: pip install pgn_manager
+
+'''
+
 import tkinter as tk
 from tkinter import ttk
 from tkinter.ttk import *
