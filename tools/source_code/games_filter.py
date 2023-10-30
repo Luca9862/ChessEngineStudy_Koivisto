@@ -6,13 +6,24 @@ You can run the program from the graphical interface (Windows and Mac) or you ca
 Remember to run the command: pip install pgn_manager
 
 '''
-
+#! DON'T USE THIS SCRIPT
+import os
+from pgn_manager import _createID
+from pgn_manager.pfilter import filter_player
 import tkinter as tk
 from tkinter import ttk
 from tkinter.ttk import *
 from tkinter import messagebox
 from games_manager import on_button_search_file
 from games_manager import on_button_search_path
+
+def export_pgn(games, destination_path):
+    with open(os.path.join(destination_path, 'pgn_exported' + ".pgn"), "a") as f:
+        for game in games:
+            f.append(str(game))
+
+def on_button_filter_player():
+    export_pgn(filter_player(str(text_box_pgn_filter_player.get(1.0, 'end-1c')), str(text_box_player_name_fplayer.get(1.0))), text_box_destination_filter_player.get(1.0))
 
 # ---------- GUI ---------- #
 root_filter = tk.Tk()
@@ -35,7 +46,7 @@ button_destination_filter_player = ttk.Button(frame_filter_player, text='Path',
                                                  command=lambda: on_button_search_path(text_box_destination_filter_player))
 button_digit_player = ttk.Button(frame_filter_player, text='insert_player_name', command=lambda: messagebox.showinfo('inutile!' , 'inutile'))
 button_filter_player = ttk.Button(frame_filter_player, text='FILTER', style= 'W.TButton',
-                                  command=lambda:messagebox.showinfo('TO IMPLEMENT!'))
+                                  command=lambda:on_button_filter_player())
 button_filter_white = ttk.Button(frame_filter_player, text='FILTER WHITE PLAYER', style= 'W.TButton',
                                  command=lambda:messagebox.showinfo('TO IMPLEMENT!'))
 button_filter_black = ttk.Button(frame_filter_player, text='FILTER BLACK PLAYER', style= 'W.TButton',

@@ -7,10 +7,9 @@
 
 ## Repository structure:
 - dataset
-- engine
 - tools
 
-### Dataset
+## Dataset
 - The dataset folder contains all the available research data: PGN files, CSV files, graphs and everything related to data and analysis
 <figure>
   <img src="./images/table_ex.png" alt="example dataset"  width = "500" height = "397">
@@ -19,18 +18,10 @@
   </figcaption>
 </figure>
 
-### Engine
-- The research within this repository concerns the study, analysis, improvement, and comparison with other chess engines by Koivisto.
-- Official site: https://koivisto-chess.com
-- Resource code: https://github.com/Luecx/Koivisto
-
-### Shared materials
-- Folder containing the material shared with other research members
-
-### Tools
+## Tools
 - The tools folder contains all the scripts implemented for the research. In the following, they will be illustrated one by one.
 
-### pgn_manager v:1.0.0: is a script implemented for the management of PGN files (merge, split, CSV creation, duplicate removal). The script has a very simple graphical interface consisting of 4 menus.
+### games_manager is a script implemented for the management of PGN files (merge, split, CSV creation). this script makes use of a library created by me (pgn_manager). The library is available on PyPI and you can install it via pip. The script has a very simple graphical interface consisting of 4 menus.
 - create_csv allows you to write matches from a PGN file to a CSV dataset. In addition, appropriate checks are performed to avoid writing a duplicate match thanks to the SHA-256 algorithm, which allowed me to create unique keys for each match.
 - INPUT ONE: pgn path (example: C:\users\u1\documents\matches.pgn)
 - INPUT TWO: csv path where matches will be saved (example: C:\users\u1\desktop\dataset.csv) If csv don't exists the script creates it
@@ -58,13 +49,7 @@ It is possible to specify a PGN file, a directory containing PGN files, or both.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-- delete_duplicate allows you to delete duplicate matches into PGN file that contain duplicate games.
-- INPUT ONE: pgn_file
-- INPUT TWO: destination path (where new PGN file will be saved)
-
----------------------------------------------------------------------------------------------------------------------------------------
-
-### match_analyst v:beta
+### opening_analyst v:beta
 - PHASE TEST! Please use this code with caution
 - match_analyst is a Python script that can analyze multiple games simultaneously to return information about openings (number of uses/wins, usage/win percentage)
 - At the moment, the script does not have a graphical interface, but it is executed through the terminal. To analyze a pgn file on your computer, change the file path in the source code:
@@ -73,5 +58,6 @@ It is possible to specify a PGN file, a directory containing PGN files, or both.
 <img src="./images/screen_match_analyst_output.png" alt="screen_gui">
 <img src="./images/screen_graph_bar_ex.png" alt="screen_gui" width = "500" height = "267">
 
+### games_filter is a script implemented to filter PGN files
 
 
