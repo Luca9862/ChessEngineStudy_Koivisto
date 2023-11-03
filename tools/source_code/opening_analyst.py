@@ -5,7 +5,7 @@ import tkinter as tk
 import csv
 
 def main(filename):
-    csv_columns = ["eco_code", "percentage_of_use", "percentage_of_win", "number_of_use", "number_of_wins"]
+    csv_columns = ["eco_code", "percentage_of_use %", "percentage_of_win %", "number_of_use", "number_of_wins"]
     csv_data = []
     games = _readPGN(filename)
     wins = 0
@@ -14,11 +14,16 @@ def main(filename):
     ecos = {}
     wins_for_opening = {}
     opening_name = {}
+    time_control = games[0].headers.get("TimeControl")
+    t_boolean = True
 
     for game in games:
         opening = game.headers.get("Opening")
         eco = game.headers.get("ECO")
         result = game.headers.get("Result")
+
+        if not game.headers.get("TimeControl") == time_control:
+            t_boolean = False
 
         if eco not in ecos:
             ecos[eco] = 0
@@ -38,7 +43,6 @@ def main(filename):
         if eco not in opening_name:
             opening_name[eco] = opening
 
-
     opening_sorted = sorted(ecos.items(), key=lambda x: x[1], reverse=True)
     x_data_usage = []
     y_data_usage = []
@@ -49,9 +53,13 @@ def main(filename):
     wins_percentage_formatted = "{:.2f}".format(wins_percentage)
     loses_percentage_formatted = "{:.2f}".format(loses_percentage)
     draws_percentage_formatted = "{:.2f}".format(draws_percentage)
+    if t_boolean:
+        print(game.headers.get("TimeControl"))
+    else:
+        print("This PGN has games with different TimeControl")
     print("NUMBER OF GAMES:", len(games))
-    print("NUMBER OF WINS:", str(wins), '-', str(wins_percentage_formatted) + '%')
-    print("NUMBER OF LOSES:", str(loses), '-', str(loses_percentage_formatted)+ '%')
+    print("NUMBER OF WHITE WINS:", str(wins), '-', str(wins_percentage_formatted) + '%')
+    print("NUMBER OF WHITE LOSES:", str(loses), '-', str(loses_percentage_formatted)+ '%')
     print("NUMBER OF DRAWS:", str(draws), '-', str(draws_percentage_formatted) + '%')
     print("NUMBER OF CHESS OPENING:", len(ecos))
     print("Opening:")
@@ -95,5 +103,5 @@ def main(filename):
 
     plt.show()
 
-main('/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/Koivisto_9_0_64-bit.bare.[3174].pgn (1)/Koivisto_9_0_64-bit.bare.[3174].pgn')
+main('/Users/lucacanali/Desktop/prova.pgn')
 ## change main parameter to use the script
