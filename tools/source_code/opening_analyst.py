@@ -103,5 +103,5 @@ def main(filename):
 
     plt.show()
 
-main('/Users/lucacanali/Desktop/prova.pgn')
+main(r"C:\Users\canal\Desktop\game_script_eros\koiv_rubi\Koivisto_RubiChess_5_fix.pgn")
 ## change main parameter to use the script
