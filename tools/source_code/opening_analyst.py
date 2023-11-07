@@ -53,6 +53,7 @@ def main(filename):
     wins_percentage_formatted = "{:.2f}".format(wins_percentage)
     loses_percentage_formatted = "{:.2f}".format(loses_percentage)
     draws_percentage_formatted = "{:.2f}".format(draws_percentage)
+    print(filename)
     if t_boolean:
         print(game.headers.get("TimeControl"))
     else:
@@ -76,12 +77,12 @@ def main(filename):
     output_csv = 'csv_exported.csv'
     with open(output_csv, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(csv_columns)  # Scrivi i nomi delle colonne
-        writer.writerows(csv_data)  # Scrivi i dati
+        writer.writerow(csv_columns)
+        writer.writerows(csv_data) 
 
     '''----------GRAPH USE----------'''
-    df = pd.DataFrame({'Openings': x_data_usage, 'Percentage of use': y_data_usage})
-    df_truncated = df.head(20)
+    df_usage = pd.DataFrame({'Openings': x_data_usage, 'Percentage of use': y_data_usage})
+    df_truncated = df_usage.head(20)
     plt.bar(df_truncated['Openings'], df_truncated['Percentage of use'], width=0.8, color='green')
     plt.xticks(df_truncated['Openings'], size=8)
     plt.xlabel('Openings')
@@ -93,9 +94,13 @@ def main(filename):
 
     '''----------GRAPH WIN----------'''
     df_win = pd.DataFrame({'Openings': x_data_usage, 'Percentage of win': y_data_winning})
-    df_win_truncated = df_win.head(20)
+    # Ordina il DataFrame in base alla colonna 'Percentage of win' in ordine decrescente
+    df_win_sorted = df_win.sort_values(by='Percentage of win', ascending=False)
+    # Prendi solo i primi 20 record ordinati
+    df_win_truncated = df_win_sorted.head(20)
+    # Crea il grafico con i dati ordinati
     plt.bar(df_win_truncated['Openings'], df_win_truncated['Percentage of win'], width=0.8, color='green')
-    plt.xticks(df_win_truncated['Openings'], size = 8)
+    plt.xticks(df_win_truncated['Openings'], size=8, rotation=90)  # Rotazione delle etichette per una migliore leggibilità
     plt.xlabel('Openings')
     plt.ylabel('Percentage of win')
     plt.title('Opening analyst - win')
@@ -103,5 +108,5 @@ def main(filename):
 
     plt.show()
 
-main(r"C:\Users\canal\Desktop\game_script_eros\koiv_rubi\Koivisto_RubiChess_5_fix.pgn")
+main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_berserk/exported/Koivisto_Berserk_5_fix_exported.pgn')
 ## change main parameter to use the script
