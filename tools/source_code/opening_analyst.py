@@ -80,6 +80,15 @@ def main(filename):
         writer.writerow(csv_columns)
         writer.writerows(csv_data) 
 
+    output_txt = 'txt_exported.txt'
+    with open(output_txt, 'w') as file:
+        file.write(game.headers.get("TimeControl") + ' seconds' + '\n')
+        file.write('NUMBER OF GAMES:' + ' ' + str(len(games)) + '\n')
+        file.write("NUMBER OF WHITE WINS:" + ' ' + str(wins) + '-' + str(wins_percentage_formatted) + '%' + '\n')
+        file.write("NUMBER OF WHITE LOSES:" + ' ' +  str(loses) + '-' + str(loses_percentage_formatted) + '%' + '\n')
+        file.write("NUMBER OF DRAWS:" + str(draws) +  '-' + str(draws_percentage_formatted) + '%' + '\n')
+        file.write("NUMBER OF CHESS OPENING:" + str(len(ecos)))
+
     '''----------GRAPH USE----------'''
     df_usage = pd.DataFrame({'Openings': x_data_usage, 'Percentage of use': y_data_usage})
     df_truncated = df_usage.head(20)
@@ -108,5 +117,5 @@ def main(filename):
 
     plt.show()
 
-main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_berserk/exported/Koivisto_Berserk_5_fix_exported.pgn')
+main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_rubi/5sec/Koivisto_rubichess_5_fix_exported.pgn')
 ## change main parameter to use the script
