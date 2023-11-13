@@ -1,0 +1,4574 @@
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "2"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Re1 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Ne5+ Kxc5
+17.Ba3# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "1"]
+[ECO "B00"]
+[PlyCount "23"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.cxb5 c6
+9.bxc6 dxc6 10.Rxb8 Qxd4 11.Qxd4 c5 12.Rxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "5"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Rxa3 e5 16.Qxb8 exd4
+17.Re1+ Ne7 18.Qxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "10"]
+[ECO "B00"]
+[PlyCount "23"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.cxb5 c6
+9.bxc6 dxc6 10.Rxb8 Qxd4 11.Qxd4 c5 12.Rxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "7"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.dxc5 d6
+9.cxd6 exd6 10.Bxd8 Kxd8 11.Qd2 d5 12.O-O-O dxe4
+13.Bxe4+ Nd7 14.Bxa8 Bxa3 15.bxa3 f6 16.Nf3 f5
+17.Rhe1 f4 18.Nb5 g6 19.Qa5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "3"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Re1 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Ne5+ Kxc5
+17.Ba3# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "9"]
+[ECO "B00"]
+[PlyCount "65"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Ke2 f6 19.Rd1+ Bd4 20.Nxd4 exd4
+21.Rdxd4+ Ke6 22.Rc8 f5 23.exf5+ Kxf5 24.Rdd8 g6
+25.Rxg8 Rxg8 26.Rxg8 g5 27.Bxg5 h6 28.Bxh6 Ke5
+29.Rg7 Kd4 30.Rg5 Kc4 31.Ke3 Kb4 32.Bf8+ Kc4
+33.Rg4# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "11"]
+[ECO "A00"]
+[PlyCount "45"]
+
+1.e3 a6 2.d4 a5 3.e4 a4 4.Nc3 a3
+5.b3 b6 6.Bg5 b5 7.Bxb5 c6 8.Bd3 c5
+9.dxc5 d6 10.cxd6 exd6 11.Bxd8 Kxd8 12.Nf3 d5
+13.Bc4 d4 14.Qxd4+ Nd7 15.O-O-O f6 16.Bxg8 Rxg8
+17.Qd5 f5 18.Qxa8 fxe4 19.Qa5+ Ke7 20.Rhe1 e3
+21.Rxe3+ Ne5 22.Qxe5+ Be6 23.Qxe6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "12"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.a4 bxa4
+9.Rxb8 a3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Nf7 cxd4 16.Qxd4 d6
+17.Be3 d5 18.Qb6+ Kd7 19.Ne5+ Kc8 20.Qc6+ Kb8
+21.Nd7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "13"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.Bg3 bxa3 12.O-O d6
+13.Bb5+ Bd7 14.Bxd7+ Qxd7 15.Rb1 d5 16.Rb8+ Qc8
+17.Rxc8+ Kd7 18.Qc2 dxe4 19.Qc6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "6"]
+[ECO "B00"]
+[PlyCount "45"]
+
+1.e4 a6 2.Nf3 a5 3.Nc3 a4 4.d4 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.dxc5 d6 11.Bb5+ Nc6 12.Bxc6+ Bd7
+13.Bxd7+ Qxd7 14.e5 dxc5 15.bxc5 Qxd1+ 16.Kxd1 e6
+17.Rb8+ Kd7 18.Rxf8 f6 19.Ke2 fxe5 20.Rd1+ Kc6
+21.Nxe5+ Kb5 22.Rb1+ Ka4 23.Ra8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "15"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Bd3 a4 4.Nf3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Qe2 b5 8.O-O b4
+9.axb4 c6 10.Bf4 c5 11.Bxb8 cxb4 12.a3 bxa3
+13.Rxa3 d6 14.Bb5+ Bd7 15.Bc7 Bxb5 16.Qxb5+ Qd7
+17.Ra8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "20"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb5 e6 11.Bxb8 Bxa3 12.O-O e5
+13.Qa4 exd4 14.Qxa3 d3 15.Rfc1 d2 16.Nxd2 f6
+17.Bc7 Qxc7 18.Rxc7 f5 19.Qd6 fxe4 20.Rxc8+ Kf7
+21.Rf8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "18"]
+[ECO "B00"]
+[PlyCount "43"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Qc2 bxc4
+9.Rxb8 c3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Qxc3 c4 16.Ke2 d6
+17.Bf4 e6 18.Qa5+ Kc6 19.Qxa6+ Kc7 20.Rb1 c3
+21.Rb7+ Kc8 22.Qa8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "19"]
+[ECO "B00"]
+[PlyCount "77"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Ke2 f6 19.Rd1+ Bd4 20.Nxd4 exd4
+21.Rdxd4+ Ke6 22.Rc8 f5 23.exf5+ Kxf5 24.Kd3 g6
+25.Rdd8 g5 26.Rxg8 Rxg8 27.Rxg8 g4 28.Rg5+ Ke6
+29.Rxg4 h6 30.Bxh6 Ke5 31.Re4+ Kf5 32.Be3 Kf6
+33.Kd4 Kf5 34.b4 Kf6 35.Nd5+ Kf5 36.Re7 Kg4
+37.Ke4 Kh4 38.Rh7+ Kg4 39.Nf6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "16"]
+[ECO "B00"]
+[PlyCount "43"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Qc2 bxc4
+9.Rxb8 c3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Qxc3 c4 16.Ke2 d6
+17.Be3 d5 18.Qa5+ Kc6 19.Qxa6+ Kc7 20.Rb1 dxe4
+21.Rb7+ Kc8 22.Qa8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "21"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.dxc5 d6 11.Bb5+ Nc6 12.Bxc6+ Bd7
+13.Bxd7+ Qxd7 14.O-O dxc5 15.bxc5 Qxd1 16.Rfxd1 e6
+17.Rb8+ Ke7 18.c6+ Kf6 19.Rxf8 e5 20.Rd6+ Ke7
+21.Rg6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "4"]
+[ECO "B00"]
+[PlyCount "71"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Ke2 f6 19.Rd1+ Bd4 20.Nxd4 exd4
+21.Rdxd4+ Ke6 22.Rc8 f5 23.exf5+ Kxf5 24.Rdd8 g6
+25.Kd3 g5 26.Rxg8 Rxg8 27.Rxg8 g4 28.Be3 g3
+29.Rxg3 h6 30.Bxh6 Ke5 31.Rg7 Kf5 32.Kd4 Ke6
+33.Ne4 Kf5 34.g4+ Ke6 35.Kc4 Ke5 36.Re7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "25"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.a4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Ne5+ Kxc5
+17.Rb5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "23"]
+[ECO "B00"]
+[PlyCount "57"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Ke2 f6 19.Rd1+ Bd4 20.Nxd4 exd4
+21.Rdxd4+ Ke6 22.Rc8 f5 23.exf5+ Kxf5 24.Kd3 g6
+25.Be3 g5 26.Rdd8 g4 27.Rc6 g3 28.Rd5+ Kg4
+29.Rc4# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "14"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.d4 a5 3.Bd3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Nf3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.Bg3 bxa3 12.O-O d6
+13.Bb5+ Bd7 14.Bxd7+ Qxd7 15.Rb1 d5 16.Rb8+ Qc8
+17.Rxc8+ Kd7 18.Qc2 dxe4 19.Qc6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "8"]
+[ECO "B00"]
+[PlyCount "43"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.dxc5 d6 11.Bb5+ Nc6 12.Bxc6+ Bd7
+13.Bxd7+ Qxd7 14.O-O dxc5 15.bxc5 Qxd1 16.Rfxd1 e6
+17.Rb8+ Ke7 18.c6+ Kf6 19.c7 Bxa3 20.c8=Q e5
+21.Qf5+ Ke7 22.Qxe5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "24"]
+[ECO "B00"]
+[PlyCount "71"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Ke2 f6 19.Rd1+ Bd4 20.Nxd4 exd4
+21.Rdxd4+ Ke6 22.Rc8 f5 23.exf5+ Kxf5 24.Kd3 g6
+25.Rdd8 g5 26.Rxg8 Rxg8 27.Rxg8 g4 28.Rg5+ Ke6
+29.Rxg4 h6 30.Bxh6 Ke5 31.b4 Kf5 32.Rg7 Ke5
+33.Kc4 Kf5 34.Kd5 Kf6 35.Ne4+ Kf5 36.g4# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "17"]
+[ECO "B00"]
+[PlyCount "43"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.dxc5 d6 11.Bb5+ Nc6 12.Bxc6+ Bd7
+13.Bxd7+ Qxd7 14.O-O dxc5 15.bxc5 Qxd1 16.Rfxd1 e6
+17.Rb8+ Ke7 18.c6+ Kf6 19.c7 Bxa3 20.c8=Q e5
+21.Qf5+ Ke7 22.Qxe5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "30"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Bd3 a3
+5.bxa3 Rxa3 6.Bxa3 b6 7.Nf3 b5 8.Nxb5 c6
+9.Nc3 c5 10.Bxc5 d6 11.Rb1 dxc5 12.Rxb8 cxd4
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.Qxd4+ Kc6 16.Ne5+ Kc7
+17.Qxd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "27"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bd3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.Nf3 Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "32"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Re1 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Qxd8 Kxc5
+17.Qd5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "26"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Rxb5 c6
+9.Rxb8 c5 10.Qe2 cxd4 11.Ba6 Bxa6 12.Rxd8+ Kxd8
+13.Qxa6 d3 14.Qxd3 d6 15.Ne5 d5 16.Nxf7+ Kc7
+17.Nxh8 dxe4 18.Qc4+ Kb6 19.Be3+ Ka5 20.Qc5+ Ka4
+21.Qb4# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "35"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Rxa3 e5 16.Qxb8 exd4
+17.Qxc8+ Ke7 18.Re1+ Kd6 19.Bf4+ Kd5 20.Qc5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "31"]
+[ECO "B00"]
+[PlyCount "51"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Qc2 bxc4
+9.Rxb8 c3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.dxc5 d6 16.Qxc3 dxc5
+17.Qxc5+ Kb7 18.Qd5+ Kb6 19.Be3+ Kc7 20.Qa5+ Kc6
+21.Qxa6+ Kc7 22.Qb6+ Kd7 23.Qb7+ Kd6 24.Nf7+ Ke6
+25.Qd5+ Kf6 26.Qf5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "37"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.bxc5 d6 11.Rxb8 dxc5 12.Bb5+ Bd7
+13.Bxd7+ Kxd7 14.dxc5+ Kc6 15.Ne5+ Kc7 16.Qxd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "29"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.d4 a5 3.Bf4 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bd3 c5 8.Nc3 cxd4
+9.Nxd4 d6 10.e5 dxe5 11.Bxe5 Qxd4 12.Bxd4 e6
+13.Qf3 Bxa3 14.bxa3 e5 15.Qxa8 exd4 16.Qxb8 dxc3
+17.Qxc8+ Ke7 18.O-O-O f6 19.Rhe1+ Kd6 20.Bb5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "34"]
+[ECO "B00"]
+[PlyCount "29"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Qc2 d6
+13.Bc7 Qxc7 14.Qxc7 d5 15.Qxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "36"]
+[ECO "B00"]
+[PlyCount "47"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Ke2 f6 19.Kxf2 f5 20.Rd1+ Ke6
+21.Ng5+ Kf6 22.Rc6+ Ke7 23.Re6+ Kf8 24.Rd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "38"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Re1 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Ne5+ Kxc5
+17.Ba3# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "33"]
+[ECO "B00"]
+[PlyCount "45"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.a4 bxa4
+9.Rxb8 a3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Nf7 cxd4 16.Qxd4 d6
+17.Bxa3 d5 18.Kd2 dxe4 19.Qd8+ Kc6 20.Ne5+ Kb5
+21.Rb1+ Ka4 22.Rb4+ Kxa3 23.Qa5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "42"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.a4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Qxd8 Kxc5
+17.Qd5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "43"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.dxc5 d6
+9.cxd6 exd6 10.Bxd8 Kxd8 11.Qd2 d5 12.O-O-O dxe4
+13.Bxe4+ Nd7 14.Bxa8 Bxa3 15.bxa3 f6 16.Nf3 f5
+17.Rhe1 f4 18.Nb5 g6 19.Qa5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "44"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bd3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.Nf3 Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "46"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.c4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Qa4+ Bd7 14.Qa8 Qxb8 15.Qxb8+ Bc8 16.Qxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "22"]
+[ECO "B00"]
+[PlyCount "27"]
+
+1.e4 a6 2.Nf3 a5 3.a4 b6 4.d4 b5
+5.axb5 a4 6.Bd3 a3 7.O-O axb2 8.Rxa8 bxc1=Q
+9.Qxc1 c6 10.Rxb8 cxb5 11.Qa3 b4 12.Qa8 b3
+13.Rxc8 Qxc8 14.Qxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "28"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Bf4 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bd3 c5 8.O-O cxd4
+9.c3 dxc3 10.Nxc3 d6 11.e5 dxe5 12.Nxe5 Qxd3
+13.Qxd3 e6 14.Nb5 Bxa3 15.Nc7+ Ke7 16.Rfd1 Bxb2
+17.Qd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "47"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Rxb5 c6
+9.Rxb8 c5 10.dxc5 d6 11.Bb5+ Bd7 12.Rxd8+ Kxd8
+13.Bxd7 Kxd7 14.Qd3 d5 15.Ke2 d4 16.Qxd4+ Kc6
+17.Rd1 e6 18.Qd7+ Kxc5 19.Be3+ Kc4 20.Qd3# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "45"]
+[ECO "B00"]
+[PlyCount "47"]
+
+1.e4 a6 2.Nf3 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.d4 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Ke2 f6 19.Kxf2 f5 20.Rd1+ Ke6
+21.Ng5+ Kf6 22.Rc6+ Ke7 23.Re6+ Kf8 24.Rd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "49"]
+[ECO "B00"]
+[PlyCount "53"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.a4 bxa4
+9.Rxb8 a3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Qf3 cxd4 16.Qxf8 d3
+17.cxd3 Bxd3 18.Qxg8 Bxe4 19.Qc4+ Bc6 20.O-O d6
+21.Nf7 d5 22.Qf4+ e5 23.Qxe5+ Kb6 24.Be3+ d4
+25.Rb1+ Bb5 26.Qxb5+ Ka7 27.Qa4# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "51"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "50"]
+[ECO "B00"]
+[PlyCount "53"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.a4 bxa4
+9.Rxb8 a3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Qf3 cxd4 16.Qxf8 d3
+17.cxd3 Bxd3 18.Qxg8 Bxe4 19.Qc4+ Bc6 20.O-O d6
+21.Bxa3 d5 22.Qf4+ e5 23.Qxe5+ Kb6 24.Qb8+ Bb7
+25.Rb1+ Ka5 26.Qxb7 d4 27.Qb5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "52"]
+[ECO "B00"]
+[PlyCount "43"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bd3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.Nf3 Qxf3
+13.Qxf3 e6 14.Bd2 Bxa3 15.Rxa3 e5 16.Nxe5 f6
+17.Nc4 f5 18.O-O f4 19.Re1+ Ne7 20.Nd6+ Kd7
+21.Ra7+ Kxd6 22.Bxf4# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "53"]
+[ECO "B00"]
+[PlyCount "51"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.O-O cxd4
+13.Qxd4 Qxd4 14.Nxd4 e6 15.Ra8 e5 16.Rxb8 exd4
+17.Rxc8+ Kd7 18.Rxf8 dxc3 19.Rxf7+ Ne7 20.bxc3 g6
+21.Bg5 h6 22.Rxe7+ Kc6 23.Bf4 g5 24.Rc7+ Kb5
+25.Rb1+ Ka4 26.Ra7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "55"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.cxb5 c6
+9.Bd3 cxb5 10.a4 bxa4 11.Rxb8 a3 12.Qc2 d6
+13.Qc6+ Bd7 14.Rxd8+ Kxd8 15.Qb6+ Kc8 16.Ba6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "56"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.a4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Ne5+ Kxc5
+17.Ba3# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "57"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "58"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Rxb5 c6
+9.Rxb8 c5 10.O-O cxd4 11.Ba6 Bxa6 12.Rxd8+ Kxd8
+13.Qxd4 Bxf1 14.Qb6+ Kc8 15.Kxf1 d6 16.Qc6+ Kb8
+17.Qe8+ Ka7 18.Qc8 d5 19.Be3+ d4 20.Bxd4# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "59"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.bxc5 d6 11.Rxb8 dxc5 12.Bb5+ Bd7
+13.Bxd7+ Kxd7 14.dxc5+ Kc6 15.Ne5+ Kc7 16.Qxd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "61"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Re1 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Qxd8 Kxc5
+17.Qc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "60"]
+[ECO "B00"]
+[PlyCount "59"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Nxe5+ Kd6 19.Nxf7+ Ke6 20.Nxh8 g6
+21.Ke2 g5 22.Kxf2 g4 23.Ke3 g3 24.hxg3 h6
+25.Kd4 h5 26.Rxh5 Nf6 27.Re5+ Kd6 28.Nb5+ Kd7
+29.Rc7+ Kd8 30.Nf7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "63"]
+[ECO "B00"]
+[PlyCount "29"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Qc2 d6
+13.Bc7 Qxc7 14.Qxc7 d5 15.Qxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "62"]
+[ECO "B00"]
+[PlyCount "59"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Nxe5+ Kd6 19.Nxf7+ Ke6 20.Nxh8 g6
+21.Ke2 g5 22.Kxf2 g4 23.Ke3 g3 24.hxg3 h6
+25.Kd4 h5 26.Rxh5 Nf6 27.Rc6+ Kd7 28.Rxf6 Kc7
+29.Rh7+ Kb8 30.Rf8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "64"]
+[ECO "B00"]
+[PlyCount "47"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Ke2 f6 19.Kxf2 f5 20.Rd1+ Ke6
+21.exf5+ Kxf5 22.Rd6 e4 23.Rxe4 g6 24.Nh4# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "65"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "66"]
+[ECO "B00"]
+[PlyCount "71"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Ke2 f6 19.Rd1+ Bd4 20.Nxd4 exd4
+21.Rdxd4+ Ke6 22.Rc8 f5 23.exf5+ Kxf5 24.Kd3 g6
+25.Rdd8 g5 26.Rxg8 Rxg8 27.Rxg8 g4 28.Be3 g3
+29.Rxg3 h6 30.Bxh6 Ke5 31.Rg7 Kf5 32.Kd4 Ke6
+33.Kc5 Ke5 34.g4 Ke6 35.Bg5 Ke5 36.Re7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "67"]
+[ECO "B00"]
+[PlyCount "71"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Ke2 f6 19.Rd1+ Bd4 20.Nxd4 exd4
+21.Rdxd4+ Ke6 22.Rc8 f5 23.exf5+ Kxf5 24.Kd3 g6
+25.Rdd8 g5 26.Rxg8 Rxg8 27.Rxg8 g4 28.Be3 g3
+29.Rxg3 h6 30.Bxh6 Ke5 31.Rg7 Kf5 32.Kd4 Ke6
+33.Kc5 Ke5 34.g4 Ke6 35.Bg5 Ke5 36.Re7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "68"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.bxc5 d6 11.Rxb8 dxc5 12.Bb5+ Bd7
+13.Bxd7+ Kxd7 14.dxc5+ Kc6 15.Ne5+ Kc7 16.Qxd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "69"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Qb3 d6
+13.Rfc1 d5 14.Rxc8 Qxc8 15.Bb5+ Qc6 16.Bxc6+ Kd8
+17.Qb6+ Kc8 18.Qc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "71"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.Bg3 bxa3 12.O-O d6
+13.Bb5+ Bd7 14.Bxd7+ Qxd7 15.Rb1 d5 16.Rb8+ Qc8
+17.Rxc8+ Kd7 18.Qc2 dxe4 19.Qc6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "70"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Qb3 d6
+13.Rfc1 d5 14.Rxc8 Qxc8 15.Bb5+ Qc6 16.Bxc6+ Kd8
+17.Qb6+ Kc8 18.Qc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "72"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Rb1 d6
+13.Qc2 d5 14.Bb5+ Bd7 15.Bxd7+ Qxd7 16.Ne5 dxe4
+17.Nxd7 Kxd7 18.Qc7+ Ke6 19.Rb6+ Kd5 20.Qc5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "73"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Bd3 a3
+5.Nf3 axb2 6.Bxb2 Rxa2 7.Rxa2 b6 8.O-O b5
+9.Nxb5 c6 10.Nc3 c5 11.Nb5 cxd4 12.Ra7 d6
+13.Nc7+ Qxc7 14.Rxc7 d5 15.Rxc8+ Kd7 16.Rxb8 dxe4
+17.Bb5+ Kd6 18.Qxd4+ Ke6 19.Qe5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "74"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.b5 c6 7.Rb1 cxb5 8.Nxb5 d6
+9.Bd3 d5 10.exd5 Qxd5 11.Nc7+ Kd7 12.Nxd5 b5
+13.Nb6+ Kc6 14.Nxa8 b4 15.Rxb4 e6 16.Ne5+ Kd5
+17.Qf3+ Kd6 18.Rb6+ Nc6 19.Bxa3# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "75"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "76"]
+[ECO "B00"]
+[PlyCount "53"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.h4 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.Qf3 Qxf3
+13.Nxf3 e6 14.Be3 Bxa3 15.Rxa3 e5 16.Nfxe5 f6
+17.Nf3 f5 18.Ra8 f4 19.Rxb8 fxe3 20.Rxc8+ Kd7
+21.Rc4 exf2+ 22.Kxf2 g6 23.Nde5+ Kd6 24.Nf7+ Kd5
+25.Rc5+ Ke4 26.g3 g5 27.N7xg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "77"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.dxc5 d6 11.Bb5+ Nc6 12.Bxc6+ Bd7
+13.Bxd7+ Qxd7 14.O-O dxc5 15.bxc5 Qxd1 16.Rfxd1 e6
+17.Rb8+ Ke7 18.c6+ Kf6 19.Rxf8 e5 20.Rd6+ Ke7
+21.Rg6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "78"]
+[ECO "B00"]
+[PlyCount "25"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.b5 c6 7.Bd3 cxb5 8.Nxb5 d6
+9.O-O d5 10.Bf4 dxe4 11.Bxe4 Qxd4 12.Nc7+ Kd7
+13.Qxd4# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "79"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Qc2 b5 8.Rb1 b4
+9.axb4 c6 10.Bf4 c5 11.Bxb8 cxb4 12.Bd3 bxc3
+13.Qxc3 d6 14.Bc7 Qxc7 15.Qxc7 d5 16.Qxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "80"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.cxb5 c6
+9.Bd3 cxb5 10.O-O b4 11.Bf4 bxa3 12.Rxb8 d6
+13.Qa4+ Bd7 14.Rxd8+ Kxd8 15.Qa5+ Kc8 16.Ba6+ Kb8
+17.Qb6+ Ka8 18.Qb7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "81"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.a4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Ne5+ Kxc5
+17.Ba3# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "82"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Rxa3 e5 16.Qxb8 exd4
+17.Qxc8+ Ke7 18.Qc7+ Ke6 19.Ra6+ Kd5 20.Qc6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "83"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Re1 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Ne5+ Kxc5
+17.Ba3# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "84"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.a4 bxa4
+9.Rxb8 a3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Nf7 cxd4 16.Qxd4 d6
+17.Be3 d5 18.Qb6+ Kd7 19.Ne5+ Kc8 20.Qc6+ Kb8
+21.Nd7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "85"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bd3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.Nf3 Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "86"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.Nf3 cxd4
+9.Nxd4 d6 10.Qe2 d5 11.Bb5+ Nc6 12.Nxc6 dxe4
+13.Nxd8+ Kxd8 14.O-O-O+ Bd7 15.Rxd7+ Kc8 16.Qc4+ Kb8
+17.Qc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "87"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.a4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Ne5+ Kxc5
+17.Ba3# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "88"]
+[ECO "B00"]
+[PlyCount "29"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.Nf3 cxd4
+9.Nxd4 d6 10.Qe2 d5 11.exd5 Qxd5 12.Nxd5 e6
+13.Bb5+ Nc6 14.Bxc6+ Bd7 15.Nc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "89"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Bc4 a3
+5.Nge2 axb2 6.Bxb2 Rxa2 7.Rxa2 b6 8.O-O b5
+9.Bxb5 c6 10.Bd3 c5 11.Nb5 cxd4 12.Ra7 d6
+13.Nc7+ Qxc7 14.Rxc7 d5 15.Rxc8+ Kd7 16.Rxf8 dxe4
+17.Bxe4 d3 18.Qxd3+ Ke6 19.Qd5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "54"]
+[ECO "A40"]
+[PlyCount "33"]
+
+1.d4 a6 2.c4 a5 3.h3 a4 4.e4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Nf3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.Bd3 bxa3 12.O-O d6
+13.Rc1 Bxh3 14.Bc7 Qxc7 15.Rxc7 Bxg2 16.Qa4+ Kd8
+17.Qd7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "40"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.a4 bxa4
+9.Rxb8 a3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Nf7 cxd4 16.Qxd4 d6
+17.Be3 d5 18.Qb6+ Kd7 19.Ne5+ Kc8 20.Qc6+ Kb8
+21.Nd7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "39"]
+[ECO "A40"]
+[PlyCount "81"]
+
+1.d4 a6 2.e4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Ke2 f6 19.Rd1+ Bd4 20.Nxd4 exd4
+21.Rdxd4+ Ke6 22.Rc8 f5 23.exf5+ Kxf5 24.Kd3 g6
+25.Rdd8 g5 26.Rxg8 Rxg8 27.Rxg8 g4 28.Rg5+ Ke6
+29.Rxg4 h6 30.Re4+ Kf5 31.Bxh6 Kf6 32.Be3 Kf5
+33.Kc4 Kf6 34.b4 Kf5 35.b5 Kf6 36.b6 Kf5
+37.b7 Kf6 38.b8=Q Kf5 39.Qg8 Kf6 40.Bd4+ Kf5
+41.Qg4# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "92"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.dxc5 d6 11.Bb5+ Nc6 12.Bxc6+ Bd7
+13.b5 Bxc6 14.bxc6 dxc5 15.Rb8 Qxb8 16.Qd7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "48"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Be2 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.e5 bxa3 10.Rxb8 c6 11.Ba6 Bxa6 12.Rxd8+ Kxd8
+13.Qe1 Bxf1 14.Qa5+ Kc8 15.Qa8+ Kc7 16.Qa7+ Kc8
+17.Kxf1 c5 18.Bd2 cxd4 19.Qa8+ Kc7 20.Ba5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "90"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.Bg3 bxa3 12.O-O d6
+13.Bb5+ Bd7 14.Bxd7+ Qxd7 15.Rb1 d5 16.Rb8+ Qc8
+17.Rxc8+ Kd7 18.Qc2 dxe4 19.Qc6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "91"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Bf4 c5 11.Bxb8 cxb4 12.Rxb4 d6
+13.Ba7 d5 14.Bb5+ Bd7 15.Bxd7+ Qxd7 16.Rb8+ Qc8
+17.Rxc8+ Kd7 18.Ne5+ Kxc8 19.Qb1 dxe4 20.Qb8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "41"]
+[ECO "B00"]
+[PlyCount "25"]
+
+1.e4 a6 2.d4 a5 3.Bf4 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Be2 c5 8.Nc3 cxd4
+9.Nxd4 d6 10.Ndb5 d5 11.Nc7+ Qxc7 12.Bxc7 dxe4
+13.Qd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "95"]
+[ECO "B00"]
+[PlyCount "29"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.Nf3 cxd4
+9.Nxd4 d6 10.Qe2 d5 11.exd5 Qxd5 12.Nxd5 e6
+13.Bb5+ Nc6 14.Bxc6+ Bd7 15.Nc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "99"]
+[ECO "B00"]
+[PlyCount "29"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Bd3 a3
+5.Nge2 axb2 6.Bxb2 Rxa2 7.Rxa2 b6 8.O-O b5
+9.Nxb5 c6 10.Bc3 cxb5 11.Ba5 Qxa5 12.Rxa5 b4
+13.Ra8 b3 14.Rxb8 bxc2 15.Rxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "96"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.axb4 d6 12.Rc1 d5
+13.Rxc8 Qxc8 14.Qa4+ Qc6 15.Qxc6+ Kd8 16.Qc7+ Ke8
+17.Bb5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "100"]
+[ECO "B00"]
+[PlyCount "27"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.Nf3 cxd4
+9.Nxd4 d6 10.Bb5+ Nc6 11.Nxc6 d5 12.Nxd8+ Kxd8
+13.Qxd5+ Bd7 14.Qxd7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "93"]
+[ECO "B00"]
+[PlyCount "45"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Ke2 f6 19.Rd1+ Bd4 20.Nxd4 exd4
+21.Rdxd4+ Ke6 22.Rc6+ Ke5 23.Rd5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "101"]
+[ECO "B00"]
+[PlyCount "29"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Qc2 d6
+13.Bc7 Qxc7 14.Qxc7 d5 15.Qxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "94"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Rxa3 e5 16.Qxb8 exd4
+17.Qxc8+ Ke7 18.Qc7+ Ke6 19.Ra6+ Kd5 20.Qc6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "98"]
+[ECO "B00"]
+[PlyCount "49"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.a4 bxa4
+9.Rxb8 a3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Qf3 cxd4 16.Qxf8 d3
+17.Qxg7 dxc2 18.Qc3+ Bc4 19.Qxc4+ Kb6 20.Ke2 d6
+21.Qxg8 d5 22.Qb8+ Ka5 23.Qb7 dxe4 24.Bd2+ Ka4
+25.Qb3# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "104"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.Nb5 cxd4
+9.Nd6+ exd6 10.Bxd8 Kxd8 11.Nf3 d5 12.exd5 Bxa3
+13.Rxa3 d6 14.Qd2 f6 15.Nxd4 f5 16.Qf4 g6
+17.Qxd6+ Nd7 18.Kd2 f4 19.Re1 f3 20.Nc6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "103"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.Nf3 cxd4
+9.Nxd4 d6 10.Qe2 d5 11.Bb5+ Nc6 12.Nxc6 dxe4
+13.Nxd8+ Kxd8 14.O-O-O+ Bd7 15.Rxd7+ Kc8 16.Qc4+ Kb8
+17.Qc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "106"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Re1 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Qxd8 Kxc5
+17.Qd5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "97"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.c4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Qa4+ Bd7 14.Qa8 Qxb8 15.Qxb8+ Bc8 16.Qxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "102"]
+[ECO "B00"]
+[PlyCount "43"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Bxb5 c6 8.Bd3 c5
+9.bxc5 d6 10.e5 dxc5 11.Be4 cxd4 12.Bxa8 dxc3
+13.Qxd8+ Kxd8 14.Rxb8 e6 15.Bb7 f6 16.Rxc8+ Kd7
+17.Rxf8 fxe5 18.Ke2 e4 19.Rd1+ Kc7 20.Bf4+ Kxb7
+21.Rb1+ Ka6 22.Ra8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "105"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Re1 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Ne5+ Kxc5
+17.Ba3# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "108"]
+[ECO "A04"]
+[PlyCount "39"]
+
+1.Nf3 a6 2.e4 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Rb1 d6
+13.Qc2 d5 14.Bb5+ Bd7 15.Bxd7+ Qxd7 16.Ne5 dxe4
+17.Nxd7 Kxd7 18.Qc7+ Ke6 19.Rb6+ Kd5 20.Qc5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "109"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Re1 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Ne5+ Kxc5
+17.Ba3# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "107"]
+[ECO "B00"]
+[PlyCount "47"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Bd2 b5 7.Bxb5 c6 8.Bd3 c5
+9.bxc5 d6 10.cxd6 exd6 11.O-O d5 12.Nxd5 Qxd5
+13.exd5 f6 14.Re1+ Ne7 15.d6 f5 16.dxe7 Bxe7
+17.Rxe7+ Kxe7 18.Qe2+ Be6 19.Re1 f4 20.Qxe6+ Kd8
+21.Qe7+ Kc8 22.Bf5+ Nd7 23.Qxd7+ Kb8 24.Bxf4# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "115"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Bf4 c5 11.Bxb8 cxb4 12.Rxb4 d6
+13.Ba7 d5 14.Bb5+ Bd7 15.Bxd7+ Qxd7 16.Rb8+ Qc8
+17.Rxc8+ Kd7 18.Ne5+ Kxc8 19.Qb1 dxe4 20.Qb8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "111"]
+[ECO "B00"]
+[PlyCount "45"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.dxc5 d6 11.Bb5+ Nc6 12.Bxc6+ Bd7
+13.Bxd7+ Qxd7 14.O-O dxc5 15.bxc5 Qxd1 16.Rfxd1 e6
+17.Rb8+ Ke7 18.c6+ Kf6 19.Bb2+ e5 20.c7 g6
+21.Bxe5+ Ke6 22.Re8+ Ne7 23.c8=Q# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "112"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Rxa3 e5 16.Qxb8 exd4
+17.Re1+ Ne7 18.Qxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "118"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.h3 a4 4.d4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.Rb1 b4
+9.axb4 c6 10.a4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Qxd8 Kxc5
+17.Qd5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "116"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.a4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Qxd8 Kxc5
+17.Qd5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "117"]
+[ECO "B00"]
+[PlyCount "29"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Qc2 d6
+13.Bc7 Qxc7 14.Qxc7 d5 15.Qxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "121"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.cxb5 c6
+9.Bd3 cxb5 10.O-O b4 11.Bf4 bxa3 12.Rxb8 d6
+13.Qa4+ Bd7 14.Rxd8+ Kxd8 15.Qa5+ Kc8 16.Ba6+ Kb8
+17.Qb6+ Ka8 18.Qb7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "119"]
+[ECO "B00"]
+[PlyCount "47"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Bxb5 c6 8.Bd3 c5
+9.bxc5 d6 10.e5 dxc5 11.Be4 cxd4 12.Bxa8 dxc3
+13.Rxb8 Qxd1+ 14.Kxd1 e6 15.Rxc8+ Kd7 16.Rxf8 f6
+17.Ke2 fxe5 18.Rd1+ Kc7 19.Rf7+ Ne7 20.Rxe7+ Kb6
+21.Be3+ Ka5 22.Ra7+ Kb4 23.Rb1+ Kc4 24.Nxe5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "122"]
+[ECO "B00"]
+[PlyCount "29"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.b5 c6 7.Bd3 cxb5 8.Nxb5 d6
+9.O-O d5 10.Bf4 dxe4 11.Bxe4 Qxd4 12.Qxd4 e6
+13.Nc7+ Ke7 14.Qd6+ Kf6 15.Ne8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "120"]
+[ECO "B00"]
+[PlyCount "51"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Qc2 bxc4
+9.Rxb8 c3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.dxc5 d6 16.Qxc3 dxc5
+17.Qxc5+ Kb7 18.Qd5+ Kb6 19.Be3+ Kc7 20.Qa5+ Kc6
+21.Qxa6+ Kc7 22.Ke2 e6 23.Qa7+ Kc6 24.Rc1+ Bc5
+25.Rxc5+ Kd6 26.Nf7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "110"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Bd3 a3
+5.Nf3 axb2 6.Bxb2 Rxa2 7.Rxa2 b6 8.O-O b5
+9.Nxb5 c6 10.Na7 c5 11.Bc3 cxd4 12.Ba5 Qxa5
+13.Rxa5 d6 14.Nxc8 d5 15.Bb5+ Nc6 16.Bxc6+ Kd8
+17.Qxd4 Kxc8 18.Qb6 dxe4 19.Ra8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "123"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.axb4 d6 12.Rc1 d5
+13.Rxc8 Qxc8 14.Qa4+ Qc6 15.Qxc6+ Kd8 16.Qc7+ Ke8
+17.Bb5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "128"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.a4 bxa4
+9.Rxb8 a3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Nf7 cxd4 16.Qxd4 d6
+17.Be3 d5 18.Qb6+ Kd7 19.Ne5+ Kc8 20.Qc6+ Kb8
+21.Nd7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "126"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.dxc5 d6
+9.cxd6 exd6 10.Bxd8 Kxd8 11.Qd2 d5 12.O-O-O dxe4
+13.Bxe4+ Nd7 14.Bxa8 Bxa3 15.bxa3 f6 16.Nf3 f5
+17.Rhe1 f4 18.Qd6 g6 19.Qb6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "130"]
+[ECO "B00"]
+[PlyCount "53"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.dxc5 d6 11.Nf3 dxc5 12.Qxd8+ Kxd8
+13.bxc5 e6 14.Ne5 Bxc5 15.Nxf7+ Kc7 16.Bf4+ e5
+17.Bxe5+ Bd6 18.Bxd6+ Kb6 19.Bxb8 g6 20.Nxh8 g5
+21.Kd2 g4 22.Kd3 g3 23.hxg3 h6 24.Nf7 h5
+25.Rxh5 Nf6 26.Rb5+ Kc6 27.Ne5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "113"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.bxc5 d6 11.Rxb8 dxc5 12.Bb5+ Bd7
+13.Bxd7+ Kxd7 14.dxc5+ Kc6 15.Ne5+ Kc7 16.Qxd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "114"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.axb4 d6 12.Rc1 d5
+13.Bb5+ Bd7 14.Bxd7+ Qxd7 15.Ne5 dxe4 16.Qa4 Qxa4
+17.Rc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "129"]
+[ECO "B00"]
+[PlyCount "49"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bd3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.Nf3 Qxf3
+13.Qxf3 e6 14.Bf4 Bxa3 15.Rxa3 e5 16.Bxe5 f6
+17.Bxb8 f5 18.Kd2 f4 19.Re1+ Ne7 20.Rxe7+ Kxe7
+21.Qe4+ Be6 22.Ra7+ Kf6 23.Qe5+ Kg6 24.Nxf4+ Kh6
+25.Qxg7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "125"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.bxc5 d6 11.Rxb8 dxc5 12.Bb5+ Bd7
+13.Bxd7+ Kxd7 14.dxc5+ Kc6 15.Ne5+ Kc7 16.Qxd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "135"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb5 e6 11.Bxb8 Bxa3 12.O-O e5
+13.Qa4 exd4 14.Qxa3 d3 15.Rfc1 d2 16.Nxd2 f6
+17.Bc7 Qxc7 18.Rxc7 f5 19.Qd6 fxe4 20.Rxc8+ Kf7
+21.Rf8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "132"]
+[ECO "B00"]
+[PlyCount "23"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.cxb5 c6
+9.bxc6 dxc6 10.Rxb8 Qxd4 11.Qxd4 c5 12.Rxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "124"]
+[ECO "A04"]
+[PlyCount "23"]
+
+1.Nf3 a6 2.e4 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.cxb5 c6
+9.bxc6 dxc6 10.Rxb8 Qxd4 11.Qxd4 c5 12.Rxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "134"]
+[ECO "B00"]
+[PlyCount "55"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.dxc5 d6 11.Nf3 dxc5 12.Qxd8+ Kxd8
+13.bxc5 e6 14.Ne5 Bxc5 15.Nxf7+ Kc7 16.Bf4+ e5
+17.Bxe5+ Bd6 18.Bxd6+ Kb6 19.Nxh8 g6 20.Bxb8 g5
+21.Kd2 g4 22.Bg3 h6 23.Kd3 h5 24.Nd5+ Kb5
+25.Ra8 h4 26.Rxc8 hxg3 27.Ra1 gxf2 28.c4# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "138"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.dxc5 d6
+9.cxd6 exd6 10.Bxd8 Kxd8 11.Qd2 d5 12.O-O-O dxe4
+13.Bxe4+ Nd7 14.Bxa8 Bxa3 15.bxa3 f6 16.Nf3 f5
+17.Rhe1 f4 18.Qd6 g6 19.Qb6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "131"]
+[ECO "B00"]
+[PlyCount "29"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.Nf3 cxd4
+9.Nxd4 d6 10.Qe2 d5 11.exd5 Qxd5 12.Nxd5 e6
+13.Bb5+ Nc6 14.Bxc6+ Bd7 15.Nc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "136"]
+[ECO "B00"]
+[PlyCount "25"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.b5 c6 7.Bd3 cxb5 8.Nxb5 d6
+9.O-O d5 10.Bf4 dxe4 11.Bxe4 Qxd4 12.Nc7+ Kd7
+13.Qxd4# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "141"]
+[ECO "B00"]
+[PlyCount "45"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.dxc5 d6 11.Bb5+ Nc6 12.Bxc6+ Bd7
+13.Bxd7+ Qxd7 14.e5 dxc5 15.Qxd7+ Kxd7 16.Ke2 cxb4
+17.Rxb4 e6 18.Rd4+ Bd6 19.exd6 e5 20.Nxe5+ Ke6
+21.d7 Kxe5 22.d8=Q f6 23.Qd5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "140"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.a4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Qxd8 Kxc5
+17.Qd5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "144"]
+[ECO "B00"]
+[PlyCount "45"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.dxc5 d6 11.Bb5+ Nc6 12.Bxc6+ Bd7
+13.Bxd7+ Qxd7 14.e5 dxc5 15.bxc5 Qxd1+ 16.Kxd1 e6
+17.Rb8+ Kd7 18.Rxf8 f6 19.Ke2 fxe5 20.Rd1+ Kc6
+21.Nxe5+ Kb5 22.Rb1+ Ka4 23.Ra8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "142"]
+[ECO "A40"]
+[PlyCount "35"]
+
+1.d4 a6 2.e4 a5 3.Nc3 a4 4.a3 b6
+5.Bd3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.Nf3 Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "139"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Rxb5 c6
+9.Rxb8 c5 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 cxd4
+13.Qxd4 d6 14.Qb6+ Kc8 15.Qc6+ Kb8 16.Nd7+ Ka7
+17.Be3# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "146"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Rc1 d6
+13.Bc7 Qxc7 14.Rxc7 d5 15.Rxc8+ Kd7 16.Qc2 dxe4
+17.Qc6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "147"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Rxa3 e5 16.Qxb8 exd4
+17.Qxc8+ Ke7 18.Re1+ Kd6 19.Ra6+ Kd5 20.Qc5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "148"]
+[ECO "A40"]
+[PlyCount "41"]
+
+1.d4 a6 2.e4 a5 3.Nc3 a4 4.a3 b6
+5.Bf4 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Bxb8 cxd4 10.Qxd4 d6 11.O-O-O d5 12.Qxd5 Qxd5
+13.exd5 e6 14.Nf3 exd5 15.Nb6 Bxa3 16.bxa3 d4
+17.Nxc8 d3 18.Rxd3 f6 19.Re1+ Ne7 20.Rxe7+ Kf8
+21.Rd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "149"]
+[ECO "B00"]
+[PlyCount "43"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Qc2 bxc4
+9.Rxb8 c3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Qxc3 c4 16.Bf4+ d6
+17.Qa5+ Kc6 18.Qxa6+ Kc7 19.Qxc4+ Kb6 20.Ke2 d5
+21.Rb1+ Ka5 22.Qb5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "150"]
+[ECO "B00"]
+[PlyCount "23"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.cxb5 c6
+9.bxc6 dxc6 10.Rxb8 Qxd4 11.Qxd4 c5 12.Rxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "151"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Re1 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Qxd8 Kxc5
+17.Qd5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "152"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Rxb5 c6
+9.Rxb8 c5 10.O-O cxd4 11.Ba6 Bxa6 12.Rxd8+ Kxd8
+13.Qxd4 Bxf1 14.Qb6+ Kc8 15.Qc5+ Kb7 16.Kxf1 d6
+17.Qb5+ Ka7 18.Be3+ Ka8 19.Qb6 d5 20.Qa7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "133"]
+[ECO "B00"]
+[PlyCount "43"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Qc2 bxc4
+9.Rxb8 c3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Qxc3 c4 16.Bf4+ d6
+17.Ke2 e6 18.Qa5+ Kc6 19.Qxa6+ Kc7 20.Rb1 c3
+21.Qa7+ Kc6 22.Rb6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "153"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.dxc5 d6 11.Bb5+ Nc6 12.Bxc6+ Bd7
+13.Bxd7+ Qxd7 14.O-O dxc5 15.bxc5 Qxd1 16.Rfxd1 e6
+17.Rb8+ Ke7 18.c6+ Kf6 19.Rxf8 e5 20.Rd6+ Ke7
+21.Rg6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "155"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.Bd3 bxa3 12.O-O d6
+13.Ba7 d5 14.Bb5+ Bd7 15.Bxd7+ Qxd7 16.Rb8+ Qc8
+17.Qa4+ Kd8 18.Bb6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "156"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bd3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.Nf3 Qxf3
+13.Qxf3 e6 14.O-O Bxa3 15.Rxa3 e5 16.Qa8 exd4
+17.Qxb8 f6 18.Qxc8+ Ke7 19.Ra7+ Kd6 20.Qd7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "157"]
+[ECO "A04"]
+[PlyCount "55"]
+
+1.Nf3 a6 2.e4 a5 3.d4 a4 4.Be2 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.e5 bxa3 10.Rxb8 c6 11.Ba6 Bxa6 12.Rxd8+ Kxd8
+13.Qe1 Bxf1 14.Qa5+ Kc8 15.Qa8+ Kc7 16.Kxf1 c5
+17.Qxf8 cxd4 18.Qxg7 d3 19.Qxh8 dxc2 20.Qxg8 d6
+21.exd6+ exd6 22.Qxf7+ Kb6 23.Qxh7 d5 24.Ke2 d4
+25.Qxc2 d3+ 26.Kxd3 Ka5 27.Qc6 Kb4 28.Bd2# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "145"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "143"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.Bg3 bxa3 12.O-O d6
+13.Bb5+ Bd7 14.Bxd7+ Qxd7 15.Rb1 d5 16.Rb8+ Qc8
+17.Rxc8+ Kd7 18.Qc2 dxe4 19.Qc6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "158"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Rxb5 c6
+9.Rxb8 c5 10.O-O cxd4 11.Ba6 Bxa6 12.Rxd8+ Kxd8
+13.Re1 d3 14.Qd2 dxc2 15.Qa5+ Kc8 16.Qxa6+ Kc7
+17.Bf4+ d6 18.Rc1 e6 19.Rxc2+ Kd7 20.Qb7+ Kd8
+21.Rc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "154"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Rxa3 e5 16.Qxb8 exd4
+17.Qxc8+ Ke7 18.Qc7+ Ke6 19.Ra6+ Kd5 20.Qc6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "160"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.a4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Ne5+ Kxc5
+17.Rb5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "161"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Qb3 d6
+13.Rfc1 d5 14.Rxc8 Qxc8 15.Bb5+ Qc6 16.Bxc6+ Kd8
+17.Qb6+ Kc8 18.Qc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "159"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.bxc5 d6 11.Rxb8 dxc5 12.Bb5+ Bd7
+13.Bxd7+ Kxd7 14.dxc5+ Kc6 15.Ne5+ Kc7 16.Qxd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "137"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nb3 d5 11.exd5 Qxd5 12.O-O Qxb3
+13.cxb3 e6 14.Bf4 Bxa3 15.Rxa3 e5 16.Bxe5 f6
+17.Bxb8 f5 18.Qe1+ Ne7 19.Bd6 f4 20.Qxe7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "165"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.Bg3 bxa3 12.O-O d6
+13.Bb5+ Bd7 14.Bxd7+ Qxd7 15.Rb1 d5 16.Rb8+ Qc8
+17.Rxc8+ Kd7 18.Qc2 dxe4 19.Qc6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "166"]
+[ECO "B00"]
+[PlyCount "69"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Ke2 f6 19.Rd1+ Bd4 20.Nxd4 exd4
+21.Rdxd4+ Ke6 22.Rc8 f5 23.exf5+ Kxf5 24.Rdd8 g6
+25.Rxg8 Rxg8 26.Rxg8 g5 27.Rxg5+ Ke6 28.Kd3 h6
+29.Ra5 h5 30.Rxh5 Kd6 31.Kc4 Kc6 32.Bf4 Kb6
+33.Na4+ Ka6 34.Rh7 Ka5 35.Ra7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "167"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.a4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Qxd8 Kxc5
+17.Qd5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "168"]
+[ECO "B00"]
+[PlyCount "25"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.b5 c6 7.Bd3 cxb5 8.Nxb5 d6
+9.O-O d5 10.Bf4 dxe4 11.Bxe4 Qxd4 12.Nc7+ Kd7
+13.Qxd4# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "169"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.cxb5 c6
+9.Bd3 cxb5 10.O-O b4 11.Bf4 bxa3 12.Rxb8 d6
+13.Qa4+ Bd7 14.Rxd8+ Kxd8 15.Qa5+ Kc8 16.Ba6+ Kb8
+17.Qb6+ Ka8 18.Qb7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "170"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Rxa3 e5 16.Qxb8 exd4
+17.Qxc8+ Ke7 18.Re1+ Kd6 19.Bf4+ Kd5 20.Qc5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "171"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.dxc5 d6
+9.cxd6 exd6 10.Bxd8 Kxd8 11.Qd2 d5 12.O-O-O dxe4
+13.Bxe4+ Nd7 14.Bxa8 Bxa3 15.bxa3 f6 16.Nf3 f5
+17.Rhe1 f4 18.Qd6 g6 19.Qb6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "172"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.bxc5 d6 11.Rxb8 dxc5 12.Bb5+ Bd7
+13.Bxd7+ Kxd7 14.dxc5+ Kc6 15.Ne5+ Kc7 16.Qxd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "174"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.Bg3 bxa3 12.Rc1 d6
+13.Bb5+ Bd7 14.Qa4 Bxb5 15.Qxb5+ Qd7 16.Rc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "175"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "176"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.dxc5 d6
+9.cxd6 exd6 10.Bxd8 Kxd8 11.Qd2 d5 12.exd5 Bxa3
+13.Rxa3 f6 14.Nge2 f5 15.Qg5+ Nf6 16.Qxg7 Nxd5
+17.Nxd5 f4 18.Qe7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "177"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.dxc5 d6
+9.cxd6 exd6 10.Bxd8 Kxd8 11.Qd2 d5 12.O-O-O dxe4
+13.Bxe4+ Nd7 14.Bxa8 Bxa3 15.bxa3 f6 16.Nf3 f5
+17.Nb1 f4 18.Rhe1 g6 19.Qa5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "178"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.Qe2 bxa3 10.Rxb8 c6 11.Ba6 Bxa6 12.Rxd8+ Kxd8
+13.Qxa6 c5 14.Qa8+ Kc7 15.Bd2 cxd4 16.Ba5+ Kd6
+17.Qd5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "179"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Qb3 d6
+13.Rfc1 d5 14.Rxc8 Qxc8 15.Bb5+ Qc6 16.Bxc6+ Kd8
+17.Qb6+ Kc8 18.Qc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "164"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Qe2 b4
+9.axb4 c6 10.Bf4 c5 11.Bxb8 cxb4 12.a3 bxa3
+13.Rxa3 d6 14.Bb5+ Bd7 15.Bc7 Bxb5 16.Qxb5+ Qd7
+17.Ra8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "181"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Nc3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.bxc5 d6 11.Rxb8 dxc5 12.Bb5+ Bd7
+13.Bxd7+ Kxd7 14.dxc5+ Kc6 15.Ne5+ Kc7 16.Qxd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "162"]
+[ECO "B00"]
+[PlyCount "43"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Qc2 bxc4
+9.Rxb8 c3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Qxc3 c4 16.Bf4+ d6
+17.Ke2 e6 18.Qa5+ Kc6 19.Qxa6+ Kc7 20.Rb1 c3
+21.Rb7+ Kc8 22.Qa8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "183"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.c4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Qa4+ Bd7 14.Qa8 Qxb8 15.Qxb8+ Bc8 16.Qxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "184"]
+[ECO "B00"]
+[PlyCount "29"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Qc2 d6
+13.Bc7 Qxc7 14.Qxc7 d5 15.Qxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "185"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Bf4 c5 11.Bxb8 cxb4 12.Rxb4 d6
+13.Ba7 d5 14.Bb5+ Bd7 15.Bxd7+ Qxd7 16.Rb8+ Qc8
+17.Rxc8+ Kd7 18.Ne5+ Kxc8 19.Qb1 dxe4 20.Qb8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "187"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.bxc5 d6 11.Rxb8 dxc5 12.Bb5+ Bd7
+13.Bxd7+ Kxd7 14.dxc5+ Kc6 15.Ne5+ Kc7 16.Qxd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "188"]
+[ECO "B00"]
+[PlyCount "49"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Qc2 bxc4
+9.Rxb8 c3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Qxc3 c4 16.Nf7 d6
+17.Qa5+ Kc6 18.Qxa6+ Kc7 19.Qxc4+ Kb6 20.Ke2 d5
+21.exd5 e6 22.dxe6 Bxa3 23.Bxa3 g6 24.Rb1+ Ka5
+25.Qb5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "189"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "182"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.a4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Qxd8 Kxc5
+17.Qd5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "190"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Be2 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.e5 bxa3 10.Rxb8 c6 11.Ba6 Bxa6 12.Rxd8+ Kxd8
+13.Qd2 Bxf1 14.Qa5+ Kc8 15.Qa8+ Kc7 16.Qa7+ Kc8
+17.Bd2 Bxg2 18.Qa8+ Kc7 19.Ba5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "191"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "186"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Re1 b4
+9.axb4 c6 10.Bf4 c5 11.Bxb8 cxb4 12.a4 bxa3
+13.Rxa3 d6 14.Ra7 d5 15.Bb5+ Bd7 16.Bxd7+ Qxd7
+17.Rxd7 Kxd7 18.Qe2 dxe4 19.Qb5+ Ke6 20.Rxe4+ Kf6
+21.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "192"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Bf4 Bxa3 15.Rxa3 e5 16.Bxe5 f6
+17.Bxb8 f5 18.Qe3+ Ne7 19.Bd6 f4 20.Qxe7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "127"]
+[ECO "B00"]
+[PlyCount "29"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Qc1 d6
+13.Bc7 Qxc7 14.Qxc7 d5 15.Qxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "195"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Re1 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Ne5+ Kxc5
+17.Ba3# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "194"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Rb1 d6
+13.Qc2 d5 14.Bb5+ Bd7 15.Bxd7+ Qxd7 16.Ne5 dxe4
+17.Nxd7 Kxd7 18.Qc7+ Ke6 19.Rb6+ Kd5 20.Qc5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "196"]
+[ECO "A40"]
+[PlyCount "31"]
+
+1.d4 a6 2.e4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.bxc5 d6 11.Rxb8 dxc5 12.Bb5+ Bd7
+13.Bxd7+ Kxd7 14.dxc5+ Kc6 15.Ne5+ Kc7 16.Qxd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "197"]
+[ECO "B00"]
+[PlyCount "25"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.b5 c6 7.Bd3 cxb5 8.Nxb5 d6
+9.O-O d5 10.Bf4 dxe4 11.Bxe4 Qxd4 12.Nc7+ Kd7
+13.Qxd4# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "163"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.c4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Qa4+ Bd7 14.Rxd8+ Kxd8 15.Qa5+ Kc8 16.Bf4 cxd4
+17.Qa8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "173"]
+[ECO "B00"]
+[PlyCount "43"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.dxc5 d6 11.Bb5+ Nc6 12.Bxc6+ Bd7
+13.Bxd7+ Qxd7 14.O-O dxc5 15.bxc5 Qxd1 16.Rfxd1 e6
+17.Rb8+ Ke7 18.c6+ Kf6 19.c7 Bxa3 20.c8=Q e5
+21.Qf5+ Ke7 22.Qxe5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "200"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Qb3 d6
+13.Rfc1 d5 14.Rxc8 Qxc8 15.Bb5+ Qc6 16.Bxc6+ Kd8
+17.Qb6+ Kc8 18.Qc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "198"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.Nf3 cxd4
+9.Nxd4 d6 10.Qe2 d5 11.Bb5+ Nc6 12.Nxc6 dxe4
+13.Nxd8+ Kxd8 14.O-O-O+ Bd7 15.Rxd7+ Kc8 16.Qc4+ Kb8
+17.Qc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "201"]
+[ECO "B00"]
+[PlyCount "45"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Rxb5 c6
+9.Rxb8 c5 10.O-O cxd4 11.Ba6 Bxa6 12.Rxd8+ Kxd8
+13.Ne5 Bxf1 14.Qxf1 d3 15.Qxd3 d6 16.Nxf7+ Kc7
+17.Nxh8 d5 18.exd5 e6 19.dxe6 Bxa3 20.Bxa3 g6
+21.Nf7 g5 22.Qa6 g4 23.Bd6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "203"]
+[ECO "B00"]
+[PlyCount "25"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Bd3 a3
+5.b3 b6 6.Nf3 b5 7.Nxb5 c6 8.Nc3 c5
+9.dxc5 d6 10.O-O dxc5 11.Nb5 Qxd3 12.Qxd3 c4
+13.Nc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "205"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Rxb5 c6
+9.Rxb8 c5 10.O-O cxd4 11.Ba6 Bxa6 12.Rxd8+ Kxd8
+13.Qxd4 Bxf1 14.Qb6+ Kc8 15.Qc5+ Kb7 16.Kxf1 d6
+17.Qb5+ Ka7 18.Be3+ Ka8 19.Qb6 d5 20.Qa7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "206"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Re1 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Ne5+ Kxc5
+17.Ba3# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "199"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "210"]
+[ECO "B00"]
+[PlyCount "23"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.cxb5 c6
+9.bxc6 dxc6 10.Rxb8 Qxd4 11.Qxd4 c5 12.Rxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "209"]
+[ECO "B00"]
+[PlyCount "29"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.Nf3 cxd4
+9.Nxd4 d6 10.Qe2 d5 11.exd5 Qxd5 12.Nxd5 e6
+13.Bb5+ Nc6 14.Bxc6+ Bd7 15.Nc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "208"]
+[ECO "B00"]
+[PlyCount "43"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Qc2 bxc4
+9.Rxb8 c3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Qxc3 c4 16.Ke2 d6
+17.Qa5+ Kc6 18.Qxa6+ Kc7 19.Qxc4+ Kb6 20.Be3 d5
+21.Rb1+ Ka5 22.Qb5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "193"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.Nf3 cxd4
+9.Nxd4 d6 10.Qe2 d5 11.Bb5+ Nc6 12.Nxc6 dxe4
+13.Nxd8+ Kxd8 14.O-O-O+ Bd7 15.Rxd7+ Kc8 16.Qc4+ Kb8
+17.Qc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "211"]
+[ECO "B00"]
+[PlyCount "23"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.cxb5 c6
+9.bxc6 dxc6 10.Rxb8 Qxd4 11.Qxd4 c5 12.Rxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "202"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.axb4 d6 12.Rc1 d5
+13.Rxc8 Qxc8 14.Qa4+ Qc6 15.Qxc6+ Kd8 16.Qc7+ Ke8
+17.Bb5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "212"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Qb3 d6
+13.Rfc1 d5 14.Rxc8 Qxc8 15.Bb5+ Qc6 16.Bxc6+ Kd8
+17.Qb6+ Kc8 18.Qc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "215"]
+[ECO "B00"]
+[PlyCount "23"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.cxb5 c6
+9.bxc6 dxc6 10.Rxb8 Qxd4 11.Qxd4 c5 12.Rxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "204"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "180"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Bf4 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bd3 c5 8.O-O cxd4
+9.c3 dxc3 10.Nxc3 d6 11.e5 dxe5 12.Nxe5 Qxd3
+13.Qxd3 e6 14.Nb5 Bxa3 15.Nc7+ Ke7 16.Rad1 Bxb2
+17.Qd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "214"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.a4 bxa4
+9.Rxb8 a3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Nf7 cxd4 16.Qxd4 d6
+17.Be3 d5 18.Qb6+ Kd7 19.Ne5+ Kc8 20.Qc6+ Kb8
+21.Nd7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "207"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.dxc5 d6
+9.cxd6 exd6 10.Bxd8 Kxd8 11.Nf3 d5 12.Bb5 Bxa3
+13.Qxd5+ Nd7 14.Rxa3 f6 15.Qxa8 f5 16.exf5 g6
+17.Kd2 gxf5 18.Re1 f4 19.Qa5+ Nb6 20.Qxb6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "219"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.dxc5 d6 11.Bb5+ Nc6 12.Bxc6+ Bd7
+13.Bxd7+ Qxd7 14.O-O dxc5 15.bxc5 Qxd1 16.Rfxd1 e6
+17.Rb8+ Ke7 18.c6+ Kf6 19.Rxf8 e5 20.Rd6+ Ke7
+21.Rg6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "220"]
+[ECO "B00"]
+[PlyCount "45"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Nb5 c6 7.Nxa3 Rxa3 8.Bxa3 b5
+9.Bd3 c5 10.dxc5 d6 11.Bxb5+ Nc6 12.Bxc6+ Bd7
+13.Bxd7+ Qxd7 14.O-O dxc5 15.bxc5 Qxd1 16.Rfxd1 e6
+17.Rab1 Bxc5 18.Rb8+ Ke7 19.Bxc5+ Kf6 20.Bd4+ e5
+21.Rb6+ Ke7 22.Bc5+ Ke8 23.Rb8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "221"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.Be5 bxa3 12.Rc1 d6
+13.Bb5+ Bd7 14.Bxd7+ Qxd7 15.O-O dxe5 16.Nxe5 Qxd4
+17.Rc8+ Qd8 18.Rxd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "217"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Rc1 d6
+13.Bc7 Qxc7 14.Rxc7 d5 15.Rxc8+ Kd7 16.Qc2 dxe4
+17.Qc6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "218"]
+[ECO "B00"]
+[PlyCount "23"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.cxb5 c6
+9.bxc6 dxc6 10.Rxb8 Qxd4 11.Qxd4 c5 12.Rxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "225"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Bf4 c5 11.Bxb8 cxb4 12.Rxb4 d6
+13.Ba7 d5 14.Bb5+ Bd7 15.Bxd7+ Qxd7 16.Rb8+ Qc8
+17.Rxc8+ Kd7 18.Ne5+ Kxc8 19.Qb1 dxe4 20.Qb8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "226"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.bxc5 d6 11.Rxb8 dxc5 12.Bb5+ Bd7
+13.Bxd7+ Kxd7 14.dxc5+ Kc6 15.Ne5+ Kc7 16.Qxd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "216"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Bxb5 c6 8.Bd3 c5
+9.bxc5 d6 10.O-O dxc5 11.Bf4 cxd4 12.Nd5 Qxd5
+13.exd5 e6 14.Rxb8 Rxb8 15.Bxb8 exd5 16.Bb5+ Bd7
+17.Bxd7+ Kxd7 18.Qxd4 f6 19.Qa4+ Ke6 20.Qe8+ Ne7
+21.Nd4# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "213"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.a4 bxa4
+9.Rxb8 a3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Nf7 cxd4 16.Qxd4 d6
+17.Be3 d5 18.Qb6+ Kd7 19.Ne5+ Kc8 20.Qc6+ Kb8
+21.Nd7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "229"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.dxc5 d6
+9.cxd6 exd6 10.Bxd8 Kxd8 11.Qd2 d5 12.O-O-O dxe4
+13.Bxe4+ Nd7 14.Bxa8 Bxa3 15.bxa3 f6 16.Nf3 f5
+17.Rhe1 f4 18.Nb5 g6 19.Qa5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "228"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.dxc5 d6
+9.cxd6 exd6 10.Bxd8 Kxd8 11.Qd2 d5 12.O-O-O dxe4
+13.Bxe4+ Nd7 14.Bxa8 Bxa3 15.bxa3 f6 16.Nf3 f5
+17.Rhe1 f4 18.Nb5 g6 19.Qa5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "227"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "224"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Bf4 c5 11.Bxb8 cxb4 12.Rxb4 d6
+13.Ba7 d5 14.Bb5+ Bd7 15.Bxd7+ Qxd7 16.Rb8+ Qc8
+17.Rxc8+ Kd7 18.Ne5+ Kxc8 19.Qb1 dxe4 20.Qb8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "230"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Qb3 d6
+13.Rac1 d5 14.Rxc8 Qxc8 15.Bb5+ Qc6 16.Bxc6+ Kd8
+17.Qb6+ Kc8 18.Qc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "232"]
+[ECO "A04"]
+[PlyCount "29"]
+
+1.Nf3 a6 2.e4 a5 3.d4 a4 4.Nc3 a3
+5.b4 b6 6.b5 c6 7.Bd3 cxb5 8.Nxb5 d6
+9.O-O d5 10.Bf4 dxe4 11.Bxe4 Qxd4 12.Qxd4 e6
+13.Nc7+ Ke7 14.Qd6+ Kf6 15.Ne8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "233"]
+[ECO "B00"]
+[PlyCount "25"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.b5 c6 7.Rb1 cxb5 8.Nxb5 d6
+9.Bd3 d5 10.Bf4 dxe4 11.Bxe4 Qxd4 12.Nc7+ Kd7
+13.Qxd4# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "223"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Nc3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.bxc5 d6 11.Rxb8 dxc5 12.Bb5+ Bd7
+13.Bxd7+ Kxd7 14.dxc5+ Kc6 15.Ne5+ Kc7 16.Qxd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "237"]
+[ECO "B00"]
+[PlyCount "25"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Qc2 b5 8.cxb5 c6
+9.bxc6 dxc6 10.Rb1 Qxd4 11.Nxd4 c5 12.Rxb8 cxd4
+13.Qxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "222"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Bf4 c5 11.Bxb8 cxb4 12.Rxb4 d6
+13.Ba7 d5 14.Bb5+ Bd7 15.Bxd7+ Qxd7 16.Rb8+ Qc8
+17.Rxc8+ Kd7 18.Ne5+ Kxc8 19.Qb1 dxe4 20.Qb8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "236"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.axb4 d6 12.Rc1 d5
+13.Rxc8 Qxc8 14.Qa4+ Qc6 15.Qxc6+ Kd8 16.Qc7+ Ke8
+17.Bb5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "238"]
+[ECO "B00"]
+[PlyCount "29"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.Nf3 cxd4
+9.Nxd4 d6 10.Bc4 d5 11.exd5 Qxd5 12.Nxd5 e6
+13.Bb5+ Nc6 14.Bxc6+ Bd7 15.Nc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "240"]
+[ECO "A40"]
+[PlyCount "47"]
+
+1.d4 a6 2.e4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Ke2 f6 19.Kxf2 f5 20.Rd1+ Ke6
+21.Ng5+ Kf6 22.Rc6+ Ke7 23.Re6+ Kf8 24.Rd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "242"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Rc1 d6
+13.Bc7 Qxc7 14.Rxc7 d5 15.Rxc8+ Kd7 16.Qc1 dxe4
+17.Qc6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "241"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.dxc5 d6 11.Bb5+ Nc6 12.Bxc6+ Bd7
+13.Bxd7+ Qxd7 14.O-O dxc5 15.bxc5 Qxd1 16.Rfxd1 e6
+17.Rb8+ Ke7 18.c6+ Kf6 19.Rxf8 e5 20.Rd6+ Ke7
+21.Rg6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "239"]
+[ECO "B00"]
+[PlyCount "51"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Qc2 bxc4
+9.Rxb8 c3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.dxc5 d6 16.Qxc3 dxc5
+17.Qxc5+ Kb7 18.Qd5+ Kb6 19.Be3+ Kc7 20.Qa5+ Kc6
+21.Qxa6+ Kc7 22.Qb6+ Kd7 23.Qb7+ Kd6 24.Nf7+ Ke6
+25.Qd5+ Kf6 26.Qf5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "235"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Re1 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Qxd8 Kxc5
+17.Qc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "231"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.a4 bxa4
+9.Rxb8 a3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Nf7 cxd4 16.Qxd4 d6
+17.Be3 d5 18.Qb6+ Kd7 19.Ne5+ Kc8 20.Qc6+ Kb8
+21.Nd7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "246"]
+[ECO "B00"]
+[PlyCount "47"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Ke2 f6 19.Kxf2 f5 20.Rd1+ Ke6
+21.Ng5+ Kf6 22.Rc6+ Ke7 23.Re6+ Kf8 24.Rd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "249"]
+[ECO "B00"]
+[PlyCount "43"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Qc2 bxc4
+9.Rxb8 c3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Qxc3 c4 16.Bf4+ d6
+17.Qa5+ Kc6 18.Qxa6+ Kc7 19.Qxc4+ Kb6 20.Ke2 d5
+21.Rb1+ Ka5 22.Bd2# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "245"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.a4 bxa4
+9.Rxb8 a3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Nf7 cxd4 16.Qxd4 d6
+17.Be3 d5 18.Qb6+ Kd7 19.Ne5+ Kc8 20.Qc6+ Kb8
+21.Nd7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "250"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.bxc5 d6 11.Rxb8 dxc5 12.Bb5+ Bd7
+13.Bxd7+ Kxd7 14.dxc5+ Kc6 15.Ne5+ Kc7 16.Qxd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "252"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "251"]
+[ECO "B00"]
+[PlyCount "45"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.Nb5 cxd4
+9.Nd6+ exd6 10.Bxd8 Kxd8 11.Nf3 d5 12.exd5 Bxa3
+13.Rxa3 d6 14.Qd2 f6 15.Nxd4 f5 16.O-O f4
+17.Qxf4 g6 18.Qf8+ Kc7 19.Rc3+ Nc6 20.Rxc6+ Kb7
+21.Ba6+ Rxa6 22.Qxc8+ Ka7 23.Rxa6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "253"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.a4 bxa4
+9.Rb1 a3 10.Rxb8 c6 11.Ba6 Bxa6 12.Rxd8+ Kxd8
+13.Qa4 c5 14.Qa5+ Kc8 15.Qxa6+ Kc7 16.Qa7+ Kc6
+17.Ne5+ Kb5 18.c4+ Kb4 19.Qxa3# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "254"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.c4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Qa4+ Bd7 14.Qa8 Qxb8 15.Qxb8+ Bc8 16.Qxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "255"]
+[ECO "B00"]
+[PlyCount "45"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bd3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.Nf3 Qxf3
+13.Qxf3 e6 14.Bf4 Bxa3 15.Rxa3 e5 16.Bxe5 f6
+17.Bxb8 f5 18.Kd2 f4 19.Re1+ Ne7 20.Rxe7+ Kxe7
+21.Ra7+ Bb7 22.Qxb7+ Ke6 23.Qf7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "248"]
+[ECO "B00"]
+[PlyCount "57"]
+
+1.e4 a6 2.d4 a5 3.Bd3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Nf3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Qc2 d6
+13.Rfc1 d5 14.Qxc8 Qxc8 15.Rxc8+ Kd7 16.Rxf8 dxe4
+17.Ne5+ Ke6 18.Bc4+ Kf5 19.Nxf7 e3 20.Nxh8+ Nf6
+21.Bd3+ Kg4 22.Nf7 exf2+ 23.Kxf2 e6 24.Bg3 e5
+25.Nxe5+ Kg5 26.h4+ Kh5 27.Bg6+ hxg6 28.Rh8+ Nh7
+29.Rxh7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "256"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.Nf3 cxd4
+9.Nxd4 d6 10.Ndb5 d5 11.Nxd5 Qxd5 12.exd5 e6
+13.Nc7+ Kd7 14.Nxa8 exd5 15.Qg4+ f5 16.Bxf5+ Kc6
+17.Qxa4+ Kc5 18.Qb4+ Kc6 19.Qb6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "258"]
+[ECO "B00"]
+[PlyCount "49"]
+
+1.e4 a6 2.Nf3 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.d4 dxc5 12.O-O cxd4
+13.Qxd4 Qxd4 14.Nxd4 e6 15.Ra8 e5 16.Rxb8 exd4
+17.Rxc8+ Kd7 18.Rxf8 dxc3 19.Rxf7+ Ne7 20.bxc3 g6
+21.Bg5 h6 22.Rxe7+ Kc6 23.Be3 g5 24.Rb1 g4
+25.Rb6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "259"]
+[ECO "B00"]
+[PlyCount "25"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Bd3 a3
+5.b3 b6 6.Nf3 b5 7.Nxb5 c6 8.Nc3 c5
+9.dxc5 d6 10.O-O dxc5 11.Nb5 Qxd3 12.Qxd3 c4
+13.Nc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "260"]
+[ECO "B00"]
+[PlyCount "29"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Qc2 d6
+13.Bc7 Qxc7 14.Qxc7 d5 15.Qxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "247"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.c4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Qa4+ Bd7 14.Rxd8+ Kxd8 15.Qa5+ Kc8 16.Bf4 cxd4
+17.Qa8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "261"]
+[ECO "B00"]
+[PlyCount "53"]
+
+1.e4 a6 2.d4 a5 3.Bf4 a4 4.a3 b6
+5.Bd3 b5 6.Bxb5 c6 7.Bd3 c5 8.d5 c4
+9.Bxc4 d6 10.Nf3 e6 11.dxe6 fxe6 12.Nc3 d5
+13.exd5 exd5 14.Qxd5 Qxd5 15.Nxd5 Bxa3 16.bxa3 g6
+17.Nc7+ Kd7 18.O-O-O+ Kc6 19.Bd5+ Kc5 20.Be3+ Kd6
+21.Nb5+ Kd7 22.Bxa8+ Ke6 23.Rhe1 g5 24.Bd4+ Kf5
+25.Bxh8 g4 26.Be4+ Kf4 27.Be5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "263"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.c4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Qa4+ Bd7 14.Rxd8+ Kxd8 15.Qa5+ Kc8 16.Bf4 cxd4
+17.Qa8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "264"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "262"]
+[ECO "B00"]
+[PlyCount "53"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Nb5 c6 7.Nxa3 Rxa3 8.Bxa3 b5
+9.Bb2 c5 10.dxc5 d6 11.Bxb5+ Nc6 12.Bxc6+ Bd7
+13.Bxd7+ Qxd7 14.Qd3 dxc5 15.Qxd7+ Kxd7 16.Ne5+ Kd6
+17.Nxf7+ Kc6 18.Nxh8 cxb4 19.Ke2 b3 20.axb3 e6
+21.Nf7 e5 22.Rhd1 g6 23.Ra8 g5 24.Rxf8 g4
+25.Rb8 g3 26.Nd8+ Kc5 27.Rd5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "265"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bd3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.Nf3 Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "244"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "267"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Bd3 a3
+5.Nf3 axb2 6.Bxb2 Rxa2 7.Rxa2 b6 8.O-O b5
+9.Nxb5 c6 10.Nc3 c5 11.d5 c4 12.Bxc4 d6
+13.Bb5+ Nc6 14.dxc6 d5 15.c7+ Bd7 16.Qxd5 Bxb5
+17.cxd8=Q# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "269"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "268"]
+[ECO "B00"]
+[PlyCount "55"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Nxe5+ Kd6 19.Nxf7+ Ke6 20.Nxh8 g6
+21.Ke2 g5 22.Kxf2 g4 23.Ke3 g3 24.hxg3 h6
+25.Rf1 h5 26.Kd4 h4 27.Rf7 hxg3 28.Rc6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "271"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.a4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Ne5+ Kxc5
+17.Ba3# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "270"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Qe2 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.Qb5+ Kd6 16.Rxd8+ Ke6
+17.Qb6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "274"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Rxa3 e5 16.Qxb8 exd4
+17.Qxc8+ Ke7 18.Qc7+ Ke6 19.Ra6+ Kd5 20.Qc6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "272"]
+[ECO "B00"]
+[PlyCount "45"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.dxc5 d6 11.Bb5+ Nc6 12.Bxc6+ Bd7
+13.Bxd7+ Qxd7 14.e5 dxc5 15.bxc5 Qxd1+ 16.Kxd1 e6
+17.Rb8+ Kd7 18.Rxf8 f6 19.Ke2 fxe5 20.Rd1+ Kc6
+21.Nxe5+ Kb5 22.Rb1+ Ka4 23.Ra8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "257"]
+[ECO "B00"]
+[PlyCount "29"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.Nf3 cxd4
+9.Nxd4 d6 10.Qe2 d5 11.exd5 Qxd5 12.Nxd5 e6
+13.Bb5+ Nc6 14.Bxc6+ Bd7 15.Nc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "266"]
+[ECO "B00"]
+[PlyCount "29"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Qc2 d6
+13.Bc7 Qxc7 14.Qxc7 d5 15.Qxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "275"]
+[ECO "B00"]
+[PlyCount "45"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.Nb5 cxd4
+9.Nd6+ exd6 10.Bxd8 Kxd8 11.Nf3 d5 12.exd5 Bxa3
+13.Rxa3 d6 14.Nxd4 f6 15.Qf3 f5 16.Qg3 f4
+17.Qxg7 f3 18.Qf8+ Kc7 19.Rc3+ Nc6 20.Rxc6+ Kb7
+21.Ba6+ Rxa6 22.Qxc8+ Ka7 23.Rxa6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "278"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.a4 bxa4
+9.Rb1 a3 10.Rxb8 c6 11.Ba6 Bxa6 12.Rxd8+ Kxd8
+13.Qa4 c5 14.Qa5+ Kc8 15.Qxa6+ Kc7 16.Qa7+ Kc6
+17.Ne5+ Kb5 18.c4+ Kb4 19.Qxa3# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "280"]
+[ECO "B00"]
+[PlyCount "45"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.dxc5 d6 11.Bb5+ Nc6 12.Bxc6+ Bd7
+13.Bxd7+ Qxd7 14.e5 dxc5 15.bxc5 Qxd1+ 16.Kxd1 e6
+17.Rb8+ Kd7 18.Rxf8 f6 19.Ke2 fxe5 20.Rd1+ Kc6
+21.Nxe5+ Kb5 22.Rb1+ Ka4 23.Ra8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "277"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.c4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Qa4+ Bd7 14.Rxd8+ Kxd8 15.Qa5+ Kc8 16.Bf4 cxd4
+17.Qa8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "279"]
+[ECO "B00"]
+[PlyCount "45"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.Rb1 b5 7.Bxb5 c6 8.Bd3 c5
+9.bxc5 d6 10.O-O dxc5 11.Bf4 cxd4 12.Nd5 Qxd5
+13.exd5 e6 14.Rxb8 Rxb8 15.Bxb8 exd5 16.Bb5+ Bd7
+17.Bxd7+ Kxd7 18.Qxd4 f6 19.Qa4+ Ke6 20.Re1+ Kf5
+21.g4+ Kg6 22.Qe8+ Kh6 23.Qh5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "282"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.Re1 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Qxd8 Kxc5
+17.Qd5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "283"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Nc3 a3
+5.b4 b6 6.Rb1 b5 7.Nxb5 c6 8.Nxa3 Rxa3
+9.Bxa3 c5 10.bxc5 d6 11.Rxb8 dxc5 12.Bb5+ Bd7
+13.Bxd7+ Kxd7 14.dxc5+ Kc6 15.Ne5+ Kc7 16.Qxd8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "281"]
+[ECO "B00"]
+[PlyCount "51"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Qc2 bxc4
+9.Rxb8 c3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.dxc5 d6 16.Qxc3 dxc5
+17.Qxc5+ Kb7 18.Qd5+ Kb6 19.Be3+ Kc7 20.Qa5+ Kc6
+21.Qxa6+ Kc7 22.Qb6+ Kd7 23.Qb7+ Kd6 24.Nf7+ Ke6
+25.Qd5+ Kf6 26.Qf5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "276"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Rc1 d6
+13.Bc7 Qxc7 14.Rxc7 d5 15.Rxc8+ Kd7 16.Qc2 dxe4
+17.Qc6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "243"]
+[ECO "B00"]
+[PlyCount "23"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.cxb5 c6
+9.bxc6 dxc6 10.Rxb8 Qxd4 11.Qxd4 c5 12.Rxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "286"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "285"]
+[ECO "B00"]
+[PlyCount "51"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Qc2 bxc4
+9.Rxb8 c3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.dxc5 d6 16.Qxc3 dxc5
+17.Qxc5+ Kb7 18.Qd5+ Kb6 19.Be3+ Kc7 20.Qa5+ Kc6
+21.Qxa6+ Kc7 22.Qb6+ Kd7 23.Qb7+ Kd6 24.Nf7+ Ke6
+25.Qd5+ Kf6 26.Qf5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "289"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.h3 a4 4.Nf3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.Rb1 b4
+9.axb4 c6 10.O-O c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Bb5+ Bd7 14.Bxd7+ Kxd7 15.dxc5+ Kc6 16.Qxd8 Kxc5
+17.Qd5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "290"]
+[ECO "B00"]
+[PlyCount "29"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.Nf3 a3
+5.b4 b6 6.b5 c6 7.Bd3 cxb5 8.Nxb5 d6
+9.O-O d5 10.Bf4 dxe4 11.Bxe4 Qxd4 12.Qxd4 e6
+13.Nc7+ Ke7 14.Qd6+ Kf6 15.Be5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "292"]
+[ECO "B00"]
+[PlyCount "29"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Bd3 b5 8.cxb5 c6
+9.Bf4 cxb5 10.Bxb8 b4 11.O-O bxa3 12.Qc2 d6
+13.Bc7 Qxc7 14.Qxc7 d5 15.Qxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "291"]
+[ECO "B00"]
+[PlyCount "33"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.Nf3 cxd4
+9.Nxd4 d6 10.Qe2 d5 11.Bb5+ Nc6 12.Nxc6 dxe4
+13.Nxd8+ Kxd8 14.O-O-O+ Bd7 15.Rxd7+ Kc8 16.Qc4+ Kb8
+17.Qc7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "294"]
+[ECO "B00"]
+[PlyCount "23"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.cxb5 c6
+9.bxc6 dxc6 10.Rxb8 Qxd4 11.Qxd4 c5 12.Rxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "287"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bd3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.Nf3 Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "234"]
+[ECO "B00"]
+[PlyCount "41"]
+
+1.e4 a6 2.d4 a5 3.Nf3 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.a4 bxa4
+9.Rxb8 a3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.Nf7 cxd4 16.Qxd4 d6
+17.Be3 d5 18.Qb6+ Kd7 19.Ne5+ Kc8 20.Qc6+ Kb8
+21.Nd7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "273"]
+[ECO "B00"]
+[PlyCount "69"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Ke2 f6 19.Rd1+ Bd4 20.Nxd4 exd4
+21.Rdxd4+ Ke6 22.Rc8 f5 23.exf5+ Kxf5 24.Kd3 g6
+25.Rdd8 g5 26.Rxg8 Rxg8 27.Rxg8 g4 28.Be3 g3
+29.Rxg3 h6 30.Bxh6 Ke5 31.Kc4 Kf5 32.Kd5 Kf6
+33.Rg7 Kf5 34.g4+ Kf6 35.Ne4# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "293"]
+[ECO "B00"]
+[PlyCount "39"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.c4 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.Rb1 b5 8.Qc2 bxc4
+9.Rxb8 c3 10.Ba6 Bxa6 11.Rxd8+ Kxd8 12.Ne5 c6
+13.Nxf7+ Kc7 14.Nxh8 c5 15.dxc5 d6 16.Qxc3 dxc5
+17.Qxc5+ Kb7 18.Be3 e6 19.Qb6+ Ka8 20.Qa7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "295"]
+[ECO "B00"]
+[PlyCount "31"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Rb1 b4
+9.axb4 c6 10.c4 c5 11.bxc5 d6 12.Rxb8 dxc5
+13.Qa4+ Bd7 14.Qa8 Qxb8 15.Qxb8+ Bc8 16.Qxc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "299"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.dxc5 d6
+9.cxd6 exd6 10.Bxd8 Kxd8 11.Qd2 d5 12.O-O-O dxe4
+13.Bxe4+ Nd7 14.Bxa8 Bxa3 15.bxa3 f6 16.Nf3 f5
+17.Rhe1 f4 18.Qd6 g6 19.Qb6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "300"]
+[ECO "B00"]
+[PlyCount "37"]
+
+1.e4 a6 2.d4 a5 3.a3 a4 4.Nc3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.dxc5 d6
+9.cxd6 exd6 10.Bxd8 Kxd8 11.Qd2 d5 12.O-O-O dxe4
+13.Bxe4+ Nd7 14.Bxa8 Bxa3 15.bxa3 f6 16.Nf3 f5
+17.Rhe1 f4 18.Nb5 g6 19.Qa5# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "284"]
+[ECO "B00"]
+[PlyCount "27"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bg5 b5 6.Bxb5 c6 7.Bd3 c5 8.Nf3 cxd4
+9.Nxd4 d6 10.Bb5+ Nc6 11.Nxc6 d5 12.Nxd8+ Kxd8
+13.Qxd5+ Bd7 14.Qxd7# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "297"]
+[ECO "B00"]
+[PlyCount "59"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Bf4 dxc5 12.Bxb8 cxd4
+13.Nce2 d3 14.Qxd3 Qxd3 15.cxd3 e6 16.Bf4 e5
+17.Ra8 exf4 18.Rxc8+ Kd7 19.Rxf8 f3 20.Nxf3 f6
+21.Kd2 f5 22.Ra1 fxe4 23.Ra7+ Kc6 24.dxe4 g6
+25.Ke3 g5 26.Rg7 g4 27.Nfd4+ Kc5 28.Rb8 g3
+29.Rb5+ Kc4 30.b3# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "288"]
+[ECO "B00"]
+[PlyCount "61"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Bb5 c6 6.Bxa4 Rxa4 7.Nxa4 b5 8.Nc3 b4
+9.axb4 c5 10.bxc5 d6 11.Nf3 dxc5 12.dxc5 Qxd1+
+13.Kxd1 e6 14.Ra8 Bxc5 15.Rxb8 Bxf2 16.Rxc8+ Kd7
+17.Rc4 e5 18.Nxe5+ Kd6 19.Nxf7+ Ke6 20.Nxh8 g6
+21.Ke2 g5 22.Kxf2 g4 23.Ke3 g3 24.hxg3 h6
+25.Kd4 h5 26.Rxh5 Nf6 27.Rh6 Kd6 28.Rxf6+ Kd7
+29.Rf7+ Kd6 30.Bf4+ Ke6 31.Rc6# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "296"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.Nf3 a5 3.d4 a4 4.Bd3 a3
+5.Nxa3 Rxa3 6.bxa3 b6 7.O-O b5 8.Re1 b4
+9.axb4 c6 10.Bf4 c5 11.Bxb8 cxb4 12.Rc1 b3
+13.cxb3 d6 14.Bb5+ Bd7 15.Bc7 Bxb5 16.Bxd8 Kxd8
+17.Qc2 d5 18.Qc8# 1-0
+
+[Event ""]
+[White "Koivisto 9"]
+[Black "RubiChess"]
+[TimeControl "movetime: 0.1"]
+[Result "1-0"]
+[GID "298"]
+[ECO "B00"]
+[PlyCount "35"]
+
+1.e4 a6 2.d4 a5 3.Nc3 a4 4.a3 b6
+5.Nf3 b5 6.Bxb5 c6 7.Bxa4 Rxa4 8.Nxa4 c5
+9.Nxc5 d6 10.Nd3 d5 11.exd5 Qxd5 12.O-O Qxf3
+13.Qxf3 e6 14.Qa8 Bxa3 15.Qxb8 Bxb2 16.Qxc8+ Ke7
+17.Qc5+ Kf6 18.Qg5# 1-0
+
