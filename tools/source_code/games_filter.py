@@ -9,13 +9,31 @@ Remember to run the command: pip install pgn_manager
 #! DON'T USE THIS SCRIPT
 import os
 from pgn_manager import _createID
-from pgn_manager.pfilter import filter_player
+from pgn_manager.pfilter import filter_player, _readPGN
 import tkinter as tk
 from tkinter import ttk
 from tkinter.ttk import *
 from tkinter import messagebox
 from games_manager import on_button_search_file
 from games_manager import on_button_search_path
+
+def filter_white(pgn, player):
+    """
+    Filters a PGN file to only include games where the specified player plays as White.
+
+    Args:
+        pgn: The filename of the PGN file to filter.
+        player: The name of the player to filter for.
+
+    Returns:
+        A list of games where the specified player plays as White.
+    """
+    games = _readPGN(pgn)
+    games_filtered = []
+    for game in games:
+        if player == game.headers.get('White'):
+            games_filtered.append(game)
+    return games_filtered
 
 def export_pgn(games, destination_path):
     with open(os.path.join(destination_path, 'pgn_exported' + ".pgn"), "a") as f:
@@ -25,6 +43,12 @@ def export_pgn(games, destination_path):
 def on_button_filter_player():
     export_pgn(filter_player(str(text_box_pgn_filter_player.get(1.0, 'end-1c')), str(text_box_player_name_fplayer.get(1.0))), text_box_destination_filter_player.get(1.0))
 
+def on_button_filter_white(pgn, path):
+    games = _readPGN(pgn)
+    games_filtered = filter_white(pgn, str(text_box_destination_filter_player.get(1.0, 'end-1c')))
+    with open(os.path.join(path, 'pgn_exported.pgn'), 'w') as f:
+        for game in games_filtered:
+            f.write(str(game))
 # ---------- GUI ---------- #
 root_filter = tk.Tk()
 root_filter.title('pgn_filter')
@@ -48,7 +72,7 @@ button_digit_player = ttk.Button(frame_filter_player, text='insert_player_name',
 button_filter_player = ttk.Button(frame_filter_player, text='FILTER', style= 'W.TButton',
                                   command=lambda:on_button_filter_player())
 button_filter_white = ttk.Button(frame_filter_player, text='FILTER WHITE PLAYER', style= 'W.TButton',
-                                 command=lambda:messagebox.showinfo('TO IMPLEMENT!'))
+                                 command=lambda: on_button_filter_white(str(text_box_pgn_filter_player.get(1.0, 'end-1c')), str(text_box_destination_filter_player.get(1.0, 'end-1c'))))
 button_filter_black = ttk.Button(frame_filter_player, text='FILTER BLACK PLAYER', style= 'W.TButton',
                                  command=lambda:messagebox.showinfo('TO IMPLEMENT!'))
 text_box_player_name_fplayer = tk.Text(frame_filter_player, width=50, height=1)

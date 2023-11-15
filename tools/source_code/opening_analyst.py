@@ -117,5 +117,5 @@ def main(filename):
 
     plt.show()
 
-main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_rubi/5sec/Koivisto_rubichess_5_fix_exported.pgn')
+main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_rubi/1sec/Koivisto_rubichess_1sec_fix_exported.pgn')
 ## change main parameter to use the script
