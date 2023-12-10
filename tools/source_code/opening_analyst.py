@@ -3,6 +3,7 @@ import pandas as pd
 from pgn_manager import _readPGN
 import tkinter as tk
 import csv
+import numpy as np
 
 def main(filename):
     csv_columns = ["eco_code", "percentage_of_use %", "percentage_of_win %", "number_of_use", "number_of_wins"]
@@ -72,7 +73,13 @@ def main(filename):
         y_data_usage.append(percentage_of_use)
         y_data_winning.append(percentage_of_wins)
         print(f"({eco}) {name}: (Percentage of use: {percentage_of_use:.2f}%) (Percentage of win: {percentage_of_wins:.2f}%)" + " Number of use: " + str(frequence))
-        csv_data.append([eco, percentage_of_use, percentage_of_wins, frequence, wins_for_opening.get(eco)])
+        csv_data.append([
+            eco,
+            f"{round(percentage_of_use, 2)}%",
+            f"{round(percentage_of_wins, 2)}%",
+            round(frequence, 2),
+            round(wins_for_opening.get(eco), 2) if wins_for_opening.get(eco) is not None else None
+        ])
 
     output_csv = 'csv_exported.csv'
     with open(output_csv, 'w', newline='') as csvfile:
@@ -98,24 +105,58 @@ def main(filename):
     plt.ylabel('Percentage of use')
     plt.title('Opening analyst')
     plt.savefig('use_graph.png')
-
     plt.show()
 
     '''----------GRAPH WIN----------'''
     df_win = pd.DataFrame({'Openings': x_data_usage, 'Percentage of win': y_data_winning})
-    # Ordina il DataFrame in base alla colonna 'Percentage of win' in ordine decrescente
-    df_win_sorted = df_win.sort_values(by='Percentage of win', ascending=False)
-    # Prendi solo i primi 20 record ordinati
-    df_win_truncated = df_win_sorted.head(20)
-    # Crea il grafico con i dati ordinati
+    df_win_truncated = df_win.head(20)
     plt.bar(df_win_truncated['Openings'], df_win_truncated['Percentage of win'], width=0.8, color='green')
     plt.xticks(df_win_truncated['Openings'], size=8, rotation=90)  # Rotazione delle etichette per una migliore leggibilità
     plt.xlabel('Openings')
     plt.ylabel('Percentage of win')
     plt.title('Opening analyst - win')
     plt.savefig('win_graph.png')
-
     plt.show()
 
-main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_rubi/1sec/Koivisto_rubichess_1sec_fix_exported.pgn')
+    '''----------TORTA----------'''
+    data = [wins, loses, draws]
+    labels = ['Wins', 'Loses', 'Draws']
+
+    # Filtra i dati e le etichette in base a valori diversi da zero
+    non_zero_data = [value for value in data if value != 0]
+    non_zero_labels = [label for label, value in zip(labels, data) if value != 0]
+
+    # Crea il grafico solo se ci sono valori diversi da zero
+    if non_zero_data:
+        colors = plt.get_cmap('Blues')(np.linspace(0.2, 0.7, len(non_zero_data)))
+
+        # Plot
+        fig, ax = plt.subplots(figsize=(5, 5))
+
+        wedges, texts, autotexts = ax.pie(non_zero_data, labels=non_zero_labels, autopct='%1.1f%%',
+                                        colors=colors, radius=1.2, center=(0, 0),
+                                        wedgeprops={"linewidth": 1, "edgecolor": "white"}, frame=False)
+
+        # Personalizza i testi all'interno delle fette
+        for text, autotext in zip(texts, autotexts):
+            text.set(size=10, weight='bold')
+            autotext.set(size=8, weight='bold')
+
+        # Aggiungi la legenda
+        ax.legend(non_zero_labels, title='Results', loc='upper right')  # Modificato il parametro loc
+
+        ax.set_aspect('equal')
+        ax.set_title('300 games; time for move = 1 second - Koivisto vs Berserk')
+
+        ax.set_xlim(-1.5, 1.5)
+        ax.set_ylim(-1.5, 1.5)
+
+        plt.tight_layout()
+
+        plt.savefig('results_graph.png')
+        plt.show()
+        
+
+    
+main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_berserk/1sec/Koivisto_berserk_1sec_fix_exported.pgn')
 ## change main parameter to use the script
