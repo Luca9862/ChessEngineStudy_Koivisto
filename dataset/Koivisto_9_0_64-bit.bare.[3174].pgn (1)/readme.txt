@@ -1,2 +1,0 @@
-questo file è stato trovato nel sito: https://www.computerchess.org.uk/ccrl/404/games.html
-all'interno sono presenti 3174 partite del chess engine Koivisto. Non tutte le partite rappresentano Koivisto come 'white'.

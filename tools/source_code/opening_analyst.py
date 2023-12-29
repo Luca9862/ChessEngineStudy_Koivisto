@@ -1,9 +1,13 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-from pgn_manager import _readPGN
 import tkinter as tk
 import csv
 import numpy as np
+import seaborn as sns
+import io
+import chess
+import chess.pgn
+from pgn_manager import _readPGN
 
 def main(filename):
     csv_columns = ["eco_code", "percentage_of_use %", "percentage_of_win %", "number_of_use", "number_of_wins"]
@@ -99,7 +103,9 @@ def main(filename):
     '''----------GRAPH USE----------'''
     df_usage = pd.DataFrame({'Openings': x_data_usage, 'Percentage of use': y_data_usage})
     df_truncated = df_usage.head(20)
+    fig, ax = plt.subplots()
     plt.bar(df_truncated['Openings'], df_truncated['Percentage of use'], width=0.8, color='green')
+    ax.yaxis.grid(True, linestyle='-', alpha=0.5)
     plt.xticks(df_truncated['Openings'], size=8)
     plt.xlabel('Openings')
     plt.ylabel('Percentage of use')
@@ -108,13 +114,20 @@ def main(filename):
     plt.show()
 
     '''----------GRAPH WIN----------'''
+    # Creazione del DataFrame
     df_win = pd.DataFrame({'Openings': x_data_usage, 'Percentage of win': y_data_winning})
-    df_win_truncated = df_win.head(20)
-    plt.bar(df_win_truncated['Openings'], df_win_truncated['Percentage of win'], width=0.8, color='green')
-    plt.xticks(df_win_truncated['Openings'], size=8, rotation=90)  # Rotazione delle etichette per una migliore leggibilità
+    df_win_truncated = df_win.head(10)
+    # Creazione del grafico a barre con griglia
+    fig, ax = plt.subplots()
+    bars = ax.bar(df_win_truncated['Openings'], df_win_truncated['Percentage of win'], width=0.8, color='green')
+    # Aggiunta della griglia
+    ax.yaxis.grid(True, linestyle='-', alpha=0.5)
+    # Impostazioni delle etichette e del titolo
+    plt.xticks(df_win_truncated['Openings'], size=8, rotation=90)
     plt.xlabel('Openings')
     plt.ylabel('Percentage of win')
-    plt.title('Opening analyst - win')
+    plt.title('Opening Analyst - Win')
+    # Salvataggio e visualizzazione del grafico
     plt.savefig('win_graph.png')
     plt.show()
 
@@ -139,14 +152,14 @@ def main(filename):
 
         # Personalizza i testi all'interno delle fette
         for text, autotext in zip(texts, autotexts):
-            text.set(size=10, weight='bold')
-            autotext.set(size=8, weight='bold')
+            text.set(size=12, weight='bold')
+            autotext.set(size=10, weight='bold')
 
         # Aggiungi la legenda
-        ax.legend(non_zero_labels, title='Results', loc='upper right')  # Modificato il parametro loc
+        ax.legend(non_zero_labels, title='Results', loc='lower right')  # Modificato il parametro loc
 
         ax.set_aspect('equal')
-        ax.set_title('300 games; time for move = 1 second - Koivisto vs Berserk')
+        ax.set_title('300 partite - Koivisto vs Berserk')
 
         ax.set_xlim(-1.5, 1.5)
         ax.set_ylim(-1.5, 1.5)
@@ -155,8 +168,12 @@ def main(filename):
 
         plt.savefig('results_graph.png')
         plt.show()
-        
 
-    
-main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_berserk/1sec/Koivisto_berserk_1sec_fix_exported.pgn')
+    df_scatter = pd.DataFrame({
+    'Opening': x_data_usage,
+    'Percentage of use': y_data_usage,
+    'Percentage of win': y_data_winning
+})
+   
+main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_berserk/0,1sec/all_games_0,1_exported.pgn')
 ## change main parameter to use the script
