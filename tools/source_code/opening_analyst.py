@@ -156,7 +156,7 @@ def main(filename):
             autotext.set(size=10, weight='bold')
 
         # Aggiungi la legenda
-        ax.legend(non_zero_labels, title='Results', loc='lower right')  # Modificato il parametro loc
+        ax.legend(non_zero_labels, title='Results', loc='lower right')
 
         ax.set_aspect('equal')
         ax.set_title('300 partite - Koivisto vs Berserk')

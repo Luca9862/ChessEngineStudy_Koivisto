@@ -1,15 +1,19 @@
 from pgn_manager import _readPGN
 import matplotlib.pyplot as plt
+import chess
+import chess.pgn
 
-# Lista per memorizzare gli scores
+
 def main(pgn):
     scores = []
-    games = _readPGN(pgn)
+    with open(pgn) as f:
+        game = chess.pgn.read_game(f)
 
-    for game in games:
-        while game:
-            comment = game.move
-            print(comment)
+        node = game
+        while not node.is_end():
+            move = node.board().san(node.move)
+            print(move, end=" ")
+            node = node.variations[0]  # Vai alla prossima mossa
 
 
 
