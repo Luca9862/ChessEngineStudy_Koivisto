@@ -107,9 +107,9 @@ def main(filename):
     plt.bar(df_truncated['Openings'], df_truncated['Percentage of use'], width=0.8, color='green')
     ax.yaxis.grid(True, linestyle='-', alpha=0.5)
     plt.xticks(df_truncated['Openings'], size=8)
-    plt.xlabel('Openings')
-    plt.ylabel('Percentage of use')
-    plt.title('Opening analyst')
+    plt.xlabel('Codice ECO')
+    plt.ylabel('Percentuale di uso')
+    plt.title('Grafico percentuale di utilizzo')
     plt.savefig('use_graph.png')
     plt.show()
 
@@ -124,9 +124,9 @@ def main(filename):
     ax.yaxis.grid(True, linestyle='-', alpha=0.5)
     # Impostazioni delle etichette e del titolo
     plt.xticks(df_win_truncated['Openings'], size=8, rotation=90)
-    plt.xlabel('Openings')
-    plt.ylabel('Percentage of win')
-    plt.title('Opening Analyst - Win')
+    plt.xlabel('Codice ECO')
+    plt.ylabel('Percentuale vittoria')
+    plt.title('Grafico vittorie - apertura')
     # Salvataggio e visualizzazione del grafico
     plt.savefig('win_graph.png')
     plt.show()
@@ -175,5 +175,4 @@ def main(filename):
     'Percentage of win': y_data_winning
 })
    
-main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_berserk/0,1sec/all_games_0,1_exported.pgn')
-## change main parameter to use the script
+main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_lc0/0,1sec/Koivisto_lc0_0,1sec_fix_exported.pgn')
