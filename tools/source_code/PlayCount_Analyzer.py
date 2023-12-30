@@ -1,4 +1,3 @@
-import csv
 from pgn_manager import _readPGN
 
 def main(pgn):
@@ -55,7 +54,7 @@ def main(pgn):
         f.write('>=25: ' + str(twenty_five) + '\n')
         f.write('>=50: ' + str(fifty) + '\n')
         f.write('>=100 ' + str(one_hundred) + '\n')
-        f.write('>150: ' + str(one_hundred_and_fifty) + '\n')
+        f.write('>=150: ' + str(one_hundred_and_fifty) + '\n')
         f.write('>=200: ' + str(two_hundred) + '\n')
         f.write('>=250: ' + str(two_hundred_fifty) + '\n')
         f.write('>=300: ' + str(three_hundred) + '\n')
@@ -63,4 +62,4 @@ def main(pgn):
         f.write('>=400: ' + str(four_hundred) + '\n')
 
 
-main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_berserk/0,1sec/Koivisto_Berserk_0.1_fix.pgn')
+main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_rubi/0,1sec/Koivisto_RubiChess_0.1_fix.pgn')
