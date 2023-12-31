@@ -175,4 +175,4 @@ def main(filename):
     'Percentage of win': y_data_winning
 })
    
-main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_lc0/1sec/Koivisto_lc0_1sec_fix_exported.pgn')
+main(r'C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\koiv_berserk\0,1sec\all_games_0,1_exported.pgn')
