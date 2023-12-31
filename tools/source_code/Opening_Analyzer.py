@@ -159,7 +159,7 @@ def main(filename):
         ax.legend(non_zero_labels, title='Results', loc='lower right')
 
         ax.set_aspect('equal')
-        ax.set_title('300 partite - Koivisto vs Berserk')
+        ax.set_title('300 partite')
 
         ax.set_xlim(-1.5, 1.5)
         ax.set_ylim(-1.5, 1.5)
@@ -175,4 +175,4 @@ def main(filename):
     'Percentage of win': y_data_winning
 })
    
-main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_lc0/0,1sec/Koivisto_lc0_0,1sec_fix_exported.pgn')
+main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_lc0/1sec/Koivisto_lc0_1sec_fix_exported.pgn')

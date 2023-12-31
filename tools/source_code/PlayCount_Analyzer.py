@@ -36,9 +36,9 @@ def main(pgn):
             four_hundred += 1
         
 
-    avarage = int(tot/len(games))
+    average = int(tot/len(games))
     print(pgn)
-    print('La media delle mosse è: ' + str(avarage))
+    print('La media delle mosse è: ' + str(average))
     print('Le partite con almeno 25 mosse sono: ' + str(twenty_five))
     print('Le partite con almeno 50 mosse sono: ' + str(fifty))
     print('Le partite con almeno 100 mosse sono: ' + str(one_hundred))
@@ -50,7 +50,7 @@ def main(pgn):
     print('Le partite con almeno 400 mosse sono: ' + str(four_hundred))
 
     with open('playcount_analyzer_output.txt', 'w') as f:
-        f.write('PlayCount avarage: ' + str(avarage) + '\n')
+        f.write('PlayCount average: ' + str(average) + '\n')
         f.write('>=25: ' + str(twenty_five) + '\n')
         f.write('>=50: ' + str(fifty) + '\n')
         f.write('>=100 ' + str(one_hundred) + '\n')
@@ -62,4 +62,4 @@ def main(pgn):
         f.write('>=400: ' + str(four_hundred) + '\n')
 
 
-main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_rubi/0,1sec/Koivisto_RubiChess_0.1_fix.pgn')
+main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_lc0/1sec/Koivisto_lc0_1_fix.pgn')

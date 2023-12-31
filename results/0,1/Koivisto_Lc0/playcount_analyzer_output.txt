@@ -1,4 +1,4 @@
-PlayCount avarage: 104
+PlayCount average: 104
 >=25: 300
 >=50: 296
 >=100 190
@@ -8,3 +8,5 @@ PlayCount avarage: 104
 >=300: 0
 >=350: 0
 >=400: 0
+
+
