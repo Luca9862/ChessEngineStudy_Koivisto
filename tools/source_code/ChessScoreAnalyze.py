@@ -24,7 +24,6 @@ def get_dataset(pgn_path):
 
         # Trattamento delle mosse e dei commenti per ogni partita
         for node in game.mainline():
-            move = node.move
             comments = node.comment
             scores.append(comments)
 
@@ -40,7 +39,7 @@ def get_dataset(pgn_path):
 
         count += 1
 
-def avarage_calculate(csv_file):
+def avarage_calculation(csv_file):
     # Inizializza un dizionario per memorizzare le somme parziali e il conteggio delle colonne
     sums = {}
     counts = {}
@@ -68,7 +67,7 @@ def avarage_calculate(csv_file):
         # Creazione del grafico
     
     # Calcola le medie
-    averages = [sums[i] / counts[i] if counts[i] > 0 else 0.0 for i in range(max(sums.keys()) + 1)]
+    averages = [sums[i] / counts[i] if counts[i] > 0 else None for i in range(max(sums.keys()) + 1)]
 
     plt.figure(figsize=(8, 6))
     plt.plot(averages, label='Koivisto')
@@ -93,5 +92,5 @@ def avarage_calculate(csv_file):
         print(f"Colonna {i + 1}: {average}")
 
 
-get_dataset(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_lc0/1sec/Koivisto_lc0_1_fix.pgn')
-avarage_calculate('allScores.csv')
+get_dataset(r'C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\koiv_lc0\0,1sec\Koivisto_lc0_0.1_fix.pgn')
+avarage_calculation('allScores.csv')
