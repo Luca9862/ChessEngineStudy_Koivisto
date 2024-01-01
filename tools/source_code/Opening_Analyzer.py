@@ -156,10 +156,9 @@ def main(filename):
             autotext.set(size=10, weight='bold')
 
         # Aggiungi la legenda
-        ax.legend(non_zero_labels, title='Results', loc='lower right')
+        ax.legend(non_zero_labels, title='Results', loc='upper right')
 
         ax.set_aspect('equal')
-        ax.set_title('300 partite')
 
         ax.set_xlim(-1.5, 1.5)
         ax.set_ylim(-1.5, 1.5)
@@ -175,4 +174,4 @@ def main(filename):
     'Percentage of win': y_data_winning
 })
    
-main(r'C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\koiv_berserk\0,1sec\all_games_0,1_exported.pgn')
+main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_rubi/0,1sec/Koivisto_RubiChess_0.1_fix.pgn')
