@@ -7,10 +7,12 @@ def game_count(pgn, number_plycount):
         result = game.headers.get("Result")
         playCount = game.headers.get("PlayCount")
         if result == '0-1':
-            if(int(playCount) >= number_plycount and int(playCount) <= 400):
+            if(int(playCount) >= number_plycount):
                 count += 1
+                print(count)
                 print(game)
-        print(count)
+    print('Contatore:'  + str(count))
+                
 
 def main(pgn):
     tot = 0
@@ -74,5 +76,5 @@ def main(pgn):
         f.write('>=400: ' + str(four_hundred) + '\n')
 
 
-#main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_lc0/1sec/Koivisto_lc0_1_fix.pgn')
-game_count(r'C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\koiv_berserk\0,1sec\Koivisto_Berserk_0.1_fix.pgn', 350)
+main(r'C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\koiv_berserk\5sec\Koivisto_Berserk_5_fix.pgn')
+game_count(r'C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\koiv_berserk\5sec\Koivisto_Berserk_5_fix.pgn', 300)

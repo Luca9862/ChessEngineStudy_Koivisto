@@ -92,5 +92,5 @@ def avarage_calculation(csv_file):
         print(f"Colonna {i + 1}: {average}")
 
 
-get_dataset(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_berserk/0,1sec/Koivisto_Berserk_0.1_fix.pgn')
+get_dataset(r'C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\koiv_berserk\5sec\Koivisto_Berserk_5_fix.pgn')
 avarage_calculation('allScores.csv')

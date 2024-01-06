@@ -174,4 +174,4 @@ def main(filename):
     'Percentage of win': y_data_winning
 })
    
-main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_rubi/0,1sec/Koivisto_RubiChess_0.1_fix.pgn')
+main(r'C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\koiv_berserk\5sec\Koivisto_Berserk_5_fix_exported.pgn')
