@@ -76,5 +76,5 @@ def main(pgn):
         f.write('>=400: ' + str(four_hundred) + '\n')
 
 
-main(r'C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\koiv_berserk\5sec\Koivisto_Berserk_5_fix.pgn')
-game_count(r'C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\koiv_berserk\5sec\Koivisto_Berserk_5_fix.pgn', 300)
+main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_rubi/5sec/Koivisto_RubiChess_5_fix.pgn')
+game_count(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_rubi/5sec/Koivisto_RubiChess_5_fix.pgn', 300)

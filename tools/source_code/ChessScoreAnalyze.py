@@ -40,14 +40,11 @@ def get_dataset(pgn_path):
         count += 1
 
 def avarage_calculation(csv_file):
-    # Inizializza un dizionario per memorizzare le somme parziali e il conteggio delle colonne
     sums = {}
     counts = {}
 
-    # Percorso del tuo file CSV
     file_path = csv_file
 
-    # Leggi il file CSV e calcola le somme parziali e i conteggi delle colonne
     with open(file_path, newline='') as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
@@ -56,17 +53,11 @@ def avarage_calculation(csv_file):
                     sums[i] = 0.0
                     counts[i] = 0
                 try:
-                    # Aggiungi il valore alla somma parziale
                     sums[i] += float(value)
-                    # Incrementa il conteggio
                     counts[i] += 1
                 except ValueError:
-                    # Gestisci eventuali errori nella conversione del valore a float
                     pass
-
-        # Creazione del grafico
     
-    # Calcola le medie
     averages = [sums[i] / counts[i] if counts[i] > 0 else None for i in range(max(sums.keys()) + 1)]
 
     plt.figure(figsize=(8, 6))
@@ -92,5 +83,5 @@ def avarage_calculation(csv_file):
         print(f"Colonna {i + 1}: {average}")
 
 
-get_dataset(r'C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\koiv_berserk\5sec\Koivisto_Berserk_5_fix.pgn')
+get_dataset(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_rubi/5sec/Koivisto_RubiChess_5_fix.pgn')
 avarage_calculation('allScores.csv')
