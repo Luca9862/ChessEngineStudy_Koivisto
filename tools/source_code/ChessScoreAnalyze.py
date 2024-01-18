@@ -20,7 +20,6 @@ def get_dataset(pgn_path):
 
         scores = []
         white_scores = []
-        count = 1
 
         # Trattamento delle mosse e dei commenti per ogni partita
         for node in game.mainline():
@@ -32,14 +31,11 @@ def get_dataset(pgn_path):
                 white_scores.append(elemento)
 
         with open("allScores.csv", "a") as file:
-            partita = "Game: "+str(count)
             writer = csv.writer(file)
             writer.writerow(white_scores)
         file.close
 
-        count += 1
-
-def avarage_calculation(csv_file):
+def average_calculation(csv_file):
     sums = {}
     counts = {}
 
@@ -59,7 +55,10 @@ def avarage_calculation(csv_file):
                     pass
     
     averages = [sums[i] / counts[i] if counts[i] > 0 else None for i in range(max(sums.keys()) + 1)]
+    return averages
 
+def get_graph(list):
+    averages = list
     plt.figure(figsize=(8, 6))
     plt.plot(averages, label='Koivisto')
 
@@ -84,4 +83,5 @@ def avarage_calculation(csv_file):
 
 
 get_dataset(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_rubi/5sec/Koivisto_RubiChess_5_fix.pgn')
-avarage_calculation('allScores.csv')
+data = average_calculation('allScores.csv')
+get_graph(data)
