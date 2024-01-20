@@ -50,7 +50,7 @@ def get_dataset(pgn_path, output_csv_path):
             writer.writerow(first_ten_scores)
 
 # Utilizzo della funzione
-get_dataset("/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_berserk/all.pgn",
+get_dataset(r"C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\all\all.pgn",
              "primi_dieci_valori.csv")
 
 def calculate_average_score_for_game(csv_path):
@@ -96,40 +96,89 @@ def _moveTime(pgn_path):
                 play = float(moveTime.split(":")[1])  # Divide la stringa e prendi la seconda parte
                 game_moveTime.append(play)
 
-calculate_average_score_for_game('/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/primi_dieci_valori.csv')
-get_results("/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_berserk/all.pgn")
+calculate_average_score_for_game('primi_dieci_valori.csv')
+get_results(r"C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\all\all.pgn")
 #get_fwten_moves('/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_berserk/all.pgn')
-get_playcount("/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_berserk/all.pgn")
-_moveTime("/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_berserk/all.pgn")
+get_playcount(r"C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\all\all.pgn")
+_moveTime(r"C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\all\all.pgn") 
 
 data = {
     'Results': game_results,
     'PlyCount': game_plycount,
     'MoveTime': game_moveTime,
-    'Score': averages
+    'Averages': averages
     }
 
 df = pd.DataFrame(data)
 
-X = df[['PlyCount', 'MoveTime', 'Score']]
+X = df[['PlyCount', 'MoveTime', 'Averages']]
 y = df['Results']
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
 # Inizializza il modello di regressione logistica
-model = LogisticRegression()
+model = LogisticRegression(class_weight='balanced')
 
 # Addestra il modello
 model.fit(X_train, y_train)
 
 # Fai previsioni
-y_pred = model.predict(X_test)
+y_pred_test = model.predict(X_test)
+y_prob_test = model.predict_proba(X_test)
+# Effettua previsioni sui dati di train
+y_pred_train = model.predict(X_train)
+y_prob_train = model.predict_proba(X_train)
+# Calcola l'accuratezza del modello
+accuracy = accuracy_score(y_test, y_pred_test)
+cm = confusion_matrix(y_test, y_pred_test)
 
-accuracy = accuracy_score(y_test, y_pred)
-classification_rep = classification_report(y_test, y_pred)
-conf_matrix = confusion_matrix(y_test, y_pred)
+accuracy = accuracy_score(y_test, y_pred_test)
+classification_rep = classification_report(y_test, y_pred_test)
+conf_matrix = confusion_matrix(y_test, y_pred_test)
 
 # Stampa delle metriche di valutazione
 print(f'Accuracy: {accuracy}')
 print(f'Classification Report:\n{classification_rep}')
 print(f'Confusion Matrix:\n{conf_matrix}')
+
+from sklearn.metrics import roc_curve, precision_recall_curve, auc
+
+# Calcola la probabilità della classe positiva
+y_prob_test = model.predict_proba(X_test)[:, 1]
+
+# Calcola la curva ROC
+fpr, tpr, _ = roc_curve(y_test, y_prob_test)
+roc_auc = auc(fpr, tpr)
+
+# Calcola la curva di precisione-richiamo
+precision, recall, _ = precision_recall_curve(y_test, y_prob_test)
+pr_auc = auc(recall, precision)
+
+# Plot della curva ROC
+plt.figure(figsize=(8, 6))
+plt.plot(fpr, tpr, color='red', lw=2, label=f'ROC curve (area = {roc_auc:.2f})')
+plt.plot([0, 1], [0, 1], color='green', lw=2, linestyle='--')
+plt.xlabel('False Positive Rate')
+plt.ylabel('True Positive Rate')
+plt.title('Receiver Operating Characteristic (ROC) Curve')
+plt.legend(loc='lower right')
+plt.show()
+
+# Plot della curva di precisione-richiamo
+plt.figure(figsize=(8, 6))
+plt.plot(recall, precision, color='blue', lw=2, label=f'PR curve (area = {pr_auc:.2f})')
+plt.xlabel('Recall')
+plt.ylabel('Precision')
+plt.title('Precision-Recall Curve')
+plt.legend(loc='upper right')
+plt.show()
+
+import seaborn as sns
+
+# Plot della matrice di confusione
+plt.figure(figsize=(8, 6))
+sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues', cbar=False)
+plt.xlabel('Predicted')
+plt.ylabel('True')
+plt.title('Confusion Matrix')
+plt.show()
