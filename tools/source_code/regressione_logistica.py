@@ -11,11 +11,11 @@ from chess import pgn
 from sklearn.metrics import auc
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from pgn_manager import _readPGN
-from ChessScoreAnalyze import average_calculation
 
 game_results = []
 game_plycount = []
 game_moveTime = []
+averages = []
 
 def get_dataset(pgn_path, output_csv_path):
     with open(pgn_path) as pgn_file:
@@ -50,30 +50,16 @@ def get_dataset(pgn_path, output_csv_path):
             writer.writerow(first_ten_scores)
 
 # Utilizzo della funzione
-get_dataset("/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_berserk/0,1sec/Koivisto_Berserk_0.1_fix.pgn",
+get_dataset("/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_berserk/all.pgn",
              "primi_dieci_valori.csv")
 
-def calculate_average_score(csv_path):
-    sums = {}
-    counts = {}
-
-    file_path = csv_path
-
-    with open(file_path, newline='') as csvfile:
-        reader = csv.reader(csvfile)
+def calculate_average_score_for_game(csv_path):
+    with open(csv_path, newline="") as file:
+        reader = csv.reader(file)
         for row in reader:
-            for i, value in enumerate(row):
-                if i not in sums:
-                    sums[i] = 0.0
-                    counts[i] = 0
-                try:
-                    sums[i] += float(value)
-                    counts[i] += 1
-                except ValueError:
-                    pass
-    
-    averages = [sums[i] / counts[i] if counts[i] > 0 else None for i in range(max(sums.keys()) + 1)]
-    return averages
+            row_values = [float(value) for value in row]
+            row_mean = sum(row_values) / len(row_values)
+            averages.append(row_mean)
 
 def get_results(pgn_path):
     with open(pgn_path) as pgn:
@@ -110,9 +96,7 @@ def _moveTime(pgn_path):
                 play = float(moveTime.split(":")[1])  # Divide la stringa e prendi la seconda parte
                 game_moveTime.append(play)
 
-
-averages_score = average_calculation('/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/primi_dieci_valori.csv')
-print(averages_score)            
+calculate_average_score_for_game('/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/primi_dieci_valori.csv')
 get_results("/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_berserk/all.pgn")
 #get_fwten_moves('/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_berserk/all.pgn')
 get_playcount("/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_berserk/all.pgn")
@@ -122,14 +106,15 @@ data = {
     'Results': game_results,
     'PlyCount': game_plycount,
     'MoveTime': game_moveTime,
-    'Score': averages_score
+    'Score': averages
     }
 
 df = pd.DataFrame(data)
 
-X = df.iloc[:, 1:]  # Usa le colonne 1 e successive come feature
+X = df[['PlyCount', 'MoveTime', 'Score']]
 y = df['Results']
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=42)
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
 # Inizializza il modello di regressione logistica
 model = LogisticRegression()
@@ -140,6 +125,11 @@ model.fit(X_train, y_train)
 # Fai previsioni
 y_pred = model.predict(X_test)
 
-# Valuta le prestazioni del modello
-print("Accuracy Score:", accuracy_score(y_test, y_pred))
-print("Classification Report:\n", classification_report(y_test, y_pred))
+accuracy = accuracy_score(y_test, y_pred)
+classification_rep = classification_report(y_test, y_pred)
+conf_matrix = confusion_matrix(y_test, y_pred)
+
+# Stampa delle metriche di valutazione
+print(f'Accuracy: {accuracy}')
+print(f'Classification Report:\n{classification_rep}')
+print(f'Confusion Matrix:\n{conf_matrix}')
