@@ -1,6 +1,13 @@
+'''
+    This logistic regression takes the outcome of the game as the dependent variable and uses the following independent variables:
+    
+        -The average score of the first ten moves in each game.
+        -The time allotted per move for the player (a parameter included in the PGN).
+        -The total number of moves in all games (a parameter included in the PGN).
+'''
+
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_auc_score, roc_curve, accuracy_score, classification_report
@@ -99,7 +106,7 @@ def main(pgn_path, csv_path):
     get_playcount(pgn_path)
     _moveTime(pgn_path)
 
-main('/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/all/all.pgn', 'primi_dieci_valori.csv')
+main(r'C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\all\all.pgn', 'primi_dieci_valori.csv')
 
 data = {
     'Results': game_results,
