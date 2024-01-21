@@ -49,10 +49,6 @@ def get_dataset(pgn_path, output_csv_path):
             # Scrivere i primi dieci valori nel nuovo file CSV
             writer.writerow(first_ten_scores)
 
-# Utilizzo della funzione
-get_dataset(r"C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\all\all.pgn",
-             "primi_dieci_valori.csv")
-
 def calculate_average_score_for_game(csv_path):
     with open(csv_path, newline="") as file:
         reader = csv.reader(file)
@@ -96,11 +92,14 @@ def _moveTime(pgn_path):
                 play = float(moveTime.split(":")[1])  # Divide la stringa e prendi la seconda parte
                 game_moveTime.append(play)
 
-calculate_average_score_for_game('primi_dieci_valori.csv')
-get_results(r"C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\all\all.pgn")
-#get_fwten_moves('/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_berserk/all.pgn')
-get_playcount(r"C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\all\all.pgn")
-_moveTime(r"C:\Users\canal\Documents\GitHub\tirocinio_lucacanali\dataset\game_script_eros\all\all.pgn") 
+def main(pgn_path, csv_path):
+    get_dataset(pgn_path, csv_path)
+    calculate_average_score_for_game(csv_path)
+    get_results(pgn_path)
+    get_playcount(pgn_path)
+    _moveTime(pgn_path)
+
+main('/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/all/all.pgn', 'primi_dieci_valori.csv')
 
 data = {
     'Results': game_results,
@@ -117,7 +116,7 @@ y = df['Results']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
 # Inizializza il modello di regressione logistica
-model = LogisticRegression(class_weight='balanced')
+model = LogisticRegression()
 
 # Addestra il modello
 model.fit(X_train, y_train)
