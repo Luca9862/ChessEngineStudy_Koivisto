@@ -1,16 +1,12 @@
 # tirocinio_lucacanali
 
-## Linked repositories:
-- https://github.com/AtreusArtic/tesi_739088
-- https://github.com/Marsiius/tesi_marsichina_eros_745299
-- https://github.com/marikascalise/ThesisAIchess
-
 ## Repository structure:
 - dataset
+- results
 - tools
 
 ## Dataset
-- The dataset folder contains all the available research data: PGN files, CSV files, graphs and everything related to data and analysis
+- The dataset folder contains all PGN files
 <figure>
   <img src="./images/table_ex.png" alt="example dataset"  width = "500" height = "397">
   <figcaption>
@@ -49,15 +45,31 @@ It is possible to specify a PGN file, a directory containing PGN files, or both.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-### opening_analyst v:beta
-- PHASE TEST! Please use this code with caution
-- match_analyst is a Python script that can analyze multiple games simultaneously to return information about openings (number of uses/wins, usage/win percentage)
+### opening_analyzer
+- it is a Python script that can analyze multiple games simultaneously to return information about openings (number of uses/wins, usage/win percentage)
 - At the moment, the script does not have a graphical interface, but it is executed through the terminal. To analyze a pgn file on your computer, change the file path in the source code:
 <img src="./images/screen_del_dupl.png" alt="screen_gui" width = "280" height = "44">
 - Output example:
 <img src="./images/screen_match_analyst_output.png" alt="screen_gui">
 <img src="./images/screen_graph_bar_ex.png" alt="screen_gui" width = "500" height = "267">
 
-### games_filter is a script implemented to filter PGN files
+### ChessScoreAnalyzer
+This tool has been designed with the goal of providing a detailed understanding of game dynamics, offering a visual representation of average scores associated with different phases of the game.
 
+The code begins by utilizing the chess library to read chess games from a PGN file, providing a user-friendly interface for data analysis. During this process, the comment scores associated with each move executed during the game are extracted.
+
+Subsequently, the code processes the extracted scores to calculate averages for each column (move). This is followed by the creation of a chart that clearly visualizes variations in average scores as a function of the number of moves.
+
+The resulting chart provides an intuitive illustration of the distribution of average scores over the course of the analyzed chess games. Such representation is crucial for identifying patterns and trends in game dynamics.
+
+### reg_log
+It is a script for logistic regression and the construction of a predictive model on games played by the Koivisto chess engine. The program outputs a ROC curve, indicating the model's accuracy, along with a confusion matrix.
+For logistic regression, the outcome of the game has been chosen as the dependent variable:
+- 1 in case of victory
+- 0 in case of defeat/draw
+
+The independent variables selected are:
+- PlayCount: the number of moves in a game
+- Time for move: the time per move for each individual move
+- Score: the average score of the first 10 moves by the white player
 
