@@ -64,6 +64,9 @@ Subsequently, the code processes the extracted scores to calculate averages for 
 
 The resulting chart provides an intuitive illustration of the distribution of average scores over the course of the analyzed chess games. Such representation is crucial for identifying patterns and trends in game dynamics.
 
+Output example:
+<img src="./results/0,1/Koivisto_Berserk/score_graph_koiv_bers_tesi.png" alt="screen_gui" width = "280" height = "44">
+
 ### reg_log
 It is a script for logistic regression and the construction of a predictive model on games played by the Koivisto chess engine. The program outputs a ROC curve, indicating the model's accuracy, along with a confusion matrix.
 For logistic regression, the outcome of the game has been chosen as the dependent variable:
