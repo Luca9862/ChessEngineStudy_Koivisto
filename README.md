@@ -1,4 +1,6 @@
-# tirocinio_lucacanali
+This research aims to explore and analyze in detail the operation of Koivisto, with the goal of understanding its peculiarities, its capabilities, and its impact in the context of modern chess engines.
+
+Through this analysis, the aim is to contribute to the understanding of its architecture, its artificial intelligence techniques, and its performance.
 
 ## Repository structure:
 - dataset
