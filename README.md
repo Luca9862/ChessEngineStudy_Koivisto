@@ -62,9 +62,8 @@ The code begins by utilizing the chess library to read chess games from a PGN fi
 
 Subsequently, the code processes the extracted scores to calculate averages for each column (move). This is followed by the creation of a chart that clearly visualizes variations in average scores as a function of the number of moves.
 
-The resulting chart provides an intuitive illustration of the distribution of average scores over the course of the analyzed chess games. Such representation is crucial for identifying patterns and trends in game dynamics.
+The resulting chart provides an intuitive illustration of the distribution of average scores over the course of the analyzed chess games. Such representation is crucial for identifying patterns and trends in game dynamics. Output example:
 
-Output example:
 <img src="./results/0,1/Koivisto_Berserk/score_graph_koiv_bers_tesi.png" alt="screen_gui">
 
 ### reg_log
