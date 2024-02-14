@@ -80,3 +80,8 @@ The independent variables selected are:
 Output example:
 
 <img src="./results/regLogistica/no_balanced/curva_ROC.png" alt="output_example">
+
+<img src="./results/regLogistica/no_balanced/matrice_conf.png" alt="output_example">
+
+<img src="./results/regLogistica/no_balanced/recall_curve.png" alt="output_example">
+
