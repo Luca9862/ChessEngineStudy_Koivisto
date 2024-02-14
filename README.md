@@ -79,5 +79,4 @@ The independent variables selected are:
 
 Output example:
 
-<img src="./results/regLogistica/no_balanced/curva_ROC.png" alt=""output_example">
-
+<img src="./results/regLogistica/no_balanced/curva_ROC.png" alt="output_example">
