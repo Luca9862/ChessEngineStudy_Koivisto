@@ -123,7 +123,7 @@ def main(filename):
     # Aggiunta della griglia
     ax.yaxis.grid(True, linestyle='-', alpha=0.5)
     # Impostazioni delle etichette e del titolo
-    plt.xticks(df_win_truncated['Openings'], size=8, rotation=90)
+    plt.xticks(df_win_truncated['Openings'], size=8)
     plt.xlabel('Codice ECO')
     plt.ylabel('Percentuale vittoria')
     plt.title('Grafico vittorie - apertura')
@@ -174,4 +174,4 @@ def main(filename):
     'Percentage of win': y_data_winning
 })
    
-main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/all/all.pgn')
+main(r'/Users/lucacanali/Documents/GitHub/tirocinio_lucacanali/dataset/game_script_eros/koiv_rubi/5sec/Koivisto_rubichess_5_fix_exported.pgn')
